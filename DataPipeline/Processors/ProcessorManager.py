@@ -9,12 +9,9 @@ class ProcessorManager:
     def __init__(self, batch_size):
         self.batch_size = batch_size
         
-        self.collectors = [Debates_DataProcessor(),
-                           Bills_DataProcessor(),
-                           Members_DataProcessor(),
-                           News_DataProcessor(),
-                           Votes_DataProcessor()]
+        self.processors = [Debates_DataProcessor(batch_size)]
 
     
-    def run_collectors(self):
-        pass
+    def run_processors(self):
+        for processor in self.processors:
+            processor.process_UK()

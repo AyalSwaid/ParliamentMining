@@ -9,12 +9,9 @@ class CollectorManager:
     def __init__(self, batch_size):
         self.batch_size = batch_size
         
-        self.collectors = [UK_DataCollector(),
-                           CA_DataCollector(),
-                           IL_DataCollector(),
-                           USA_DataCollector(),
-                           TN_DataCollector()]
+        self.collectors = [UK_DataCollector(batch_size, 'Data/tmp_text_files')]
 
-    
+
     def run_collectors(self):
-        pass
+        for collector in self.collectors:
+            collector.get_debates()

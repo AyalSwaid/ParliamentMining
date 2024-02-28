@@ -1,4 +1,6 @@
-from DataCollector import DataCollector
+# from Collectors.DataCollectors.DataCollector import DataCollector
+from Collectors.DataCollectors.DataCollector import DataCollector
+# from DataCollector import DataCollector
 import time
 import selenium.webdriver.support.expected_conditions as EC
 import undetected_chromedriver as uc
@@ -7,9 +9,11 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 import os
 import pickle
-from datetime import datetime
-import pandas as pd
-import json
+from Data.GLOBAL import Data
+# import ParliamentMining.DataPipeline
+# import Data
+from datetime import datetime, timedelta
+
 
 
 class UK_DataCollector(DataCollector):
@@ -19,16 +23,26 @@ class UK_DataCollector(DataCollector):
         # must give full path for download_dir !!!
         self.download_dir = r"C:\Users\ayals\OneDrive\שולחן העבודה\parliamentMining\Collectors\DataCollectors\test_downloads"
         self.txt_files_dir = txt_files_dir
-        self.processor_files = r"C:\Users\ayals\OneDrive\שולחן העבודה\parliamentMining\Collectors\DataCollectors\to_process"
+        self.processor_files = Data.processor_dir
+        self.batch_size = batch_size
+
+        self.failed_links = []
 
 
 
     def get_debates(self):
         print("collecting UK debates")
         driver = self.init_driver()
-        links = self.get_debates_links(driver, "2015-04-01", "2015-05-31", 1)
+        self.failed_links = []
 
-        # files_path_gen = self.get_debates_files(driver, links)
+        # get dates range
+        json_prog = Data.get_progress()
+        start_date = json_prog['UK']['debates']['start_date']
+        start_date = datetime.strptime(start_date, "%Y-%m-%d")
+        end_date = start_date + timedelta(days=self.batch_size)
+
+        links = self.get_debates_links(driver, start_date.strftime("%Y-%m-%d"), end_date.strftime("%Y-%m-%d"), 1)
+        print(f"Collector (UK debates) recognized {len(links)} links.")
         debates = []
         for (debate_file, debate_date) in self.get_debates_files(driver, links):
             debates.append({
@@ -37,32 +51,35 @@ class UK_DataCollector(DataCollector):
             })
 
         # save current batch data in pickle file for the processor
-        pkl_file_name = str(datetime.now()).replace(':', "-")
-        with open(f'{self.processor_files}\\debates\\UK\\{pkl_file_name}.pkl', 'wb') as f:
-            pickle.dump(debates, f)
+        if debates:
+            pkl_file_name = str(datetime.now()).replace(':', "-")
+            with open(f'{Data.processor_debates_dir}/UK/{pkl_file_name}.pkl', 'wb') as f:
+                pickle.dump(debates, f)
         driver.quit()
-        #     # driver.command_executor.close()
-        #     time.sleep(3)
-        # except:
-        #     pass
 
+        Data.update_failed_links(self.failed_links)
+
+
+        print(f'Collected {len(links)}, Failed: {len(self.failed_links)}')
+
+        json_prog['UK']['debates']['start_date'] = end_date.strftime("%Y-%m-%d")
+        Data.update_progress(json_prog)
         print("DONE UK debates")
 
-        return links
 
 
 
-
-    def get_votes():
+    def get_votes(self):
         pass
 
 
-    def get_members():
+    def get_members(self):
         pass
 
 
-    def get_bills():
+    def get_bills(self):
         pass
+
 
 
     def init_driver(self):
@@ -76,7 +93,8 @@ class UK_DataCollector(DataCollector):
         options  = uc.ChromeOptions()
 
         options.add_argument("--start-maximized")
-        
+        options.add_argument('--blink-settings=imagesEnabled=false')
+
         options.add_experimental_option("prefs", {
             "download.default_directory": self.download_dir,
             "download.prompt_for_download": False, # Disable prompting for download
@@ -91,8 +109,8 @@ class UK_DataCollector(DataCollector):
                 pass
         
 
-        driver = uc.Chrome(options=options)
-
+        # driver = uc.Chrome(version_main=120, options=options)
+        driver = uc.Chrome(options=options, version_main=120, driver_executable_path=Data.chrome_driver_path)
         return driver
 
     def get_debates_links(self, driver: uc.Chrome, start_date, end_date, start_page=1, final_page=0):
@@ -123,6 +141,7 @@ class UK_DataCollector(DataCollector):
             final_page = min(final_page, n_pages + 1)
 
         links = []
+
         for page in range(start_page, final_page):
             driver.get(url + f'&page={page}')
             search_results = WebDriverWait(driver, 30).until( \
@@ -165,6 +184,8 @@ class UK_DataCollector(DataCollector):
         '''
         download_dir = self.download_dir
         txt_files_dir = self.txt_files_dir
+        failed_links = []
+
 
         for link in links:
             link = link.split(r'/')
@@ -174,24 +195,45 @@ class UK_DataCollector(DataCollector):
             # download file by url GET
             driver.get(text_file_url)
 
+            if driver.title == 'An error has occurred - Hansard - UK Parliament':
+                print(f"cant download debate: {'/'.join(link)}")
+                self.failed_links.append('/'.join(link))
+                driver.get('https://www.google.com/')
+                continue
+
             # wait untill file is downloaded
+            timeout = 5
             debate_file = self.new_file_name()
-            while debate_file is None:
-                time.sleep(0.5)
+            while debate_file is None and timeout > 0:
+                time.sleep(0.1)
                 debate_file = self.new_file_name()
+                timeout -= 0.1
+
+            if timeout <= 0:
+                print(f"cant download debate: {'/'.join(link)}")
+                self.failed_links.append('/'.join(link))
+                continue
+
+
 
             # move file to the text files folder
             new_debate_file = str(datetime.now().microsecond) + debate_file
-            new_debate_file = f"{txt_files_dir}\\UK\\{new_debate_file}"
+            new_debate_file = f"{txt_files_dir}/UK/{new_debate_file}"
 
             try:
                 os.rename(f"{download_dir}\\{debate_file}", new_debate_file)
             except FileExistsError:
                 print("Collector problem while copying donwloaded file from download dir to text dir")
-            yield (new_debate_file, debate_date)
+            except PermissionError:
+                time.sleep(0.2)
+                os.rename(f"{download_dir}\\{debate_file}", new_debate_file)
+            else:
+                yield (new_debate_file, debate_date)
+            finally:
+                continue
 
 if __name__ == "__main__":
     a = UK_DataCollector(20, "test")
     links = a.get_debates()
-
+    #
     print(links, len(links))

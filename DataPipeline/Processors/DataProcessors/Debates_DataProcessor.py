@@ -3,12 +3,13 @@ import pickle
 import os
 import json
 import pandas as pd
+from Data.GLOBAL import Data
 
 
 class Debates_DataProcessor(DataProcessor):
-    def __init__(self, batch_size, data_path):
+    def __init__(self, batch_size):
         super(Debates_DataProcessor, self).__init__(batch_size)
-        self.data_path = data_path
+        self.data_path = Data.processor_debates_dir
         self.table = "debates"
 
     
@@ -21,35 +22,44 @@ class Debates_DataProcessor(DataProcessor):
     
 
     def process_UK(self):
-        for file_path in os.listdir(self.data_path + '\\UK'):
-            # NOTE: each pickle file is a single batch
-            # load pickle file that contains all the debates_dates and files paths
-            debates = self.load_pkl(self.data_path + '\\UK\\'+file_path)
+        file_path = os.listdir(self.data_path + '/UK')
 
-            # iterate over the pkl and call extract_debate_data and split_members for each debate
-            for debate in debates:
-                # debate_title, members = self.extract_debate_data(debate['file_path'])
-                debate_title, speeches = self.split_members(debate['file_path'])
-                debate['debate_title'] = debate_title
+        # if dir is empty then exit
+        if len(file_path) > 0:
+            file_path = file_path[0]
+        else:
+            print('processor (UK debates) did not find files to process')
+            return
+        # for file_path in os.listdir(self.data_path + '\\UK'):
+        # NOTE: each pickle file is a single batch
+        # load pickle file that contains all the debates_dates and files paths
+        debates = self.load_pkl(self.data_path + '\\UK\\'+file_path)
 
-                # save speeches in json
-                with open(f"speeches\\UK\\{debate_title}.json", 'a+') as json_file:
-                    json.dump(speeches, json_file)
+        # iterate over the pkl and call extract_debate_data and split_members for each debate
+        for debate in debates:
+            # debate_title, members = self.extract_debate_data(debate['file_path'])
+            debate_title, speeches = self.split_members(debate['file_path'])
+            debate['debate_title'] = debate_title
+
+            # save speeches in json
+            # slice file_path[24:] to remove the ".pkl" at the end
+            speeches_file_path = f"{Data.speeches_files_dir}/UK/{debate['file_path'][24:-4]}.json"
+            with open(speeches_file_path, 'a+') as json_file:
+                json.dump(speeches, json_file)
+
+            debate['file_path'] =  speeches_file_path
+
+        # save debates in a csv table save
+        # og_debates_table = pd.read_csv('debates.csv')
+        new_debates = pd.DataFrame(debates)
+
+        # og_debates_table = pd.concat([og_debates_table, new_debates], axis=0)
+        new_debates.to_csv(f'{Data.csv_files_dir}/debates/{file_path}.csv')
+
+        # delete pickle file
+        os.remove(self.data_path + '\\UK\\'+file_path)
 
 
-            # save debates in a csv table save
-            og_debates_table = pd.read_csv('debates.csv')
-            new_debates = pd.DataFrame(debates)
-
-            og_debates_table = pd.concat([og_debates_table, new_debates], axis=0)
-            og_debates_table.to_csv('debates.csv')
-
-
-
-
-
-
-        # save the result of each iteration in a csv row
 
 
     def process_IL(self):

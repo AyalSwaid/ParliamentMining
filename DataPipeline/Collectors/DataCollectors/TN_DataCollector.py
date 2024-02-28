@@ -1,7 +1,7 @@
-from DataCollector import DataCollector
+from Collectors.DataCollectors.DataCollector import DataCollector
 import requests as reqs
 from bs4 import BeautifulSoup as bs
-from lxml import etree
+# from lxml import etree
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
@@ -135,15 +135,15 @@ class TN_DataCollector(DataCollector):
         return self.is_title(tag) and (i > (n_tags/2))
 
 
-    def get_votes():
+    def get_votes(self):
         pass
 
 
-    def get_members():
+    def get_members(self):
         pass
 
 
-    def get_bills():
+    def get_bills(self):
         pass
 
 
