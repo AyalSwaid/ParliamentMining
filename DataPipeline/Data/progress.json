@@ -1,32 +1,16 @@
 {
-    "UK": {
-        "debates": {
-            "start_date": "2010-02-13",
-            "end_date": "2001-01-01"
-        }
-    },
-    "USA": {
-        "debates": {
-            "start_date": "2000-01-01",
-            "end_date": "2001-01-01"
-        }
-    },
-    "IL": {
-        "debates": {
-            "start_date": "2000-01-01",
-            "end_date": "2001-01-01"
-        }
-    },
-    "CA": {
-        "debates": {
-            "start_date": "2000-01-01",
-            "end_date": "2001-01-01"
-        }
-    },
-    "TN": {
-        "debates": {
-            "start_date": "2014-01-01",
-            "end_date": "2015-01-01"
-        }
-    }
+    "UK_debates_start_date":  "2010-02-13",
+    "UK_debates_end_date": "2001-01-01",
+
+    "USA_debates_start_date":  "2010-02-13",
+    "USA_debates_end_date": "2001-01-01",
+
+    "CA_debates_start_date":  "2010-02-13",
+    "CA_debates_end_date": "2001-01-01",
+
+    "IL_debates_start_date":  "2010-02-13",
+    "IL_debates_end_date": "2001-01-01",
+
+    "TN_debates_start_date":  "2010-02-13",
+    "TN_debates_end_date": "2001-01-01"
 }

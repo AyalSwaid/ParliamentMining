@@ -51,6 +51,18 @@ class Data:
             pickle.dump(obj, f)
 
 
+    def load_json(self, file_path):
+        with open(file_path, "r") as json_file:
+            my_dict = json.load(json_file)
+
+        return my_dict
+
+
+    @staticmethod
+    def save_json(file_path, dict_obj):
+        with open(file_path, 'w') as file:
+            json.dump(dict_obj, file, indent=4)
+
 
     @staticmethod
     def update_failed_links(links):
