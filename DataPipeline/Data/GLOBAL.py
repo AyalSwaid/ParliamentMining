@@ -1,4 +1,8 @@
 import json
+import os
+import pickle
+
+
 """
 Here are global variables that contain information like files paths, csv paths, etx...
 dont change the value of any of these variables
@@ -10,9 +14,17 @@ class Data:
     processor_bills_dir = 'Data/to_process/bills'
 
     csv_files_dir = 'Data/csv_files'
-    debates_files_dir = 'Data/csv_files/debates_files'
+    speeches_files_dir = 'Data/speeches'
+
 
     progress_json = 'Data/progress.json'
+
+    chrome_driver_path = r'C:\Users\ayals\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe'
+
+    text_files_dir = 'Data/tmp_text_files'
+
+    failed_links_pkl = 'Data/failed_links.pkl'
+
 
     @staticmethod
     def get_progress():
@@ -26,3 +38,29 @@ class Data:
     def update_progress(new_dict):
         with open(Data.progress_json, 'w') as file:
             json.dump(new_dict, file, indent=4)
+
+    @staticmethod
+    def load_pkl(file_path):
+        with open(file_path + '.pkl', 'rb') as f:
+            x = pickle.load(f)
+        return x
+
+    @staticmethod
+    def save_pkl(obj, file_name):
+        with open(file_name + '.pkl', "wb") as f:
+            pickle.dump(obj, f)
+
+
+
+    @staticmethod
+    def update_failed_links(links):
+        try:
+            old_links = Data.load_pkl(Data.failed_links_pkl)
+            os.remove(Data.failed_links_pkl)
+        except:
+            old_links = []
+
+        old_links.extend(links)
+        Data.save_pkl(old_links, Data.failed_links_pkl)
+
+
