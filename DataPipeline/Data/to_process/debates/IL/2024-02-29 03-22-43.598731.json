@@ -1,0 +1,227 @@
+[
+    {
+        "plenum_date": "2010-02-15T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_200020.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-02-16T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_197969.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-02-17T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_182727.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-02-22T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_191967.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-02-23T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_199911.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-02-24T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_186209.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-02T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_182302.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-03T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_199896.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-08T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_186283.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-09T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_199342.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-10T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_185366.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-15T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_186884.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-16T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_184670.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-03-17T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_181457.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-04-26T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_239677.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-04-27T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_185744.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-04-28T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_182094.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-03T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_187337.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-04T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_199882.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-05T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_199884.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-10T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_182577.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-11T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_199886.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-12T11:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_185367.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-17T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_182028.doc"
+            ]
+        ]
+    },
+    {
+        "plenum_date": "2010-05-24T16:00:00",
+        "files": [
+            [
+                "DOC",
+                "Data/tmp_text_files/IL/18_ptm_182027.doc"
+            ]
+        ]
+    }
+]
