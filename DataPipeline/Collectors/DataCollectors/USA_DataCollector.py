@@ -1,17 +1,26 @@
 from Collectors.DataCollectors.DataCollector import DataCollector
 import requests
 import json
+from datetime import datetime, timedelta
+from Data.GLOBAL import Data
+
 
 class USA_DataCollector(DataCollector):
-    def __init__(self, batch_size,start_date,end_date):
+    def __init__(self, batch_size):
         super(USA_DataCollector, self).__init__(batch_size)
         self.url = 'https://api.govinfo.gov/search'
         self.api_key = 'c2mQmLAgAYvSIawOm9aPWLr2kYs277VUxqz6DS9L'
-        self.start_date = start_date
-        self.end_date = end_date
-        self.search_query = {
-            "query": f"Congressional Record -(daily and digest) publishdate:range({self.start_date},{self.end_date})",
-            "pageSize": f"{batch_size}",
+
+    def get_debates(self):
+
+        json_prog = Data.get_progress()
+        start_date = json_prog["USA_debates_start_date"]
+        start_date = datetime.strptime(start_date, "%Y-%m-%d")
+        end_date = start_date + timedelta(days=self.batch_size)
+
+        search_query = {
+            "query": f"Congressional Record -(daily and digest) publishdate:range({start_date.strftime('%Y-%m-%d')},{end_date.strftime('%Y-%m-%d')})",
+            "pageSize": 1000,
             "offsetMark": "*",
             "sorts": [
                 {
@@ -21,46 +30,59 @@ class USA_DataCollector(DataCollector):
             ]
         }
 
-
-    def get_debates(self):
         headers = {'X-Api-Key': self.api_key}
-        query_response = requests.post(self.url, json=self.search_query, headers=headers)
+        query_response = requests.post(self.url, json=search_query, headers=headers)
 
         if query_response.status_code == 200:
             data = query_response.json()
             if data:
                 json_file_name = str(datetime.now()).replace(':', "-")
-                with open(f'{Data.processor_debates_dir}/USA/{json_file_name}.json', 'wb') as f:
-                  json.dump(data, f)
+                with open(f'{Data.processor_debates_dir}/USA/{json_file_name}.json', 'w') as f:
+                    json.dump(data, f)
 
-    def get_members(self,congress,chamber):
-          # Define the headers with the API key
-          headers = {
-              'X-API-Key': self.api_key
-          }
+            json_prog["USA_debates_start_date"] = end_date.strftime("%Y-%m-%d")
+            Data.update_progress(json_prog)
 
-          url = f"https://api.propublica.org/congress/v1/105/house/members.json"
+    def get_members(self):
+        # Define the headers with the API key
+        json_prog = Data.get_progress()
+        congress = json_prog["USA_members_congress_number"]
 
-          response = requests.get(url,headers = headers)
+        headers = {
+            'X-API-Key': self.api_key
+        }
+
+        chambers = ["house", "senate"]
+
+        for chamber in chambers:
+
+            url = f"https://api.propublica.org/congress/v1/{congress}/{chamber}/members.json"
+
+            response = requests.get(url, headers=headers)
+
+            if response.status_code == 200:
+                data = response.json()
+                if data:
+                    json_file_name = f"{congress}_{chamber}_{str(datetime.now()).replace(':', '-')}"
+                    with open(f'{Data.processor_members_dir}/USA/{json_file_name}.json', 'wb') as f:
+                        json.dump(data, f)  # TODO save the last date
+
+                json_prog["USA_members_congress_number"] = congress + 1
+                Data.update_progress(json_prog)
 
 
-          if response.status_code == 200:
-            data = response.json()
-            if data:
-
-                json_file_name = f"{congress}_{chamber}_{str(datetime.now()).replace(':', "-")}"
-                with open(f'{Data.processor_members_dir}/USA/{json_file_name}.json', 'wb') as f:
-                      json.dump(data, f) #TODO save the last date
-
-
-    def get_bills(self,start_date,end_date):
+    def get_bills(self):
         # Define the base URL and endpoint for bills
-        api_url = f"https://api.govinfo.gov/published/{start_date}/{end_date}"  
-        endpoint = 
+        json_prog = Data.get_progress()
+        start_date = json_prog["USA_bills_start_date"]
+        start_date = datetime.strptime(start_date, "%Y-%m-%d")
+        end_date = start_date + timedelta(days=self.batch_size)
+
+        api_url = f"https://api.govinfo.gov/published/{start_date.strftime('%Y-%m-%d')}/{end_date.strftime('%Y-%m-%d')}"
 
         params = {
             "offset": 0,
-            "pageSize": self.batch_size,  # Number of results per page
+            "pageSize": 1000,  # Number of results per page
             "collection": "BILLS",
             "api_key": self.api_key
         }
@@ -72,5 +94,7 @@ class USA_DataCollector(DataCollector):
             data = response.json()
             if data:
                 json_file_name = str(datetime.now()).replace(':', "-")
-                with open(f'{Data.processor_bills_dir}/USA/{json_file_name}.json', 'wb') as f:
-                      json.dump(data, f) #TODO save the last date
+                with open(f'{Data.processor_bills_dir}/USA/{json_file_name}.json', 'w') as f:
+                    json.dump(data, f)
+            json_prog["USA_bills_start_date"] = end_date.strftime("%Y-%m-%d")
+            Data.update_progress(json_prog)
