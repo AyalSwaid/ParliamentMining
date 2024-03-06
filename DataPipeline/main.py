@@ -14,16 +14,16 @@ from time import time
 
 if __name__ == "__main__":
 
-    collector_m = CollectorManager(1)
-    processor_m = ProcessorManager(1)
+    collector_m = CollectorManager(100)
+    # processor_m = ProcessorManager(100)
     #
     since = time()
-    for i in range(3):
+    for i in range(1):
         collector_m.run_collectors()
-        processor_m.run_processors()
+        # processor_m.run_processors()
 
-        for p in os.listdir(Data.text_files_dir+'/UK'):
-            os.remove(f'{Data.text_files_dir}/UK/{p}')
+        # for p in os.listdir(Data.text_files_dir+'/UK'):
+        #     os.remove(f'{Data.text_files_dir}/UK/{p}')
 
     print(f"elapsed: {time()-since}")
 
