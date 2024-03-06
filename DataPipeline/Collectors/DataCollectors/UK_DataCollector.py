@@ -37,7 +37,7 @@ class UK_DataCollector(DataCollector):
 
         # get dates range
         json_prog = Data.get_progress()
-        start_date = json_prog['UK']['debates']['start_date']
+        start_date = json_prog['UK_debates_start_date']
         start_date = datetime.strptime(start_date, "%Y-%m-%d")
         end_date = start_date + timedelta(days=self.batch_size)
 
@@ -62,7 +62,7 @@ class UK_DataCollector(DataCollector):
 
         print(f'Collected {len(links)}, Failed: {len(self.failed_links)}')
 
-        json_prog['UK']['debates']['start_date'] = end_date.strftime("%Y-%m-%d")
+        json_prog['UK_debates_start_date'] = end_date.strftime("%Y-%m-%d")
         Data.update_progress(json_prog)
         print("DONE UK debates")
 

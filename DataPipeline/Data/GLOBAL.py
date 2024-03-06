@@ -25,6 +25,15 @@ class Data:
 
     failed_links_pkl = 'Data/failed_links.pkl'
 
+    country2code = {
+        "USA": 1,
+        "uk": 2,
+        "IL": 3,
+        "CA": 4,
+        "TN": 5,
+    }
+
+    code2country = {v:k for k,v in country2code.items()}
 
     @staticmethod
     def get_progress():
@@ -50,8 +59,8 @@ class Data:
         with open(file_name + '.pkl', "wb") as f:
             pickle.dump(obj, f)
 
-
-    def load_json(self, file_path):
+    @staticmethod
+    def load_json(file_path):
         with open(file_path, "r") as json_file:
             my_dict = json.load(json_file)
 
