@@ -1,12 +1,16 @@
 import json
 import os
 import pickle
+import spacy
 
 
 """
 Here are global variables that contain information like files paths, csv paths, etx...
 dont change the value of any of these variables
 """
+print("GLOBAL.py is loading spacy nlp, it may take some time")
+nlp = spacy.load("en_core_web_sm")
+print("DONE loading")
 
 class Data:
     processor_dir = 'Data/to_process'
@@ -19,8 +23,8 @@ class Data:
 
     progress_json = 'Data/progress.json'
 
-    chrome_driver_path = r'C:\Users\ayals\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe'
-
+    # chrome_driver_path = r'C:\Users\ayals\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe'
+    chrome_driver_path = r'C:\Users\ayals\Downloads\driver\chromedriver-win64\chromedriver.exe'
     text_files_dir = 'Data/tmp_text_files'
 
     failed_links_pkl = 'Data/failed_links.pkl'

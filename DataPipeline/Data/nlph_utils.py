@@ -1,7 +1,7 @@
 """
 Utility functions to help with hebrew nlp
 variables names formate:
-    - starts with re_* means it is a regex expression
+    - starts with re_* means it is used for regex expression
     - starts with rep* means it is a regex pattern (after compile regex expression)
 """
 
