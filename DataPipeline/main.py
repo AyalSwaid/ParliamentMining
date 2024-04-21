@@ -13,17 +13,19 @@ from time import time
 # uc.Chrome(version_main=120, driver_executable_path=d_path)
 
 if __name__ == "__main__":
-
-    collector_m = CollectorManager(100)
-    # processor_m = ProcessorManager(100)
+    # collector_m = CollectorManager(15)
+    # processor_m = ProcessorManager(15)
+    # #
+    # since = time()
+    # for i in range(5):# 1
+    #     collector_m.run_collectors()
+    #     processor_m.run_processors()
     #
-    since = time()
-    for i in range(1):
-        collector_m.run_collectors()
-        # processor_m.run_processors()
+    #     for p in os.listdir(Data.text_files_dir+'/UK'):
+    #         os.remove(f'{Data.text_files_dir}/UK/{p}')
+    #
+    # print(f"elapsed: {time()-since}")
 
-        # for p in os.listdir(Data.text_files_dir+'/UK'):
-        #     os.remove(f'{Data.text_files_dir}/UK/{p}')
 
-    print(f"elapsed: {time()-since}")
+
 
