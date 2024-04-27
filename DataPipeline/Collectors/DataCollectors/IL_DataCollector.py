@@ -104,7 +104,29 @@ class IL_DataCollector(DataCollector):
 
 
     def get_bills(self):
-        pass
+        print()
+        # define __get_bills_bullks() method
+
+        all_bills = []
+        id2name = {}
+
+        # for each bulk and for each bill in each bulk:
+        for entries in self.__get_bills_bullks():
+            for entry in entries:
+                # get (bill_id, title, date) and store them in dataframe then in csv
+                bill_id = entry.find("BillID").text
+                bill_title = entry.find("Name").text
+                bill_date = entry.find("PublicationDate").text
+
+                all_bills.append({
+                    "bill_id": bill_id,
+                    "title": bill_title,
+                    "date": bill_date
+                })
+
+
+
+        pd.DataFrame(all_bills).to_csv(f"{Data.csv_files_dir}/bills/IL_bills.csv", index=False)
 
 
     def __get_plenum_files(self, plenum_id):
@@ -206,7 +228,26 @@ class IL_DataCollector(DataCollector):
         return first_name + " " + last_name
 
 
+    def __get_bills_bullks(self):
+        url = "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill?"
+
+        skip_size = 100
+        curr_bulk = 0
+
+        # get OData output
+        entries = ['tmp']
+        while entries:
+            print(f"BULK: {curr_bulk}/ 563")
+            resp = reqs.get(f"{url}$skip={skip_size * curr_bulk}")
+            soup = bs(resp.content, 'xml')
+            entries = soup.find_all('entry')
+            yield entries
+            curr_bulk += 1
+
+
+
+
 if __name__ == "__main__":
     a = IL_DataCollector(20)
     # a.get_debates()
-    a.get_members()
+    a.get_bills()

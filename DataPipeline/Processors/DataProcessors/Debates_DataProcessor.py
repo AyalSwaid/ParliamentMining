@@ -4,24 +4,38 @@ import os
 import json
 import pandas as pd
 from Data.GLOBAL import Data
-from docx.api import Document
+# from docx.api import Document
 import win32com.client # pip install pywin32
 import Data.nlph_utils as nlph
+from Data.GLOBAL import nlp
 from collections import defaultdict
 # from time import time
 from datetime import datetime
+import re
+import spacy
 
+
+"""
+TODO LIST:
+5. extract the exact correct members name from text files
+6. do scraping function to scrape data about members.
+7. take into account that there might be non-MP members in debates
+8. github: hansard open gov
+9. make sub-folders in text_files folder to make it easier for the file system
+"""
 
 """
 Statistics summary:
 IL: 25 plenums -> 966 debates -> 15 minutes -> rate= 1 debate per second
 """
+
 class Debates_DataProcessor(DataProcessor):
     def __init__(self, batch_size):
         super(Debates_DataProcessor, self).__init__(batch_size)
         self.data_path = Data.processor_debates_dir
         self.table = "debates"
         self.word = None # used for IL
+
 
 
     def __del__(self):
@@ -39,6 +53,7 @@ class Debates_DataProcessor(DataProcessor):
     def process_UK(self):
 
         file_path = os.listdir(self.data_path + '/UK')
+        print(file_path)
 
         # if dir is empty then exit
         if len(file_path) > 0:
@@ -49,12 +64,26 @@ class Debates_DataProcessor(DataProcessor):
         # for file_path in os.listdir(self.data_path + '\\UK'):
         # NOTE: each pickle file is a single batch
         # load pickle file that contains all the debates_dates and files paths
+
+        # load pickle file that is a list of dicts contains a date and txt file path of each debate
         debates = self.load_pkl(self.data_path + '/UK/'+file_path)
 
+        # here we store new debates metadata for csv
+        all_debates = []
+
         # iterate over the pkl and call extract_debate_data and split_members for each debate
+        i = 0
+        print(f"Processor (UK debates) started to process {len(debates)} debates")
         for debate in debates:
             # debate_title, members = self.extract_debate_data(debate['file_path'])
-            debate_title, speeches = self.UK_split_members(debate['file_path'])
+            # debate_title, speeches = self.UK_split_members(debate['file_path'])
+            debate_title, speeches = self.test_UK_split_members(debate['file_path'])
+
+            if len(speeches) < 2:
+                # print(f"small debate: {debate['file_path']}")
+                i += 1
+                continue
+
             debate['debate_title'] = debate_title
             debate['country'] = 2
 
@@ -64,17 +93,18 @@ class Debates_DataProcessor(DataProcessor):
             with open(speeches_file_path, 'a+') as json_file:
                 json.dump(speeches, json_file)
 
-            debate['file_path'] =  speeches_file_path
-
+            debate['file_path'] = speeches_file_path
+            all_debates.append(debate)
+        print(f"DONE, skipped {i} empty debates")
         # save debates in a csv table save
         # og_debates_table = pd.read_csv('debates.csv')
-        new_debates = pd.DataFrame(debates)
+        new_debates = pd.DataFrame(all_debates)
 
         # og_debates_table = pd.concat([og_debates_table, new_debates], axis=0)
         new_debates.to_csv(f'{Data.csv_files_dir}/debates/{file_path}.csv')
 
         # delete pickle file
-        os.remove(self.data_path + '\\UK\\'+file_path)
+        os.remove(self.data_path + '/UK/'+file_path)
 
 
 
@@ -120,7 +150,8 @@ class Debates_DataProcessor(DataProcessor):
 
                     # save speeches in json
                     filename = f"{i}{datetime.now().strftime('%Y-%m-%d %H-%M-%S')}.json"
-                    Data.save_json(f"{Data.speeches_files_dir}/IL/{filename}", debate['speeches'])
+                    # Data.save_json(f"{Data.speeches_files_dir}/IL/{filename}", debate['speeches'])# TODO: uncomment this
+                    # Data.save_json(f"testingSpeeches/{filename}", debate['speeches']) # TODO: delete
 
                     #
                     curr_debate['file_path'] = f"{Data.speeches_files_dir}/IL/{filename}"
@@ -131,7 +162,8 @@ class Debates_DataProcessor(DataProcessor):
             new_debates = pd.DataFrame(all_debates)
 
             # og_debates_table = pd.concat([og_debates_table, new_debates], axis=0)
-            new_debates.to_csv(f'{Data.csv_files_dir}/debates/{file_path.split("/")[-1]}.csv')
+            # new_debates.to_csv(f'{Data.csv_files_dir}/debates/{file_path.split("/")[-1]}.csv') # TODO: uncomment
+            new_debates.to_csv(f'testingSpeeches/{file_path.split("/")[-1]}.csv') # TODO: delete
 
             # TODO: remove file from collector
 
@@ -168,17 +200,73 @@ class Debates_DataProcessor(DataProcessor):
 
             return debate_title, list(members)
 
+    def test_UK_split_members(self, file_path):
+        # members = set()
+        # speeches = defaultdict(str)  # format: {member_name: speech, member_name: speech}
+
+        # the following list contains all speehes (larger than 5 words) in the same order.
+        # it contains dicts of format {"name": member_name-str, "speech": member's speech}
+        all_speeches_list = []
+
+
+        # for file_path in files_path:
+        curr_debate_speeches = {}
+        rep_speakers = re.compile(r".+\n.+")
+        rep_speech = re.compile(r".+")
+        # r""
+
+        with open(file_path, "r") as file:
+            # lines = file.read().split('\n')
+            lines = file.read()
+            debate_title = lines.split("\n")[0].strip()
+
+        # lines = ""
+        # print(lines)
+        matches = [match for match in rep_speakers.finditer(lines)] # put it in a list to use indexing
+        speech_idx = 0
+        for i in range(len(matches)):
+            # print(f"\tspeech {i}")
+            start, end = matches[i].start(), matches[i].end()
+            match = lines[start:end]
+            splitted_match = match.split("\n")
+            speech_end_idx = matches[i+1].start() if i < (len(matches)-1) else len(lines)
+            
+            speaker = splitted_match[0].strip() # now speaker noctains name and party, position, etc. example: "Afzal Khan (Manchester, Gorton) (Lab)"
+            speaker = self.__extract_uk_speaker_name(speaker)
+
+
+            # note that match includes speaker name and his next first paragraph
+            speech = lines[start+len(splitted_match[0]) : speech_end_idx]
+            speech = " ".join(rep_speech.findall(speech))
+
+            if len(speech) > 5:
+                # speeches[speaker] += f"<{speech_idx}>{speech}"
+
+                curr_speech = {
+                    "name": speaker,
+                    "speech": speech
+                }
+                all_speeches_list.append(curr_speech)
+                speech_idx += 1
+
+        return debate_title, all_speeches_list
+
+
+
+
+
+
 
     def UK_split_members(self, file_path):
         '''
         take debates text file and extract member name and speeches out of them
-        :param files_path:
-        :return:
+        :param file_path: path
+        :return: debate_title: str, speeches: dict
         '''
         # files_path = os.listdir(txt_files_dir)
 
         members = set()
-        speeches = {}
+        speeches = {}  # format: {member_name: speech, member_name: speech}
 
         # for file_path in files_path:
         curr_debate_speeches = {}
@@ -208,9 +296,8 @@ class Debates_DataProcessor(DataProcessor):
 
     def __process_IL_files(self, files):# Todo: this function is so slow, check how can we improve
         """
-        given files list related to a single plenum, extract all the debates data from
+        given files list related to a single plenum, extract all the debates data
         usually it is only one doc / docx file for each plenum
-        this plenum
         :param files: list of format [file_type: str, file_path: str], this list is made by IL Collector
         :return: debates generator, for each file in plenum file return the debates it contains
         """
@@ -309,7 +396,7 @@ class Debates_DataProcessor(DataProcessor):
                             curr_title = lines[matches[i-1].start():matches[i-1].end()].strip()
                         # all_speeches = defaultdict(str)
 
-                        curr_debate_speeches = self.get_debate_speeches(lines, matches[i], matches[i + 1])
+                        curr_debate_speeches = self.__get_IL_debate_speeches(lines, matches[i], matches[i + 1])
                         if len(curr_debate_speeches) < 2:
                             continue
 
@@ -320,7 +407,7 @@ class Debates_DataProcessor(DataProcessor):
                         # curr_debate[curr_title] = curr_debate_speeches
                         all_debates.append(curr_debate)
                 else:
-                    pass  # TODO
+                    pass  # TODO delete "UU" from MP names
 
                     # split it by '\n' and get speech of each member
             else:
@@ -331,7 +418,7 @@ class Debates_DataProcessor(DataProcessor):
         return all_debates
 
 
-    def __get_debate_speeches(self, all_text, idxs0, idxs1):
+    def __get_IL_debate_speeches(self, all_text, idxs0, idxs1):
         """
         given indices of current and next debate, extract speeches of the current debate
         using regex
@@ -344,6 +431,7 @@ class Debates_DataProcessor(DataProcessor):
         lines = all_text[idxs0.end():idxs1.start()].strip()
 
         all_speeches = defaultdict(str)
+        all_speeches = []
 
         matches = [s for s in nlph.rep_is_speaker.finditer(lines)]
 
@@ -352,9 +440,18 @@ class Debates_DataProcessor(DataProcessor):
             speaker = lines[start:end].strip().strip('U')
 
             if i != len(matches) - 1:
-                all_speeches[speaker] += f"<{i}>" + lines[end:matches[i + 1].start()].strip()
+                speech = lines[end:matches[i + 1].start()].strip()
             else:
-                all_speeches[speaker] += f"<{i}>" + lines[end:len(lines)].strip()
+                speech = lines[end:len(lines)].strip()
+
+            if len(speech) > 5:
+                # speeches[speaker] += f"<{speech_idx}>{speech}"
+
+                curr_speech = {
+                    "name": speaker,
+                    "speech": speech
+                }
+                all_speeches.append(curr_speech)
 
         return all_speeches
 
@@ -365,3 +462,34 @@ class Debates_DataProcessor(DataProcessor):
             data = pickle.load(file)
 
         return data
+
+    def __extract_uk_speaker_name(self, speaker):
+        # rep_strings = re.compile(r"{\w\s}+")
+        # reg_speaker = rep_strings.findall(speaker)
+        if speaker in ["The Prime Minister", "Mr Speaker"]:
+            return speaker
+
+        doc = nlp(speaker)
+        full_name = ""
+        for ent in doc.ents:
+            # print(ent, ent.label_)
+            if ent.label_ == 'PERSON':
+                full_name = ent.text
+                break  # Assuming there is only one person entity in the text
+
+        return full_name if full_name != "" else speaker
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+
+    fp1 = r"C:\Users\ayals\Downloads\Prime Minister 2024-03-13.txt"
+    fp2 = r"C:\Users\ayals\Downloads\Point of Order 2024-03-13.txt"
+    x = Debates_DataProcessor(10)
+    x.process_IL()
