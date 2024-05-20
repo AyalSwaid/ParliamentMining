@@ -1,0 +1,439 @@
+,date,file_path,debate_title,country
+0,2011-02-01,Data/speeches/UK/fghanistan (Corruption) 2011-02-01.json,Afghanistan (Corruption),2.0
+1,2011-01-31,Data/speeches/UK/fghanistan 2011-01-31.json,Afghanistan,2.0
+2,2011-02-01,Data/speeches/UK/fghanistan 2011-02-01.json,Afghanistan,2.0
+3,2011-02-07,Data/speeches/UK/griculture_ Dairy Industry 2011-02-07.json,Agriculture: Dairy Industry,2.0
+4,2011-01-27,Data/speeches/UK/irlines_ Snow and Ice 2011-01-27.json,Airlines: Snow and Ice,2.0
+5,2011-01-31,Data/speeches/UK/irports_ Heathrow 2011-01-31.json,Airports: Heathrow,2.0
+6,2011-01-31,Data/speeches/UK/irTanker 2011-01-31.json,AirTanker,2.0
+7,2011-01-24,Data/speeches/UK/lcohol (Licensing) 2011-01-24.json,Alcohol (Licensing),2.0
+8,2011-02-02,Data/speeches/UK/lcohol (Minimum Pricing) 2011-02-02.json,Alcohol (Minimum Pricing),2.0
+9,2011-01-25,Data/speeches/UK/lcohol Misuse (Young People) 2011-01-25.json,Alcohol Misuse (Young People),2.0
+10,2011-02-04,Data/speeches/UK/nonymity (Arrested Persons) Bill 2011-02-04.json,Anonymity (Arrested Persons) Bill,2.0
+11,2011-02-02,Data/speeches/UK/pprentices 2011-02-02.json,Apprentices,2.0
+12,2011-01-31,Data/speeches/UK/rmed Forces Pensions 2011-01-31 (1).json,Armed Forces Pensions,2.0
+13,2011-01-31,Data/speeches/UK/rmed Forces Pensions 2011-01-31.json,Armed Forces Pensions,2.0
+14,2011-01-27,Data/speeches/UK/rmed Forces_ Post-service Welfare 2011-01-27.json,Armed Forces: Post-service Welfare,2.0
+15,2011-01-25,Data/tmp_text_files/UK/Arrangement of Business 2011-01-25.txt,,
+16,2011-01-31,Data/tmp_text_files/UK/Arrangement of Business 2011-01-31.txt,,
+17,2011-02-01,Data/tmp_text_files/UK/Arrangement of Business 2011-02-01.txt,,
+18,2011-02-03,Data/tmp_text_files/UK/Arrangement of Business 2011-02-03.txt,,
+19,2011-02-07,Data/tmp_text_files/UK/Arrangement of Business 2011-02-07.txt,,
+20,2011-02-03,Data/speeches/UK/rts_ Funding 2011-02-03.json,Arts: Funding,2.0
+21,2011-02-02,Data/speeches/UK/viation Industry 2011-02-02.json,Aviation Industry,2.0
+22,2011-02-03,Data/tmp_text_files/UK/backbench business 2011-02-03 (1).txt,,
+23,2011-02-03,Data/tmp_text_files/UK/Backbench Business 2011-02-03.txt,,
+24,2011-01-24,Data/speeches/UK/angladesh_ Rapid Action Battalion 2011-01-24.json,Bangladesh: Rapid Action Battalion,2.0
+25,2011-01-26,Data/speeches/UK/ank Bonuses 2011-01-26.json,Bank Bonuses,2.0
+26,2011-02-01,Data/speeches/UK/anking_ Royal Bank of Scotland 2011-02-01.json,Banking: Royal Bank of Scotland,2.0
+27,2011-01-26,Data/speeches/UK/BC World Service 2011-01-26 (1).json,BBC World Service,2.0
+28,2011-01-26,Data/speeches/UK/BC World Service 2011-01-26.json,BBC World Service,2.0
+29,2011-02-01,Data/speeches/UK/BC World Service 2011-02-01.json,BBC World Service,2.0
+30,2011-01-25,Data/speeches/UK/CG Vaccine 2011-01-25.json,BCG Vaccine,2.0
+31,2011-02-03,Data/speeches/UK/ees 2011-02-03.json,Bees,2.0
+32,2011-01-24,Data/speeches/UK/ill of Rights 2011-01-24.json,Bill of Rights,2.0
+33,2011-02-01,Data/speeches/UK/lack Rod 2011-02-01.json,Black Rod,2.0
+34,2011-01-27,Data/speeches/UK/ody Image (Media Representation) 2011-01-27.json,Body Image (Media Representation),2.0
+35,2011-01-25,Data/speeches/UK/reaks for Carers of Disabled Children Regulations 2011 2011-01-25.json,Breaks for Carers of Disabled Children Regulations 2011,2.0
+36,2011-02-01,Data/speeches/UK/ritish Citizens (Pakistan) 2011-02-01.json,British Citizens (Pakistan),2.0
+37,2011-01-31,Data/speeches/UK/udget Responsibility and National Audit Bill [HL] 2011-01-31.json,Budget Responsibility and National Audit Bill [HL],2.0
+38,2011-02-07,Data/speeches/UK/udget Responsibility and National Audit Bill [HL] 2011-02-07.json,Budget Responsibility and National Audit Bill [HL],2.0
+39,2011-01-26,Data/speeches/UK/urton’s Foods (Moreton) 2011-01-26.json,Burton’s Foods (Moreton),2.0
+40,2011-01-27,Data/speeches/UK/us Services 2011-01-27.json,Bus Services,2.0
+41,2011-01-26,Data/speeches/UK/usiness Confidence 2011-01-26.json,Business Confidence,2.0
+42,2011-01-26,Data/speeches/UK/usiness Growth 2011-01-26.json,Business Growth,2.0
+43,2011-01-27,Data/speeches/UK/usiness of the House 2011-01-27 (1).json,Business of the House,2.0
+44,2011-01-27,Data/tmp_text_files/UK/Business of the House 2011-01-27 (2).txt,,
+45,2011-01-27,Data/speeches/UK/usiness of the House 2011-01-27.json,Business of the House,2.0
+46,2011-02-02,Data/tmp_text_files/UK/Business of the House 2011-02-02.txt,,
+47,2011-02-03,Data/tmp_text_files/UK/Business of the House 2011-02-03 (1).txt,,
+48,2011-02-03,Data/speeches/UK/usiness of the House 2011-02-03.json,Business of the House,2.0
+49,2011-01-24,Data/tmp_text_files/UK/Business without Debate 2011-01-24.txt,,
+50,2011-01-25,Data/tmp_text_files/UK/Business without Debate 2011-01-25.txt,,
+51,2011-01-26,Data/tmp_text_files/UK/Business without Debate 2011-01-26 (1).txt,,
+52,2011-01-26,Data/tmp_text_files/UK/Business without Debate 2011-01-26.txt,,
+53,2011-01-31,Data/tmp_text_files/UK/Business without Debate 2011-01-31.txt,,
+54,2011-02-01,Data/tmp_text_files/UK/Business without Debate 2011-02-01.txt,,
+55,2011-02-02,Data/tmp_text_files/UK/Business without Debate 2011-02-02.txt,,
+56,2011-02-04,Data/speeches/UK/usiness without Debate 2011-02-04.json,Business without Debate,2.0
+57,2011-02-07,Data/tmp_text_files/UK/Business without debate 2011-02-07.txt,,
+58,2011-01-26,Data/speeches/UK/alman Commission 2011-01-26.json,Calman Commission,2.0
+59,2011-01-25,Data/speeches/UK/ancer Survival Rates 2011-01-25.json,Cancer Survival Rates,2.0
+60,2011-01-26,Data/speeches/UK/arers and Employment 2011-01-26.json,Carers and Employment,2.0
+61,2011-01-26,Data/speeches/UK/hechnya 2011-01-26.json,Chechnya,2.0
+62,2011-01-25,Data/speeches/UK/hilcot Inquiry (Civil Service Code) 2011-01-25.json,Chilcot Inquiry (Civil Service Code),2.0
+63,2011-02-01,Data/speeches/UK/hild Benefit 2011-02-01.json,Child Benefit,2.0
+64,2011-01-24,Data/speeches/UK/hild Protection 2011-01-24.json,Child Protection,2.0
+65,2011-02-03,Data/speeches/UK/hildren_ Parenting for Success in School 2011-02-03.json,Children: Parenting for Success in School,2.0
+66,2011-02-01,Data/speeches/UK/hildren_ Sexual Exploitation 2011-02-01.json,Children: Sexual Exploitation,2.0
+67,2011-02-02,Data/speeches/UK/hildren’s Centres 2011-02-02.json,Children’s Centres,2.0
+68,2011-02-07,Data/speeches/UK/hildren’s Homes 2011-02-07.json,Children’s Homes,2.0
+69,2011-01-26,Data/speeches/UK/hinese Vice-Premier (State Visit) 2011-01-26.json,Chinese Vice-Premier (State Visit),2.0
+70,2011-02-01,Data/speeches/UK/hristmas Day Service (Cyprus) 2011-02-01.json,Christmas Day Service (Cyprus),2.0
+71,2011-02-03,Data/speeches/UK/ITES 2011-02-03.json,CITES,2.0
+72,2011-01-24,Data/tmp_text_files/UK/City of London (Various Powers) Bill [HL] 2011-01-24.txt,,
+73,2011-01-27,Data/speeches/UK/ivil Partnership Ceremonies 2011-01-27.json,Civil Partnership Ceremonies,2.0
+74,2011-02-07,Data/speeches/UK/ivil Procedure (Amendment No. 4) Rules 2010 2011-02-07.json,Civil Procedure (Amendment No. 4) Rules 2010,2.0
+75,2011-01-31,Data/speeches/UK/ivilian Personnel Reductions 2011-01-31.json,Civilian Personnel Reductions,2.0
+76,2011-01-31,Data/speeches/UK/luster Munitions (Prohibitions) Act 2010 2011-01-31.json,Cluster Munitions (Prohibitions) Act 2010,2.0
+77,2011-02-02,Data/speeches/UK/oastguard Service 2011-02-02.json,Coastguard Service,2.0
+78,2011-01-27,Data/speeches/UK/oastguard Services 2011-01-27.json,Coastguard Services,2.0
+79,2011-02-04,Data/speeches/UK/oinage (Measurement) Bill 2011-02-04.json,Coinage (Measurement) Bill,2.0
+80,2011-02-03,Data/speeches/UK/ommon Agricultural Policy 2011-02-03.json,Common Agricultural Policy,2.0
+81,2011-01-24,Data/speeches/UK/ommons Chamber 2011-01-24.json,Commons Chamber,2.0
+82,2011-01-25,Data/speeches/UK/ommons Chamber 2011-01-25.json,Commons Chamber,2.0
+83,2011-01-26,Data/speeches/UK/ommons Chamber 2011-01-26.json,Commons Chamber,2.0
+84,2011-01-27,Data/speeches/UK/ommons Chamber 2011-01-27.json,Commons Chamber,2.0
+85,2011-01-31,Data/speeches/UK/ommons Chamber 2011-01-31.json,Commons Chamber,2.0
+86,2011-02-01,Data/speeches/UK/ommons Chamber 2011-02-01.json,Commons Chamber,2.0
+87,2011-02-02,Data/speeches/UK/ommons Chamber 2011-02-02.json,Commons Chamber,2.0
+88,2011-02-03,Data/speeches/UK/ommons Chamber 2011-02-03.json,Commons Chamber,2.0
+89,2011-02-04,Data/speeches/UK/ommons Chamber 2011-02-04.json,Commons Chamber,2.0
+90,2011-02-07,Data/speeches/UK/ommons Chamber 2011-02-07.json,Commons Chamber,2.0
+91,2011-02-01,Data/speeches/UK/ommonwealth (UK Role) 2011-02-01.json,Commonwealth (UK Role),2.0
+92,2011-01-26,Data/speeches/UK/ommunity Cohesion 2011-01-26.json,Community Cohesion,2.0
+93,2011-02-02,Data/speeches/UK/omprehensive Spending Review 2011-02-02.json,Comprehensive Spending Review,2.0
+94,2011-01-27,Data/speeches/UK/ongestion Charging (West London) 2011-01-27.json,Congestion Charging (West London),2.0
+95,2011-02-03,Data/speeches/UK/ongo_ International Crisis Group Report 2011-02-03.json,Congo: International Crisis Group Report,2.0
+96,2011-01-24,Data/speeches/UK/onstitutional Reform_ Referendums 2011-01-24.json,Constitutional Reform: Referendums,2.0
+97,2011-02-03,Data/speeches/UK/onsumer Credit 2011-02-03.json,Consumer Credit,2.0
+98,2011-02-03,Data/speeches/UK/onsumer Credit and Debt Management 2011-02-03.json,Consumer Credit and Debt Management,2.0
+99,2011-02-07,Data/speeches/UK/ontrol of Donations and Regulation of Loans etc. (Extension of the Prescribed Period) (Northern Ireland) Order 2011 2011-02-07.json,Control of Donations and Regulation of Loans etc. (Extension of the Prescribed Period) (Northern Ireland) Order 2011,2.0
+100,2011-02-07,Data/speeches/UK/ore Subjects 2011-02-07.json,Core Subjects,2.0
+101,2011-01-27,Data/speeches/UK/orporate Boards (Women) 2011-01-27.json,Corporate Boards (Women),2.0
+102,2011-01-26,Data/speeches/UK/ounter-terrorism Review 2011-01-26.json,Counter-terrorism Review,2.0
+103,2011-01-26,Data/speeches/UK/ounterterrorism Review 2011-01-26.json,Counterterrorism Review,2.0
+104,2011-02-02,Data/speeches/UK/ourt of Auditors 2009 Report 2011-02-02.json,Court of Auditors 2009 Report,2.0
+105,2011-01-24,Data/speeches/UK/rime Levels 2011-01-24.json,Crime Levels,2.0
+106,2011-01-24,Data/speeches/UK/rime_ Murder 2011-01-24.json,Crime: Murder,2.0
+107,2011-02-02,Data/speeches/UK/urrency Markets 2011-02-02.json,Currency Markets,2.0
+108,2011-01-27,Data/speeches/UK/ustodial Sentences (Mothers) 2011-01-27.json,Custodial Sentences (Mothers),2.0
+109,2011-02-03,Data/speeches/UK/angerous Dogs 2011-02-03.json,Dangerous Dogs,2.0
+110,2011-02-02,Data/tmp_text_files/UK/Death of a Member_ Lord Fyfe of Fairfield 2011-02-02.txt,,
+111,2011-01-27,Data/speeches/UK/ecent Homes 2011-01-27.json,Decent Homes,2.0
+112,2011-01-31,Data/speeches/UK/efence 2011-01-31.json,Defence,2.0
+113,2011-01-31,Data/speeches/UK/efence Contracts 2011-01-31.json,Defence Contracts,2.0
+114,2011-01-31,Data/speeches/UK/efence Exports 2011-01-31.json,Defence Exports,2.0
+115,2011-01-27,Data/speeches/UK/efence_ Military Covenant 2011-01-27.json,Defence: Military Covenant,2.0
+116,2011-01-25,Data/speeches/UK/efence_ Procurement 2011-01-25.json,Defence: Procurement,2.0
+117,2011-01-27,Data/speeches/UK/efra_ Disease Outbreaks 2011-01-27.json,Defra: Disease Outbreaks,2.0
+118,2011-01-24,Data/speeches/UK/elegated legislation 2011-01-24.json,Delegated legislation,2.0
+119,2011-02-02,"Data/speeches/UK/epartment for Business, Innovation and Skills (Performance) 2011-02-02.json","Department for Business, Innovation and Skills (Performance)",2.0
+120,2011-01-31,Data/speeches/UK/epartmental Procurement 2011-01-31.json,Departmental Procurement,2.0
+121,2011-01-31,Data/speeches/UK/epartmental Project Management 2011-01-31.json,Departmental Project Management,2.0
+122,2011-01-26,Data/speeches/UK/esign 2011-01-26.json,Design,2.0
+123,2011-01-26,Data/speeches/UK/evolved and Reserved Powers 2011-01-26.json,Devolved and Reserved Powers,2.0
+124,2011-02-01,Data/speeches/UK/iplomatic Network 2011-02-01.json,Diplomatic Network,2.0
+125,2011-02-07,Data/speeches/UK/isabled People_ Disability Living Allowance 2011-02-07.json,Disabled People: Disability Living Allowance,2.0
+126,2011-02-07,Data/speeches/UK/iscretionary Learner Support Fund 2011-02-07.json,Discretionary Learner Support Fund,2.0
+127,2011-02-04,Data/speeches/UK/on and Anita Horton 2011-02-04.json,Don and Anita Horton,2.0
+128,2011-01-26,Data/speeches/UK/riving Standards Agency 2011-01-26.json,Driving Standards Agency,2.0
+129,2011-02-02,Data/speeches/UK/riving Standards Agency 2011-02-02.json,Driving Standards Agency,2.0
+130,2011-02-07,Data/speeches/UK/arly Years Education 2011-02-07.json,Early Years Education,2.0
+131,2011-02-01,Data/speeches/UK/ast Jerusalem 2011-02-01.json,East Jerusalem,2.0
+132,2011-02-02,Data/speeches/UK/conomic Growth 2011-02-02.json,Economic Growth,2.0
+133,2011-02-07,Data/speeches/UK/ducation 2011-02-07.json,Education,2.0
+134,2011-02-07,Data/speeches/UK/ducation Maintenance Allowance 2011-02-07.json,Education Maintenance Allowance,2.0
+135,2011-02-01,Data/speeches/UK/ducation_ Children with Diabetes 2011-02-01.json,Education: Children with Diabetes,2.0
+136,2011-01-31,Data/speeches/UK/gypt 2011-01-31 (1).json,Egypt,2.0
+137,2011-01-31,Data/speeches/UK/gypt 2011-01-31.json,Egypt,2.0
+138,2011-01-26,Data/speeches/UK/lections_ Second Home Owners 2011-01-26.json,Elections: Second Home Owners,2.0
+139,2011-01-25,Data/speeches/UK/lective Treatments 2011-01-25.json,Elective Treatments,2.0
+140,2011-01-27,Data/speeches/UK/mployment Law (Gender Discrimination) 2011-01-27.json,Employment Law (Gender Discrimination),2.0
+141,2011-01-31,Data/speeches/UK/mployment Law 2011-01-31.json,Employment Law,2.0
+142,2011-01-24,Data/speeches/UK/nergy Bill [HL] 2011-01-24.json,Energy Bill [HL],2.0
+143,2011-01-26,Data/speeches/UK/nergy Bill [HL] 2011-01-26.json,Energy Bill [HL],2.0
+144,2011-01-31,Data/speeches/UK/nergy Bill [HL] 2011-01-31.json,Energy Bill [HL],2.0
+145,2011-01-26,Data/speeches/UK/nergy Industries 2011-01-26.json,Energy Industries,2.0
+146,2011-01-26,Data/speeches/UK/ngagements 2011-01-26.json,Engagements,2.0
+147,2011-02-02,Data/speeches/UK/ngagements 2011-02-02.json,Engagements,2.0
+148,2011-01-24,Data/speeches/UK/nglish Defence League 2011-01-24.json,English Defence League,2.0
+149,2011-02-03,"Data/speeches/UK/nvironment, Food and Rural Affairs 2011-02-03.json","Environment, Food and Rural Affairs",2.0
+150,2011-02-07,Data/speeches/UK/U Council and North Africa 2011-02-07.json,EU Council and North Africa,2.0
+151,2011-01-26,Data/speeches/UK/uropean Arrest Warrant and Investigation Order 2011-01-26.json,European Arrest Warrant and Investigation Order,2.0
+152,2011-02-07,Data/speeches/UK/uropean Council and North Africa 2011-02-07.json,European Council and North Africa,2.0
+153,2011-02-07,Data/speeches/UK/uropean Union (Definition of Treaties) (Stabilisation and Association Agreement) (Republic of Serbia) Order 2011 2011-02-07.json,European Union (Definition of Treaties) (Stabilisation and Association Agreement) (Republic of Serbia) Order 2011,2.0
+154,2011-01-24,Data/speeches/UK/uropean Union Bill (Programme)(No. 2) 2011-01-24.json,European Union Bill (Programme)(No. 2),2.0
+155,2011-01-24,Data/speeches/UK/uropean Union Bill 2011-01-24.json,European Union Bill,2.0
+156,2011-01-25,Data/speeches/UK/uropean Union Bill 2011-01-25.json,European Union Bill,2.0
+157,2011-01-26,Data/speeches/UK/uropean Union Bill 2011-01-26.json,European Union Bill,2.0
+158,2011-02-01,Data/speeches/UK/uropean Union Bill 2011-02-01.json,European Union Bill,2.0
+159,2011-01-26,Data/tmp_text_files/UK/European union document 2011-01-26.txt,,
+160,2011-02-01,Data/tmp_text_files/UK/European union document 2011-02-01.txt,,
+161,2011-01-25,Data/tmp_text_files/UK/European Union Documents 2011-01-25.txt,,
+162,2011-02-03,Data/speeches/UK/U_ Emissions Trading Scheme 2011-02-03.json,EU: Emissions Trading Scheme,2.0
+163,2011-01-24,Data/speeches/UK/amily Intervention Projects 2011-01-24.json,Family Intervention Projects,2.0
+164,2011-02-03,Data/speeches/UK/arm Incomes 2011-02-03.json,Farm Incomes,2.0
+165,2011-01-25,Data/tmp_text_files/UK/Firearms (Amendment) Bill 2011-01-25.txt,,
+166,2011-02-03,Data/speeches/UK/ish Discards 2011-02-03 (1).json,Fish Discards,2.0
+167,2011-02-03,Data/speeches/UK/ish Discards 2011-02-03.json,Fish Discards,2.0
+168,2011-01-27,Data/speeches/UK/lexible Working 2011-01-27.json,Flexible Working,2.0
+169,2011-02-03,Data/speeches/UK/lood Defences 2011-02-03.json,Flood Defences,2.0
+170,2011-02-01,Data/speeches/UK/oreign and Commonwealth Office 2011-02-01.json,Foreign and Commonwealth Office,2.0
+171,2011-02-02,Data/speeches/UK/orestry Commission 2011-02-02.json,Forestry Commission,2.0
+172,2011-02-03,Data/speeches/UK/orests 2011-02-03 (1).json,Forests,2.0
+173,2011-02-03,Data/speeches/UK/orests 2011-02-03.json,Forests,2.0
+174,2011-02-07,Data/speeches/UK/uel Costs 2011-02-07.json,Fuel Costs,2.0
+175,2011-01-25,Data/speeches/UK/P Commissioning 2011-01-25.json,GP Commissioning,2.0
+176,2011-01-24,Data/speeches/UK/rand Committee 2011-01-24 (1).json,Grand Committee,2.0
+177,2011-01-24,Data/tmp_text_files/UK/Grand Committee 2011-01-24.txt,,
+178,2011-01-25,Data/speeches/UK/rand Committee 2011-01-25 (1).json,Grand Committee,2.0
+179,2011-01-25,Data/tmp_text_files/UK/Grand Committee 2011-01-25.txt,,
+180,2011-01-26,Data/speeches/UK/rand Committee 2011-01-26 (1).json,Grand Committee,2.0
+181,2011-01-26,Data/tmp_text_files/UK/Grand Committee 2011-01-26.txt,,
+182,2011-01-31,Data/speeches/UK/rand Committee 2011-01-31 (1).json,Grand Committee,2.0
+183,2011-01-31,Data/tmp_text_files/UK/Grand Committee 2011-01-31.txt,,
+184,2011-02-01,Data/speeches/UK/rand Committee 2011-02-01 (1).json,Grand Committee,2.0
+185,2011-02-01,Data/tmp_text_files/UK/Grand Committee 2011-02-01.txt,,
+186,2011-02-07,Data/speeches/UK/rand Committee 2011-02-07 (1).json,Grand Committee,2.0
+187,2011-02-07,Data/tmp_text_files/UK/Grand Committee 2011-02-07.txt,,
+188,2011-02-02,Data/speeches/UK/reat Western Main Line 2011-02-02.json,Great Western Main Line,2.0
+189,2011-02-02,Data/speeches/UK/roceries Code Adjudicator 2011-02-02.json,Groceries Code Adjudicator,2.0
+190,2011-01-25,Data/speeches/UK/ealth 2011-01-25.json,Health,2.0
+191,2011-01-31,Data/speeches/UK/ealth and Social Care Bill 2011-01-31.json,Health and Social Care Bill,2.0
+192,2011-02-02,Data/speeches/UK/ealth_ Multiple Sclerosis 2011-02-02.json,Health: Multiple Sclerosis,2.0
+193,2011-01-27,Data/speeches/UK/GV Drivers (Diabetes) 2011-01-27.json,HGV Drivers (Diabetes),2.0
+194,2011-02-02,Data/tmp_text_files/UK/High Pay Commission 2011-02-02.txt,,
+195,2011-01-25,Data/speeches/UK/istoric Homes 2011-01-25.json,Historic Homes,2.0
+196,2011-01-26,Data/speeches/UK/oliday Accommodation 2011-01-26.json,Holiday Accommodation,2.0
+197,2011-01-24,Data/speeches/UK/ome Department 2011-01-24.json,Home Department,2.0
+198,2011-02-07,Data/speeches/UK/ome-to-school Travel 2011-02-07.json,Home-to-school Travel,2.0
+199,2011-02-02,Data/speeches/UK/ospice Care 2011-02-02.json,Hospice Care,2.0
+200,2011-01-24,Data/tmp_text_files/UK/House of Commons 2011-01-24.txt,,
+201,2011-01-25,Data/tmp_text_files/UK/House of Commons 2011-01-25.txt,,
+202,2011-01-26,Data/tmp_text_files/UK/House of Commons 2011-01-26.txt,,
+203,2011-01-27,Data/tmp_text_files/UK/House of Commons 2011-01-27.txt,,
+204,2011-01-31,Data/tmp_text_files/UK/House of Commons 2011-01-31.txt,,
+205,2011-02-01,Data/tmp_text_files/UK/House of Commons 2011-02-01.txt,,
+206,2011-02-02,Data/tmp_text_files/UK/House of Commons 2011-02-02.txt,,
+207,2011-02-03,Data/tmp_text_files/UK/House of Commons 2011-02-03.txt,,
+208,2011-02-04,Data/tmp_text_files/UK/House of Commons 2011-02-04.txt,,
+209,2011-02-07,Data/tmp_text_files/UK/House of Commons 2011-02-07.txt,,
+210,2011-01-24,Data/tmp_text_files/UK/House of Lords 2011-01-24.txt,,
+211,2011-01-25,Data/tmp_text_files/UK/House of Lords 2011-01-25.txt,,
+212,2011-01-26,Data/tmp_text_files/UK/House of Lords 2011-01-26.txt,,
+213,2011-01-27,Data/tmp_text_files/UK/House of Lords 2011-01-27.txt,,
+214,2011-01-31,Data/tmp_text_files/UK/House of Lords 2011-01-31.txt,,
+215,2011-02-01,Data/tmp_text_files/UK/House of Lords 2011-02-01.txt,,
+216,2011-02-02,Data/tmp_text_files/UK/House of Lords 2011-02-02.txt,,
+217,2011-02-03,Data/tmp_text_files/UK/House of Lords 2011-02-03.txt,,
+218,2011-02-07,Data/tmp_text_files/UK/House of Lords 2011-02-07.txt,,
+219,2011-01-24,Data/speeches/UK/ousing Benefit (Amendment) Regulations 2010 2011-01-24 (1).json,Housing Benefit (Amendment) Regulations 2010,2.0
+220,2011-01-24,Data/speeches/UK/ousing Benefit (Amendment) Regulations 2010 2011-01-24.json,Housing Benefit (Amendment) Regulations 2010,2.0
+221,2011-02-01,Data/speeches/UK/uman Fertilisation and Embryology Authority_Human Tissue Authority 2011-02-01.json,Human Fertilisation and Embryology Authority/Human Tissue Authority,2.0
+222,2011-02-04,"Data/speeches/UK/llegally Logged Timber (Prohibition of Import, Sale or Distribution) Bill 2011-02-04.json","Illegally Logged Timber (Prohibition of Import, Sale or Distribution) Bill",2.0
+223,2011-01-24,Data/speeches/UK/mmigration (Scotland) 2011-01-24.json,Immigration (Scotland),2.0
+224,2011-02-07,Data/speeches/UK/mmigration and Nationality (Fees) Order 2011 2011-02-07.json,Immigration and Nationality (Fees) Order 2011,2.0
+225,2011-02-07,Data/speeches/UK/nternational Development Aid 2011-02-07.json,International Development Aid,2.0
+226,2011-01-25,Data/tmp_text_files/UK/Introduction_ Baroness Bakewell 2011-01-25.txt,,
+227,2011-01-25,Data/tmp_text_files/UK/Introduction_ Baroness Heyhoe Flint 2011-01-25.txt,,
+228,2011-01-27,Data/tmp_text_files/UK/Introduction_ Baroness Jenkin of Kennington 2011-01-27.txt,,
+229,2011-01-31,Data/tmp_text_files/UK/Introduction_ Baroness King of Bow 2011-01-31.txt,,
+230,2011-02-01,Data/tmp_text_files/UK/Introduction_ Baroness Lister of Burtersett 2011-02-01.txt,,
+231,2011-01-26,Data/tmp_text_files/UK/Introduction_ Baroness Morgan of Ely 2011-01-26.txt,,
+232,2011-01-31,Data/tmp_text_files/UK/Introduction_ Baroness Randerson 2011-01-31.txt,,
+233,2011-02-01,Data/tmp_text_files/UK/Introduction_ Baroness Tyler of Enfield 2011-02-01.txt,,
+234,2011-02-02,Data/tmp_text_files/UK/Introduction_ Baroness Worthington 2011-02-02.txt,,
+235,2011-01-24,Data/tmp_text_files/UK/Introduction_ Lord Collins of Highbury 2011-01-24.txt,,
+236,2011-01-24,Data/tmp_text_files/UK/Introduction_ Lord Dannatt 2011-01-24.txt,,
+237,2011-02-03,Data/tmp_text_files/UK/Introduction_ Lord Gold 2011-02-03.txt,,
+238,2011-01-27,Data/tmp_text_files/UK/Introduction_ Lord Grade of Yarmouth 2011-01-27.txt,,
+239,2011-01-25,Data/tmp_text_files/UK/Introduction_ Lord Hussain 2011-01-25.txt,,
+240,2011-01-26,Data/tmp_text_files/UK/Introduction_ Lord Kestenbaum 2011-01-26.txt,,
+241,2011-01-27,Data/tmp_text_files/UK/Introduction_ Lord Magan of Castletown 2011-01-27.txt,,
+242,2011-01-31,Data/tmp_text_files/UK/Introduction_ Lord Noon 2011-01-31.txt,,
+243,2011-02-07,Data/tmp_text_files/UK/Introduction_ Lord Stephen 2011-02-07.txt,,
+244,2011-02-01,Data/tmp_text_files/UK/Introduction_ Lord Stirrup 2011-02-01.txt,,
+245,2011-02-03,Data/tmp_text_files/UK/Introduction_ Lord Storey 2011-02-03.txt,,
+246,2011-01-24,Data/tmp_text_files/UK/Introduction_ Lord Wigley 2011-01-24.txt,,
+247,2011-02-03,Data/tmp_text_files/UK/Investment Bank (Amendment of Definition) Order 2011 2011-02-03.txt,,
+248,2011-02-03,Data/speeches/UK/nvestment Bank Special Administration Regulations 2011 2011-02-03.json,Investment Bank Special Administration Regulations 2011,2.0
+249,2011-02-02,Data/speeches/UK/nward Investment 2011-02-02 (1).json,Inward Investment,2.0
+250,2011-02-02,Data/speeches/UK/nward Investment 2011-02-02.json,Inward Investment,2.0
+251,2011-01-31,Data/speeches/UK/ran (Nuclear Weapons) 2011-01-31.json,Iran (Nuclear Weapons),2.0
+252,2011-01-25,Data/speeches/UK/raq_ Camp Ashraf 2011-01-25.json,Iraq: Camp Ashraf,2.0
+253,2011-02-01,Data/speeches/UK/vory Coast 2011-02-01.json,Ivory Coast,2.0
+254,2011-02-03,Data/speeches/UK/vory Trade 2011-02-03.json,Ivory Trade,2.0
+255,2011-02-02,Data/speeches/UK/apan_ Whaling 2011-02-02.json,Japan: Whaling,2.0
+256,2011-02-01,Data/speeches/UK/ashmir 2011-02-01.json,Kashmir,2.0
+257,2011-02-01,Data/speeches/UK/atin America (Bilateral Relations) 2011-02-01.json,Latin America (Bilateral Relations),2.0
+258,2011-02-03,Data/speeches/UK/egal Aid Reform 2011-02-03.json,Legal Aid Reform,2.0
+259,2011-02-02,Data/tmp_text_files/UK/Legislative Reform (Civil Partnership) Order 2011 2011-02-02.txt,,
+260,2011-02-07,Data/speeches/UK/egislative Reform (Civil Partnership) Order 2011 2011-02-07.json,Legislative Reform (Civil Partnership) Order 2011,2.0
+261,2011-01-25,Data/speeches/UK/ibrary Services 2011-01-25.json,Library Services,2.0
+262,2011-01-24,Data/speeches/UK/ords Chamber 2011-01-24.json,Lords Chamber,2.0
+263,2011-01-25,Data/speeches/UK/ords Chamber 2011-01-25.json,Lords Chamber,2.0
+264,2011-01-26,Data/speeches/UK/ords Chamber 2011-01-26.json,Lords Chamber,2.0
+265,2011-01-27,Data/speeches/UK/ords Chamber 2011-01-27.json,Lords Chamber,2.0
+266,2011-01-31,Data/speeches/UK/ords Chamber 2011-01-31.json,Lords Chamber,2.0
+267,2011-02-01,Data/speeches/UK/ords Chamber 2011-02-01.json,Lords Chamber,2.0
+268,2011-02-02,Data/speeches/UK/ords Chamber 2011-02-02.json,Lords Chamber,2.0
+269,2011-02-03,Data/speeches/UK/ords Chamber 2011-02-03.json,Lords Chamber,2.0
+270,2011-02-07,Data/speeches/UK/ords Chamber 2011-02-07.json,Lords Chamber,2.0
+271,2011-01-27,Data/speeches/UK/ow-emission Vehicles 2011-01-27.json,Low-emission Vehicles,2.0
+272,2011-02-03,Data/speeches/UK/ackerel Quota 2011-02-03.json,Mackerel Quota,2.0
+273,2011-02-01,Data/speeches/UK/aternity Services 2011-02-01.json,Maternity Services,2.0
+274,2011-01-25,Data/speeches/UK/edical Aids 2011-01-25.json,Medical Aids,2.0
+275,2011-02-02,Data/speeches/UK/iddle East 2011-02-02.json,Middle East,2.0
+276,2011-02-01,Data/speeches/UK/iddle East Peace Process 2011-02-01.json,Middle East Peace Process,2.0
+277,2011-01-24,Data/speeches/UK/igration 2011-01-24.json,Migration,2.0
+278,2011-02-07,Data/speeches/UK/isuse of Drugs Act 1971 (Amendment) Order 2011 2011-02-07.json,Misuse of Drugs Act 1971 (Amendment) Order 2011,2.0
+279,2011-01-31,Data/speeches/UK/onetary Policy Committee 2011-01-31.json,Monetary Policy Committee,2.0
+280,2011-01-25,Data/speeches/UK/useums and Galleries 2011-01-25.json,Museums and Galleries,2.0
+281,2011-02-07,Data/speeches/UK/usic Education 2011-02-07.json,Music Education,2.0
+282,2011-02-02,Data/speeches/UK/yalgic Encephalomyelitis 2011-02-02.json,Myalgic Encephalomyelitis,2.0
+283,2011-02-02,Data/speeches/UK/ational Insurance Contributions Bill 2011-02-02.json,National Insurance Contributions Bill,2.0
+284,2011-01-25,Data/speeches/UK/eonicotinoid Pesticides 2011-01-25.json,Neonicotinoid Pesticides,2.0
+285,2011-02-01,Data/tmp_text_files/UK/NHS Acute Medical and Surgical Services (Working Time Directive) 2011-02-01.txt,,
+286,2011-01-25,Data/speeches/UK/HS Reorganisation 2011-01-25.json,NHS Reorganisation,2.0
+287,2011-01-25,Data/speeches/UK/HS Waiting Times 2011-01-25.json,NHS Waiting Times,2.0
+288,2011-01-24,Data/speeches/UK/on-EU Student Immigration 2011-01-24.json,Non-EU Student Immigration,2.0
+289,2011-02-02,Data/tmp_text_files/UK/Opposition Day 2011-02-02.txt,,
+290,2011-02-07,Data/tmp_text_files/UK/Opposition Day 2011-02-07.txt,,
+291,2011-01-24,Data/speeches/UK/ral Answers to Questions 2011-01-24.json,Oral Answers to Questions,2.0
+292,2011-01-25,Data/speeches/UK/ral Answers to Questions 2011-01-25.json,Oral Answers to Questions,2.0
+293,2011-01-26,Data/speeches/UK/ral Answers to Questions 2011-01-26.json,Oral Answers to Questions,2.0
+294,2011-01-27,Data/speeches/UK/ral Answers to Questions 2011-01-27.json,Oral Answers to Questions,2.0
+295,2011-01-31,Data/speeches/UK/ral Answers to Questions 2011-01-31.json,Oral Answers to Questions,2.0
+296,2011-02-01,Data/speeches/UK/ral Answers to Questions 2011-02-01.json,Oral Answers to Questions,2.0
+297,2011-02-02,Data/speeches/UK/ral Answers to Questions 2011-02-02.json,Oral Answers to Questions,2.0
+298,2011-02-03,Data/speeches/UK/ral Answers to Questions 2011-02-03.json,Oral Answers to Questions,2.0
+299,2011-02-07,Data/speeches/UK/ral Answers to Questions 2011-02-07.json,Oral Answers to Questions,2.0
+300,2011-02-03,Data/speeches/UK/alestine 2011-02-03.json,Palestine,2.0
+301,2011-02-01,Data/tmp_text_files/UK/Parliament Square (Management) Bill [HL] 2011-02-01.txt,,
+302,2011-02-03,Data/speeches/UK/arliamentary Reform 2011-02-03.json,Parliamentary Reform,2.0
+303,2011-01-24,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-01-24 (1).json,Parliamentary Voting System and Constituencies Bill,2.0
+304,2011-01-24,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-01-24.json,Parliamentary Voting System and Constituencies Bill,2.0
+305,2011-01-25,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-01-25.json,Parliamentary Voting System and Constituencies Bill,2.0
+306,2011-01-26,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-01-26 (1).json,Parliamentary Voting System and Constituencies Bill,2.0
+307,2011-01-26,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-01-26.json,Parliamentary Voting System and Constituencies Bill,2.0
+308,2011-01-31,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-01-31 (1).json,Parliamentary Voting System and Constituencies Bill,2.0
+309,2011-01-31,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-01-31.json,Parliamentary Voting System and Constituencies Bill,2.0
+310,2011-02-01,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-02-01.json,Parliamentary Voting System and Constituencies Bill,2.0
+311,2011-02-02,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-02-02.json,Parliamentary Voting System and Constituencies Bill,2.0
+312,2011-02-07,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-02-07 (1).json,Parliamentary Voting System and Constituencies Bill,2.0
+313,2011-02-07,Data/tmp_text_files/UK/Parliamentary Voting System and Constituencies Bill 2011-02-07 (2).txt,,
+314,2011-02-07,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2011-02-07.json,Parliamentary Voting System and Constituencies Bill,2.0
+315,2011-02-01,Data/speeches/UK/ensioner Poverty 2011-02-01.json,Pensioner Poverty,2.0
+316,2011-01-31,Data/speeches/UK/etition 2011-01-31.json,petition,2.0
+317,2011-02-01,Data/speeches/UK/etition 2011-02-01.json,petition,2.0
+318,2011-02-01,Data/speeches/UK/iracy 2011-02-01.json,Piracy,2.0
+319,2011-01-24,Data/speeches/UK/lanning Blight 2011-01-24.json,Planning Blight,2.0
+320,2011-01-26,Data/speeches/UK/oint of Order 2011-01-26.json,Point of Order,2.0
+321,2011-02-02,Data/speeches/UK/oint of Order 2011-02-02.json,Point of Order,2.0
+322,2011-01-24,Data/speeches/UK/oints of Order 2011-01-24.json,Points of Order,2.0
+323,2011-01-25,Data/speeches/UK/oints of Order 2011-01-25.json,Points of Order,2.0
+324,2011-01-27,Data/speeches/UK/oints of Order 2011-01-27.json,Points of Order,2.0
+325,2011-01-31,Data/speeches/UK/oints of Order 2011-01-31.json,Points of Order,2.0
+326,2011-02-01,Data/speeches/UK/oints of Order 2011-02-01.json,Points of Order,2.0
+327,2011-02-03,Data/speeches/UK/oints of Order 2011-02-03.json,Points of Order,2.0
+328,2011-02-07,Data/speeches/UK/oints of Order 2011-02-07.json,Points of Order,2.0
+329,2011-01-24,Data/speeches/UK/olice (Bolton) 2011-01-24.json,Police (Bolton),2.0
+330,2011-01-24,Data/speeches/UK/olice (Regulatory Burden) 2011-01-24.json,Police (Regulatory Burden),2.0
+331,2011-01-24,Data/speeches/UK/olice (Rural Areas) 2011-01-24.json,Police (Rural Areas),2.0
+332,2011-01-25,"Data/speeches/UK/olice and Criminal Evidence Act 1984 (Codes of Practice) (Revision of Codes A, B and D) Order 2011 2011-01-25.json","Police and Criminal Evidence Act 1984 (Codes of Practice) (Revision of Codes A, B and D) Order 2011",2.0
+333,2011-02-02,Data/speeches/UK/olice Funding (Devon and Cornwall) 2011-02-02.json,Police Funding (Devon and Cornwall),2.0
+334,2011-02-01,Data/speeches/UK/olice_ Officer Numbers 2011-02-01.json,Police: Officer Numbers,2.0
+335,2011-02-01,Data/speeches/UK/olicing (Telford) 2011-02-01.json,Policing (Telford),2.0
+336,2011-02-01,Data/speeches/UK/ost-16 Students 2011-02-01.json,Post-16 Students,2.0
+337,2011-01-24,Data/tmp_text_files/UK/Prayers 2011-01-24.txt,,
+338,2011-01-25,Data/tmp_text_files/UK/Prayers 2011-01-25.txt,,
+339,2011-01-26,Data/tmp_text_files/UK/Prayers 2011-01-26.txt,,
+340,2011-01-27,Data/tmp_text_files/UK/Prayers 2011-01-27.txt,,
+341,2011-01-31,Data/tmp_text_files/UK/Prayers 2011-01-31.txt,,
+342,2011-02-01,Data/tmp_text_files/UK/Prayers 2011-02-01.txt,,
+343,2011-02-02,Data/tmp_text_files/UK/Prayers 2011-02-02.txt,,
+344,2011-02-03,Data/tmp_text_files/UK/Prayers 2011-02-03.txt,,
+345,2011-02-04,Data/tmp_text_files/UK/Prayers 2011-02-04.txt,,
+346,2011-02-07,Data/tmp_text_files/UK/Prayers 2011-02-07.txt,,
+347,2011-01-26,Data/speeches/UK/rime Minister 2011-01-26.json,Prime Minister,2.0
+348,2011-02-02,Data/speeches/UK/rime Minister 2011-02-02.json,Prime Minister,2.0
+349,2011-01-25,Data/speeches/UK/risoners_ Voting 2011-01-25.json,Prisoners: Voting,2.0
+350,2011-01-25,Data/speeches/UK/roperty Market 2011-01-25.json,Property Market,2.0
+351,2011-02-03,Data/speeches/UK/roposed Directive (Information Systems) 2011-02-03.json,Proposed Directive (Information Systems),2.0
+352,2011-01-25,Data/speeches/UK/rotection of Vulnerable Groups (Scotland) Act 2007 (Consequential Modifications) Order 2011 2011-01-25.json,Protection of Vulnerable Groups (Scotland) Act 2007 (Consequential Modifications) Order 2011,2.0
+353,2011-02-02,Data/speeches/UK/ublic Forest Estate (England) 2011-02-02.json,Public Forest Estate (England),2.0
+354,2011-01-25,Data/speeches/UK/AF Leuchars 2011-01-25.json,RAF Leuchars,2.0
+355,2011-01-31,Data/speeches/UK/AF St Athan 2011-01-31.json,RAF St Athan,2.0
+356,2011-01-27,Data/speeches/UK/ail Franchising 2011-01-27.json,Rail Franchising,2.0
+357,2011-01-27,Data/speeches/UK/ail Industry (Reform) 2011-01-27.json,Rail Industry (Reform),2.0
+358,2011-02-01,Data/speeches/UK/ailways_ Heritage Sector 2011-02-01.json,Railways: Heritage Sector,2.0
+359,2011-01-31,Data/speeches/UK/eform of Health Services (Wycombe) 2011-01-31.json,Reform of Health Services (Wycombe),2.0
+360,2011-02-07,Data/speeches/UK/egistration of Members’ Financial Interests 2011-02-07.json,Registration of Members’ Financial Interests,2.0
+361,2011-02-01,Data/speeches/UK/eligions for Peace 2011-02-01.json,Religions for Peace,2.0
+362,2011-02-07,Data/speeches/UK/eligious Education 2011-02-07.json,Religious Education,2.0
+363,2011-01-25,Data/tmp_text_files/UK/Remembrance Sunday (Closure of Shops) Bill [HL] 2011-01-25.txt,,
+364,2011-01-24,Data/tmp_text_files/UK/Rent Officers (Housing Benefit Functions) Amendments Order 2010 2011-01-24.txt,,
+365,2011-01-31,Data/speeches/UK/eturning Troop Costs (Germany) 2011-01-31.json,Returning Troop Costs (Germany),2.0
+366,2011-01-27,Data/speeches/UK/oad Schemes (East Yorkshire) 2011-01-27.json,Road Schemes (East Yorkshire),2.0
+367,2011-01-27,Data/speeches/UK/oadside Inspection 2011-01-27.json,Roadside Inspection,2.0
+368,2011-02-01,Data/speeches/UK/oads_ Charging 2011-02-01.json,Roads: Charging,2.0
+369,2011-02-07,Data/tmp_text_files/UK/Rules of the Court of Judicature (Northern Ireland) (Amendment No. 3) 2010 2011-02-07.txt,,
+370,2011-02-03,Data/speeches/UK/ural Payments Agency 2011-02-03 (1).json,Rural Payments Agency,2.0
+371,2011-02-03,Data/speeches/UK/ural Payments Agency 2011-02-03.json,Rural Payments Agency,2.0
+372,2011-02-07,Data/speeches/UK/chool Discipline 2011-02-07.json,School Discipline,2.0
+373,2011-02-01,Data/speeches/UK/chool Governance 2011-02-01.json,School Governance,2.0
+374,2011-02-07,Data/speeches/UK/chools (Loughborough) 2011-02-07.json,Schools (Loughborough),2.0
+375,2011-02-01,Data/speeches/UK/chools Funding (Worcestershire) 2011-02-01.json,Schools Funding (Worcestershire),2.0
+376,2011-01-26,Data/speeches/UK/cotland 2011-01-26.json,Scotland,2.0
+377,2011-01-27,Data/speeches/UK/cotland Bill (Programme) 2011-01-27.json,Scotland Bill (Programme),2.0
+378,2011-01-27,Data/speeches/UK/cotland Bill 2011-01-27.json,Scotland Bill,2.0
+379,2011-01-26,Data/speeches/UK/cottish Parliament (Financial Accountability) 2011-01-26.json,Scottish Parliament (Financial Accountability),2.0
+380,2011-01-25,Data/speeches/UK/ocial and Health Care 2011-01-25.json,Social and Health Care,2.0
+381,2011-01-24,Data/speeches/UK/outh Wales Police (CSR) 2011-01-24.json,South Wales Police (CSR),2.0
+382,2011-01-26,Data/speeches/UK/peaker’s Committee for the Independent Parliamentary Standards Authority 2011-01-26.json,Speaker’s Committee for the Independent Parliamentary Standards Authority,2.0
+383,2011-02-07,Data/speeches/UK/pecial Educational Needs 2011-02-07.json,Special Educational Needs,2.0
+384,2011-01-27,Data/speeches/UK/tate Pension Age 2011-01-27.json,State Pension Age,2.0
+385,2011-01-31,Data/speeches/UK/trategic Defence and Security Review 2011-01-31.json,Strategic Defence and Security Review,2.0
+386,2011-02-03,Data/speeches/UK/TV 2011-02-03.json,STV,2.0
+387,2011-02-01,Data/speeches/UK/udan 2011-02-01.json,Sudan,2.0
+388,2011-02-07,Data/speeches/UK/udan 2011-02-07.json,Sudan,2.0
+389,2011-02-07,Data/speeches/UK/upermarket Acquisitions (Tyne and Wear) 2011-02-07.json,Supermarket Acquisitions (Tyne and Wear),2.0
+390,2011-02-07,Data/speeches/UK/ure Start 2011-02-07.json,Sure Start,2.0
+391,2011-02-07,Data/speeches/UK/eaching Standards 2011-02-07.json,Teaching Standards,2.0
+392,2011-01-27,Data/speeches/UK/elephone Hacking 2011-01-27.json,Telephone Hacking,2.0
+393,2011-01-26,Data/speeches/UK/he Army and RAF Lyneham 2011-01-26.json,The Army and RAF Lyneham,2.0
+394,2011-01-24,Data/speeches/UK/opical Questions 2011-01-24.json,Topical Questions,2.0
+395,2011-01-25,Data/speeches/UK/opical Questions 2011-01-25.json,Topical Questions,2.0
+396,2011-01-27,Data/speeches/UK/opical Questions 2011-01-27.json,Topical Questions,2.0
+397,2011-01-31,Data/speeches/UK/opical Questions 2011-01-31.json,Topical Questions,2.0
+398,2011-02-01,Data/speeches/UK/opical Questions 2011-02-01.json,Topical Questions,2.0
+399,2011-02-03,Data/speeches/UK/opical Questions 2011-02-03.json,Topical Questions,2.0
+400,2011-02-07,Data/speeches/UK/opical Questions 2011-02-07.json,Topical Questions,2.0
+401,2011-01-31,Data/speeches/UK/ornado Maintenance Facilities 2011-01-31.json,Tornado Maintenance Facilities,2.0
+402,2011-01-27,Data/speeches/UK/ourism 2011-01-27.json,Tourism,2.0
+403,2011-01-27,Data/speeches/UK/raffic Lights 2011-01-27.json,Traffic Lights,2.0
+404,2011-01-27,Data/speeches/UK/rafficking (Women and Girls) 2011-01-27.json,Trafficking (Women and Girls),2.0
+405,2011-01-27,Data/speeches/UK/ransport 2011-01-27.json,Transport,2.0
+406,2011-01-24,Data/tmp_text_files/UK/Transport for London Bill [HL] 2011-01-24.txt,,
+407,2011-01-31,Data/speeches/UK/rident Replacement Submarines 2011-01-31.json,Trident Replacement Submarines,2.0
+408,2011-01-26,Data/speeches/UK/uition Fees 2011-01-26.json,Tuition Fees,2.0
+409,2011-02-01,Data/speeches/UK/unisia 2011-02-01.json,Tunisia,2.0
+410,2011-01-24,Data/speeches/UK/K Border Agency (CSR) 2011-01-24.json,UK Border Agency (CSR),2.0
+411,2011-01-26,Data/speeches/UK/K Internet Search Engines 2011-01-26.json,UK Internet Search Engines,2.0
+412,2011-01-31,Data/speeches/UK/mbilical Cord Blood 2011-01-31.json,Umbilical Cord Blood,2.0
+413,2011-01-26,Data/speeches/UK/nemployment 2011-01-26.json,Unemployment,2.0
+414,2011-01-27,Data/speeches/UK/ninsured Drivers 2011-01-27.json,Uninsured Drivers,2.0
+415,2011-02-07,Data/speeches/UK/niversity Technical Colleges 2011-02-07.json,University Technical Colleges,2.0
+416,2011-01-26,Data/speeches/UK/alue Added Tax 2011-01-26.json,Value Added Tax,2.0
+417,2011-01-31,Data/speeches/UK/eterans (Benefits) 2011-01-31.json,Veterans (Benefits),2.0
+418,2011-01-25,Data/speeches/UK/ideo Link Consultations (Prisons) 2011-01-25.json,Video Link Consultations (Prisons),2.0
+419,2011-02-07,Data/speeches/UK/ocational Education 2011-02-07.json,Vocational Education,2.0
+420,2011-02-02,Data/speeches/UK/ales 2011-02-02.json,Wales,2.0
+421,2011-01-27,Data/speeches/UK/estern Sahara 2011-01-27.json,Western Sahara,2.0
+422,2011-01-25,Data/speeches/UK/estminster Hall 2011-01-25 (1).json,Westminster Hall,2.0
+423,2011-01-25,Data/tmp_text_files/UK/Westminster Hall 2011-01-25.txt,,
+424,2011-01-26,Data/speeches/UK/estminster Hall 2011-01-26 (1).json,Westminster Hall,2.0
+425,2011-01-26,Data/tmp_text_files/UK/Westminster Hall 2011-01-26.txt,,
+426,2011-01-27,Data/speeches/UK/estminster Hall 2011-01-27 (1).json,Westminster Hall,2.0
+427,2011-01-27,Data/tmp_text_files/UK/Westminster Hall 2011-01-27.txt,,
+428,2011-02-01,Data/speeches/UK/estminster Hall 2011-02-01 (1).json,Westminster Hall,2.0
+429,2011-02-01,Data/tmp_text_files/UK/Westminster Hall 2011-02-01.txt,,
+430,2011-02-02,Data/speeches/UK/estminster Hall 2011-02-02 (1).json,Westminster Hall,2.0
+431,2011-02-02,Data/tmp_text_files/UK/Westminster Hall 2011-02-02.txt,,
+432,2011-02-03,Data/speeches/UK/estminster Hall 2011-02-03 (1).json,Westminster Hall,2.0
+433,2011-02-03,Data/tmp_text_files/UK/Westminster Hall 2011-02-03.txt,,
+434,2011-01-27,Data/speeches/UK/omen and Equalities 2011-01-27.json,Women and Equalities,2.0
+435,2011-01-24,Data/speeches/UK/outh Services (CSR) 2011-01-24.json,Youth Services (CSR),2.0
+436,2011-02-07,Data/speeches/UK/outh Services 2011-02-07.json,Youth Services,2.0
+437,2011-01-27,Data/speeches/UK/imbabwe 2011-01-27.json,Zimbabwe,2.0

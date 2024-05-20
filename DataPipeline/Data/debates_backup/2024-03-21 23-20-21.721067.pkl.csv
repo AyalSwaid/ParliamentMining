@@ -1,0 +1,264 @@
+,date,file_path,debate_title,country
+0,2010-09-15,Data/tmp_text_files/UK/10. Consortium claims for group relief 2010-09-15.txt,,
+1,2010-09-15,Data/tmp_text_files/UK/11. Value Added tax (supplies relating to non-business use of business assets) 2010-09-15.txt,,
+2,2010-09-15,"Data/tmp_text_files/UK/12. value added tax (gas, heat and cooling) 2010-09-15.txt",,
+3,2010-09-15,Data/tmp_text_files/UK/13. Value added tax (aircraft) 2010-09-15.txt,,
+4,2010-09-15,Data/tmp_text_files/UK/14. Value added tax (Postal Services and transport of passengers) 2010-09-15.txt,,
+5,2010-09-15,Data/tmp_text_files/UK/15. tobacco products duty (long Cigarettes) 2010-09-15.txt,,
+6,2010-09-15,Data/tmp_text_files/UK/16. landfill tax (Lower Rate Materials) 2010-09-15.txt,,
+7,2010-09-15,Data/tmp_text_files/UK/17. Recovery of overpaid tax 2010-09-15.txt,,
+8,2010-09-15,Data/tmp_text_files/UK/18. Relief from tax (incidental and consequential Charges) 2010-09-15.txt,,
+9,2010-09-15,Data/tmp_text_files/UK/2. cAPITAL aLLOWANCES 2010-09-15.txt,,
+10,2010-09-15,Data/tmp_text_files/UK/3. Venture Capital Schemes 2010-09-15.txt,,
+11,2010-09-15,Data/tmp_text_files/UK/4. Enterprise Management Incentives 2010-09-15.txt,,
+12,2010-09-15,Data/tmp_text_files/UK/5. Settlors’ Excess REpayments 2010-09-15.txt,,
+13,2010-09-15,Data/tmp_text_files/UK/6. Collection of income tax on payments 2010-09-15.txt,,
+14,2010-09-15,Data/tmp_text_files/UK/7. Company Distributions 2010-09-15.txt,,
+15,2010-09-15,Data/tmp_text_files/UK/8. Real Estate Investment trusts 2010-09-15.txt,,
+16,2010-09-15,Data/tmp_text_files/UK/9. Financing Costs and income of group Companies 2010-09-15.txt,,
+17,2010-09-07,Data/speeches/UK/ccident and Emergency Departments 2010-09-07.json,Accident and Emergency Departments,2.0
+18,2010-09-14,Data/speeches/UK/ccident and Emergency Services 2010-09-14.json,Accident and Emergency Services,2.0
+19,2010-09-08,Data/speeches/UK/irbus A400M 2010-09-08.json,Airbus A400M,2.0
+20,2010-09-15,Data/speeches/UK/mendment of the Law 2010-09-15.json,Amendment of the Law,2.0
+21,2010-09-14,Data/tmp_text_files/UK/Apprenticeships and Skills (Public Procurement Contracts) 2010-09-14.txt,,
+22,2010-09-13,Data/speeches/UK/rmy Recovery Capability 2010-09-13.json,Army Recovery Capability,2.0
+23,2010-09-06,Data/speeches/UK/sylum Backlog 2010-09-06.json,Asylum Backlog,2.0
+24,2010-09-07,Data/speeches/UK/udit Commission 2010-09-07.json,Audit Commission,2.0
+25,2010-09-09,Data/tmp_text_files/UK/Backbench Business 2010-09-09.txt,,
+26,2010-09-16,Data/tmp_text_files/UK/Backbench Business 2010-09-16.txt,,
+27,2010-09-14,Data/speeches/UK/illy Wright Inquiry 2010-09-14.json,Billy Wright Inquiry,2.0
+28,2010-09-16,Data/speeches/UK/iodiversity 2010-09-16.json,Biodiversity,2.0
+29,2010-09-13,Data/speeches/UK/ritish Troops Under US Command (Helmand) 2010-09-13.json,British Troops Under US Command (Helmand),2.0
+30,2010-09-09,Data/speeches/UK/usiness of the House 2010-09-09.json,Business of the House,2.0
+31,2010-09-16,Data/speeches/UK/usiness of the House 2010-09-16.json,Business of the House,2.0
+32,2010-09-06,Data/tmp_text_files/UK/Business without Debate 2010-09-06.txt,,
+33,2010-09-13,Data/tmp_text_files/UK/Business without Debate 2010-09-13.txt,,
+34,2010-09-14,Data/tmp_text_files/UK/Business without Debate 2010-09-14.txt,,
+35,2010-09-15,Data/tmp_text_files/UK/Business without Debate 2010-09-15.txt,,
+36,2010-09-07,Data/speeches/UK/ancer Drugs Fund 2010-09-07.json,Cancer Drugs Fund,2.0
+37,2010-09-07,Data/speeches/UK/ancer Survival Measurement 2010-09-07.json,Cancer Survival Measurement,2.0
+38,2010-09-16,Data/speeches/UK/ancun Conference 2010-09-16.json,Cancun Conference,2.0
+39,2010-09-16,Data/speeches/UK/arbon Floor Price 2010-09-16.json,Carbon Floor Price,2.0
+40,2010-09-09,Data/speeches/UK/ircuses (Wild Animals) 2010-09-09.json,Circuses (Wild Animals),2.0
+41,2010-09-13,Data/speeches/UK/ombat Stress (Retired Service Personnel) 2010-09-13.json,Combat Stress (Retired Service Personnel),2.0
+42,2010-09-06,Data/speeches/UK/ommons Chamber 2010-09-06.json,Commons Chamber,2.0
+43,2010-09-07,Data/speeches/UK/ommons Chamber 2010-09-07.json,Commons Chamber,2.0
+44,2010-09-08,Data/speeches/UK/ommons Chamber 2010-09-08.json,Commons Chamber,2.0
+45,2010-09-09,Data/speeches/UK/ommons Chamber 2010-09-09.json,Commons Chamber,2.0
+46,2010-09-13,Data/speeches/UK/ommons Chamber 2010-09-13.json,Commons Chamber,2.0
+47,2010-09-14,Data/speeches/UK/ommons Chamber 2010-09-14.json,Commons Chamber,2.0
+48,2010-09-15,Data/speeches/UK/ommons Chamber 2010-09-15.json,Commons Chamber,2.0
+49,2010-09-16,Data/speeches/UK/ommons Chamber 2010-09-16.json,Commons Chamber,2.0
+50,2010-09-06,Data/tmp_text_files/UK/Constituency Boundaries (Isle of Wight) 2010-09-06.txt,,
+51,2010-09-09,Data/speeches/UK/ontrols on Legal Highs 2010-09-09.json,Controls on Legal Highs,2.0
+52,2010-09-15,Data/speeches/UK/orporation Tax 2010-09-15.json,Corporation Tax,2.0
+53,2010-09-07,Data/speeches/UK/rayford Station (Access) 2010-09-07.json,Crayford Station (Access),2.0
+54,2010-09-08,Data/speeches/UK/rime and Policing 2010-09-08.json,Crime and Policing,2.0
+55,2010-09-15,Data/speeches/UK/riminal Bar (Public Funding) 2010-09-15.json,Criminal Bar (Public Funding),2.0
+56,2010-09-15,Data/speeches/UK/ross-border Economic Co-operation 2010-09-15.json,Cross-border Economic Co-operation,2.0
+57,2010-09-07,Data/speeches/UK/ross-Border Health Services 2010-09-07.json,Cross-Border Health Services,2.0
+58,2010-09-13,Data/speeches/UK/yber-Security 2010-09-13.json,Cyber-Security,2.0
+59,2010-09-13,Data/tmp_text_files/UK/Dartford Crossing 2010-09-13.txt,,
+60,2010-09-07,Data/speeches/UK/eath Certificates 2010-09-07.json,Death Certificates,2.0
+61,2010-09-13,Data/speeches/UK/efence 2010-09-13.json,Defence,2.0
+62,2010-09-13,Data/speeches/UK/efence Export Sales (Taiwan) 2010-09-13.json,Defence Export Sales (Taiwan),2.0
+63,2010-09-13,Data/speeches/UK/efence Industrial Strategy (SMEs) 2010-09-13.json,Defence Industrial Strategy (SMEs),2.0
+64,2010-09-06,Data/tmp_text_files/UK/Delegated legislation 2010-09-06.txt,,
+65,2010-09-14,Data/speeches/UK/etention Camps (Sri Lanka) 2010-09-14.json,Detention Camps (Sri Lanka),2.0
+66,2010-09-15,Data/speeches/UK/iabetes (Young People) 2010-09-15.json,Diabetes (Young People),2.0
+67,2010-09-07,Data/speeches/UK/iabetes 2010-09-07.json,Diabetes,2.0
+68,2010-09-08,Data/speeches/UK/iabetes 2010-09-08.json,Diabetes,2.0
+69,2010-09-08,Data/speeches/UK/irect Democracy Initiatives 2010-09-08.json,Direct Democracy Initiatives,2.0
+70,2010-09-15,Data/tmp_text_files/UK/Dolphins (Japan) 2010-09-15.txt,,
+71,2010-09-14,Data/speeches/UK/brahim Hamidi 2010-09-14.json,Ebrahim Hamidi,2.0
+72,2010-09-15,Data/speeches/UK/conomic Affairs 2010-09-15.json,Economic Affairs,2.0
+73,2010-09-07,Data/speeches/UK/ducation Expenditure (Coventry) 2010-09-07.json,Education Expenditure (Coventry),2.0
+74,2010-09-16,Data/speeches/UK/lectricity Generation (Local Authorities) 2010-09-16.json,Electricity Generation (Local Authorities),2.0
+75,2010-09-16,Data/speeches/UK/nergy and Climate Change 2010-09-16.json,Energy and Climate Change,2.0
+76,2010-09-16,Data/speeches/UK/nergy Markets (Security of Supply) 2010-09-16.json,Energy Markets (Security of Supply),2.0
+77,2010-09-08,Data/speeches/UK/ngagements 2010-09-08.json,Engagements,2.0
+78,2010-09-15,Data/speeches/UK/ngagements 2010-09-15.json,Engagements,2.0
+79,2010-09-09,"Data/speeches/UK/nvironment, Food and Rural Affairs 2010-09-09.json","Environment, Food and Rural Affairs",2.0
+80,2010-09-13,Data/speeches/UK/quipment Funding 2010-09-13.json,Equipment Funding,2.0
+81,2010-09-14,Data/speeches/UK/quitable Life (Payments) Bill 2010-09-14.json,Equitable Life (Payments) Bill,2.0
+82,2010-09-14,Data/speeches/UK/U External Action Programmes 2010-09-14.json,EU External Action Programmes,2.0
+83,2010-09-14,Data/speeches/UK/U Treaties 2010-09-14.json,EU Treaties,2.0
+84,2010-09-08,Data/speeches/UK/xpenditure Reductions (Policing) 2010-09-08.json,Expenditure Reductions (Policing),2.0
+85,2010-09-07,Data/speeches/UK/acet Joint Injections 2010-09-07.json,Facet Joint Injections,2.0
+86,2010-09-09,Data/speeches/UK/arm Animal Welfare 2010-09-09.json,Farm Animal Welfare,2.0
+87,2010-09-06,Data/speeches/UK/emale Genital Mutilation 2010-09-06.json,Female Genital Mutilation,2.0
+88,2010-09-15,Data/tmp_text_files/UK/Financial Services (Regulation of Deposits and Lending) 2010-09-15.txt,,
+89,2010-09-09,Data/speeches/UK/ish Quotas (Thanet) 2010-09-09.json,Fish Quotas (Thanet),2.0
+90,2010-09-13,Data/speeches/UK/ixed-term Parliaments Bill 2010-09-13.json,Fixed-term Parliaments Bill,2.0
+91,2010-09-09,Data/speeches/UK/lood Defences 2010-09-09.json,Flood Defences,2.0
+92,2010-09-09,Data/speeches/UK/ood Labelling 2010-09-09.json,Food Labelling,2.0
+93,2010-09-09,Data/speeches/UK/ood Procurement (Public Sector) 2010-09-09.json,Food Procurement (Public Sector),2.0
+94,2010-09-08,Data/speeches/UK/ootball Clubs (Governance) 2010-09-08.json,Football Clubs (Governance),2.0
+95,2010-09-14,Data/speeches/UK/oreign and Commonwealth Office 2010-09-14.json,Foreign and Commonwealth Office,2.0
+96,2010-09-07,Data/speeches/UK/reedom of Information (Amendment) 2010-09-07.json,Freedom of Information (Amendment),2.0
+97,2010-09-15,Data/speeches/UK/resh Produce Procurement (Prisons) 2010-09-15.json,Fresh Produce Procurement (Prisons),2.0
+98,2010-09-16,Data/speeches/UK/uel Poverty 2010-09-16.json,Fuel Poverty,2.0
+99,2010-09-07,Data/speeches/UK/P Commissioning 2010-09-07 (1).json,GP Commissioning,2.0
+100,2010-09-07,Data/speeches/UK/P Commissioning 2010-09-07.json,GP Commissioning,2.0
+101,2010-09-07,Data/speeches/UK/P Consortiums 2010-09-07.json,GP Consortiums,2.0
+102,2010-09-16,Data/speeches/UK/reen Jobs 2010-09-16.json,Green Jobs,2.0
+103,2010-09-13,Data/speeches/UK/ulf Region Security 2010-09-13.json,Gulf Region Security,2.0
+104,2010-09-07,Data/speeches/UK/ealth 2010-09-07.json,Health,2.0
+105,2010-09-06,Data/speeches/UK/ealth Professionals (Language Requirement) 2010-09-06.json,Health Professionals (Language Requirement),2.0
+106,2010-09-07,Data/speeches/UK/ealth Service Redundancies 2010-09-07.json,Health Service Redundancies,2.0
+107,2010-09-06,Data/speeches/UK/ome Department 2010-09-06.json,Home Department,2.0
+108,2010-09-07,Data/speeches/UK/ospital Facility Transfers 2010-09-07.json,Hospital Facility Transfers,2.0
+109,2010-09-06,Data/tmp_text_files/UK/House of Commons 2010-09-06.txt,,
+110,2010-09-07,Data/tmp_text_files/UK/House of Commons 2010-09-07.txt,,
+111,2010-09-08,Data/tmp_text_files/UK/House of Commons 2010-09-08.txt,,
+112,2010-09-09,Data/tmp_text_files/UK/House of Commons 2010-09-09.txt,,
+113,2010-09-13,Data/tmp_text_files/UK/House of Commons 2010-09-13.txt,,
+114,2010-09-14,Data/tmp_text_files/UK/House of Commons 2010-09-14.txt,,
+115,2010-09-15,Data/tmp_text_files/UK/House of Commons 2010-09-15.txt,,
+116,2010-09-16,Data/tmp_text_files/UK/House of Commons 2010-09-16.txt,,
+117,2010-09-14,Data/speeches/UK/ouse of Commons Commission 2010-09-14.json,House of Commons Commission,2.0
+118,2010-09-14,Data/speeches/UK/uman Rights 2010-09-14.json,Human Rights,2.0
+119,2010-09-06,Data/speeches/UK/dentity Cards 2010-09-06.json,Identity Cards,2.0
+120,2010-09-15,Data/speeches/UK/dentity Documents Bill (Programme) (No. 2) 2010-09-15.json,Identity Documents Bill (Programme) (No. 2),2.0
+121,2010-09-15,Data/speeches/UK/dentity Documents Bill 2010-09-15.json,Identity Documents Bill,2.0
+122,2010-09-06,Data/speeches/UK/mmigration 2010-09-06.json,Immigration,2.0
+123,2010-09-06,Data/speeches/UK/mmigration Cap 2010-09-06.json,Immigration Cap,2.0
+124,2010-09-15,Data/speeches/UK/ndividual Electoral Registration 2010-09-15.json,Individual Electoral Registration,2.0
+125,2010-09-15,Data/speeches/UK/nter-city Express Programme 2010-09-15.json,Inter-city Express Programme,2.0
+126,2010-09-14,Data/speeches/UK/ran's Nuclear Programme 2010-09-14.json,Iran's Nuclear Programme,2.0
+127,2010-09-13,Data/speeches/UK/abul International Conference 2010-09-13.json,Kabul International Conference,2.0
+128,2010-09-14,Data/speeches/UK/ashmir 2010-09-14.json,Kashmir,2.0
+129,2010-09-09,Data/speeches/UK/aying Hens 2010-09-09.json,Laying Hens,2.0
+130,2010-09-06,Data/speeches/UK/icensing 2010-09-06.json,Licensing,2.0
+131,2010-09-16,Data/speeches/UK/ow-carbon Economy 2010-09-16.json,Low-carbon Economy,2.0
+132,2010-09-16,Data/speeches/UK/ow-carbon Technologies 2010-09-16.json,Low-carbon Technologies,2.0
+133,2010-09-14,Data/speeches/UK/ow-income Households 2010-09-14.json,Low-income Households,2.0
+134,2010-09-09,Data/speeches/UK/ackerel Quota 2010-09-09.json,Mackerel Quota,2.0
+135,2010-09-14,Data/speeches/UK/aidstone Hospital (Maternity Services) 2010-09-14.json,Maidstone Hospital (Maternity Services),2.0
+136,2010-09-13,Data/speeches/UK/ental Health Care 2010-09-13.json,Mental Health Care,2.0
+137,2010-09-07,Data/speeches/UK/ental Illness Care 2010-09-07.json,Mental Illness Care,2.0
+138,2010-09-14,Data/speeches/UK/iddle East 2010-09-14.json,Middle East,2.0
+139,2010-09-15,Data/speeches/UK/ilitary Aviation Industry 2010-09-15.json,Military Aviation Industry,2.0
+140,2010-09-08,Data/speeches/UK/ational Assembly Powers 2010-09-08.json,National Assembly Powers,2.0
+141,2010-09-07,Data/speeches/UK/ational Capitation Formula 2010-09-07.json,National Capitation Formula,2.0
+142,2010-09-13,Data/speeches/UK/ATO Reform 2010-09-13.json,NATO Reform,2.0
+143,2010-09-13,Data/speeches/UK/ATO Responsibilities 2010-09-13.json,NATO Responsibilities,2.0
+144,2010-09-07,Data/speeches/UK/ICE (Cost-effective Drugs) 2010-09-07.json,NICE (Cost-effective Drugs),2.0
+145,2010-09-06,Data/speeches/UK/on-departmental Public Bodies 2010-09-06.json,Non-departmental Public Bodies,2.0
+146,2010-09-09,Data/speeches/UK/on-departmental Public Bodies 2010-09-09.json,Non-departmental Public Bodies,2.0
+147,2010-09-15,Data/speeches/UK/orthern Ireland 2010-09-15.json,Northern Ireland,2.0
+148,2010-09-16,Data/speeches/UK/ffshore Renewable Energy 2010-09-16.json,Offshore Renewable Energy,2.0
+149,2010-09-16,Data/speeches/UK/fgem (Energy Prices) 2010-09-16.json,Ofgem (Energy Prices),2.0
+150,2010-09-16,Data/speeches/UK/nshore Wind Farms 2010-09-16.json,Onshore Wind Farms,2.0
+151,2010-09-08,Data/tmp_text_files/UK/Opposition Day 2010-09-08.txt,,
+152,2010-09-06,Data/speeches/UK/ral Answers to Questions 2010-09-06.json,Oral Answers to Questions,2.0
+153,2010-09-07,Data/speeches/UK/ral Answers to Questions 2010-09-07.json,Oral Answers to Questions,2.0
+154,2010-09-08,Data/speeches/UK/ral Answers to Questions 2010-09-08.json,Oral Answers to Questions,2.0
+155,2010-09-09,Data/speeches/UK/ral Answers to Questions 2010-09-09.json,Oral Answers to Questions,2.0
+156,2010-09-13,Data/speeches/UK/ral Answers to Questions 2010-09-13.json,Oral Answers to Questions,2.0
+157,2010-09-14,Data/speeches/UK/ral Answers to Questions 2010-09-14.json,Oral Answers to Questions,2.0
+158,2010-09-15,Data/speeches/UK/ral Answers to Questions 2010-09-15.json,Oral Answers to Questions,2.0
+159,2010-09-16,Data/speeches/UK/ral Answers to Questions 2010-09-16.json,Oral Answers to Questions,2.0
+160,2010-09-07,Data/speeches/UK/akistan Floods 2010-09-07.json,Pakistan Floods,2.0
+161,2010-09-15,Data/speeches/UK/aramilitary Organisations 2010-09-15.json,Paramilitary Organisations,2.0
+162,2010-09-08,Data/speeches/UK/arliamentary Constituencies 2010-09-08.json,Parliamentary Constituencies,2.0
+163,2010-09-06,Data/speeches/UK/arliamentary Voting System and Constituencies Bill 2010-09-06.json,Parliamentary Voting System and Constituencies Bill,2.0
+164,2010-09-15,Data/speeches/UK/at Finucane 2010-09-15.json,Pat Finucane,2.0
+165,2010-09-08,Data/speeches/UK/AYE Contributions 2010-09-08.json,PAYE Contributions,2.0
+166,2010-09-07,Data/speeches/UK/C Yvonne Fletcher 2010-09-07.json,PC Yvonne Fletcher,2.0
+167,2010-09-06,Data/tmp_text_files/UK/Petition 2010-09-06.txt,,
+168,2010-09-15,Data/tmp_text_files/UK/petition 2010-09-15.txt,,
+169,2010-09-13,Data/speeches/UK/etitions 2010-09-13.json,Petitions,2.0
+170,2010-09-06,Data/speeches/UK/hone Tapping 2010-09-06.json,Phone Tapping,2.0
+171,2010-09-09,Data/speeches/UK/itt Review 2010-09-09.json,Pitt Review,2.0
+172,2010-09-07,Data/speeches/UK/oint of Order 2010-09-07.json,Point of Order,2.0
+173,2010-09-13,Data/speeches/UK/oint of Order 2010-09-13.json,Point of Order,2.0
+174,2010-09-14,Data/speeches/UK/oint of Order 2010-09-14.json,Point of Order,2.0
+175,2010-09-16,Data/speeches/UK/oint of Order 2010-09-16.json,Point of Order,2.0
+176,2010-09-06,Data/speeches/UK/oints of Order 2010-09-06.json,Points of Order,2.0
+177,2010-09-08,Data/speeches/UK/oints of Order 2010-09-08.json,Points of Order,2.0
+178,2010-09-09,Data/speeches/UK/oints of Order 2010-09-09.json,Points of Order,2.0
+179,2010-09-15,Data/speeches/UK/oints of Order 2010-09-15.json,Points of Order,2.0
+180,2010-09-06,Data/speeches/UK/olice Accountability 2010-09-06.json,Police Accountability,2.0
+181,2010-09-14,Data/speeches/UK/olice Commissioners (Wales) 2010-09-14.json,Police Commissioners (Wales),2.0
+182,2010-09-06,Data/speeches/UK/olice Funding 2010-09-06.json,Police Funding,2.0
+183,2010-09-06,Data/speeches/UK/olice Time (Administration) 2010-09-06.json,Police Time (Administration),2.0
+184,2010-09-08,Data/speeches/UK/olicing 2010-09-08.json,Policing,2.0
+185,2010-09-06,Data/tmp_text_files/UK/Prayers 2010-09-06.txt,,
+186,2010-09-07,Data/tmp_text_files/UK/Prayers 2010-09-07.txt,,
+187,2010-09-08,Data/tmp_text_files/UK/Prayers 2010-09-08.txt,,
+188,2010-09-09,Data/tmp_text_files/UK/Prayers 2010-09-09.txt,,
+189,2010-09-13,Data/tmp_text_files/UK/Prayers 2010-09-13.txt,,
+190,2010-09-14,Data/tmp_text_files/UK/Prayers 2010-09-14.txt,,
+191,2010-09-15,Data/tmp_text_files/UK/Prayers 2010-09-15.txt,,
+192,2010-09-16,Data/tmp_text_files/UK/Prayers 2010-09-16.txt,,
+193,2010-09-08,Data/speeches/UK/rime Minister 2010-09-08.json,Prime Minister,2.0
+194,2010-09-15,Data/speeches/UK/rime Minister 2010-09-15.json,Prime Minister,2.0
+195,2010-09-08,Data/speeches/UK/rison Capacity 2010-09-08.json,Prison Capacity,2.0
+196,2010-09-14,Data/speeches/UK/rivate Car Parks 2010-09-14.json,Private Car Parks,2.0
+197,2010-09-08,Data/tmp_text_files/UK/Privilege 2010-09-08.txt,,
+198,2010-09-09,Data/speeches/UK/rivilege 2010-09-09.json,Privilege,2.0
+199,2010-09-13,Data/speeches/UK/roposed Public Expenditure Cuts 2010-09-13.json,Proposed Public Expenditure Cuts,2.0
+200,2010-09-06,Data/speeches/UK/ublic Expenditure Reductions (Women) 2010-09-06.json,Public Expenditure Reductions (Women),2.0
+201,2010-09-08,Data/speeches/UK/ublic Expenditure Reductions 2010-09-08.json,Public Expenditure Reductions,2.0
+202,2010-09-07,Data/speeches/UK/ublic Libraries 2010-09-07.json,Public Libraries,2.0
+203,2010-09-13,Data/speeches/UK/ueen’s Speech (Date) 2010-09-13.json,Queen’s Speech (Date),2.0
+204,2010-09-15,Data/speeches/UK/ail Services (Enfield) 2010-09-15.json,Rail Services (Enfield),2.0
+205,2010-09-06,Data/speeches/UK/ecorded Crime 2010-09-06.json,Recorded Crime,2.0
+206,2010-09-09,Data/speeches/UK/egulatory Burden 2010-09-09.json,Regulatory Burden,2.0
+207,2010-09-16,Data/speeches/UK/enewable Technologies (Tariffs) 2010-09-16.json,Renewable Technologies (Tariffs),2.0
+208,2010-09-16,Data/speeches/UK/ented Accommodation (Insulation) 2010-09-16.json,Rented Accommodation (Insulation),2.0
+209,2010-09-08,Data/speeches/UK/ural Economy 2010-09-08.json,Rural Economy,2.0
+210,2010-09-08,Data/speeches/UK/yder Cup 2010-09-08.json,Ryder Cup,2.0
+211,2010-09-08,Data/speeches/UK/4C 2010-09-08.json,S4C,2.0
+212,2010-09-15,Data/speeches/UK/aville Inquiry 2010-09-15.json,Saville Inquiry,2.0
+213,2010-09-09,Data/speeches/UK/econdary Schooling (Sevenoaks) 2010-09-09.json,Secondary Schooling (Sevenoaks),2.0
+214,2010-09-08,Data/speeches/UK/ex and Relationships Education 2010-09-08.json,Sex and Relationships Education,2.0
+215,2010-09-13,Data/speeches/UK/haring Military Equipment 2010-09-13.json,Sharing Military Equipment,2.0
+216,2010-09-07,Data/speeches/UK/mall Businesses 2010-09-07.json,Small Businesses,2.0
+217,2010-09-14,Data/speeches/UK/outh-East Asia 2010-09-14.json,South-East Asia,2.0
+218,2010-09-14,Data/speeches/UK/ri Lanka (Detainees) 2010-09-14.json,Sri Lanka (Detainees),2.0
+219,2010-09-13,Data/speeches/UK/trategic Defence and Security Review 2010-09-13.json,Strategic Defence and Security Review,2.0
+220,2010-09-16,Data/speeches/UK/trategic Defence and Security Review 2010-09-16.json,Strategic Defence and Security Review,2.0
+221,2010-09-07,Data/speeches/UK/uperannuation Bill (Programme) 2010-09-07.json,Superannuation Bill (Programme),2.0
+222,2010-09-07,Data/speeches/UK/uperannuation Bill 2010-09-07.json,Superannuation Bill,2.0
+223,2010-09-09,Data/speeches/UK/upermarkets (Food Sourcing) 2010-09-09.json,Supermarkets (Food Sourcing),2.0
+224,2010-09-08,Data/speeches/UK/elford (Regeneration) 2010-09-08.json,Telford (Regeneration),2.0
+225,2010-09-14,Data/speeches/UK/he Maldives 2010-09-14.json,The Maldives,2.0
+226,2010-09-16,Data/speeches/UK/ianjin Conference 2010-09-16.json,Tianjin Conference,2.0
+227,2010-09-06,Data/speeches/UK/opical Questions 2010-09-06.json,Topical Questions,2.0
+228,2010-09-07,Data/speeches/UK/opical Questions 2010-09-07.json,Topical Questions,2.0
+229,2010-09-09,Data/speeches/UK/opical Questions 2010-09-09.json,Topical Questions,2.0
+230,2010-09-13,Data/speeches/UK/opical Questions 2010-09-13.json,Topical Questions,2.0
+231,2010-09-14,Data/speeches/UK/opical Questions 2010-09-14.json,Topical Questions,2.0
+232,2010-09-16,Data/speeches/UK/opical Questions 2010-09-16.json,Topical Questions,2.0
+233,2010-09-09,Data/speeches/UK/K Armed Forces in Afghanistan 2010-09-09.json,UK Armed Forces in Afghanistan,2.0
+234,2010-09-14,Data/speeches/UK/K-Iranian Relations 2010-09-14.json,UK-Iranian Relations,2.0
+235,2010-09-08,Data/speeches/UK/nauthorised Encampments 2010-09-08.json,Unauthorised Encampments,2.0
+236,2010-09-08,Data/speeches/UK/nscrupulous Landlords 2010-09-08.json,Unscrupulous Landlords,2.0
+237,2010-09-09,Data/speeches/UK/nsold Food 2010-09-09.json,Unsold Food,2.0
+238,2010-09-13,Data/speeches/UK/rban Supermarkets (Planning) 2010-09-13.json,Urban Supermarkets (Planning),2.0
+239,2010-09-06,Data/speeches/UK/S-UK Extradition Treaty 2010-09-06.json,US-UK Extradition Treaty,2.0
+240,2010-09-08,Data/speeches/UK/ales 2010-09-08.json,Wales,2.0
+241,2010-09-09,Data/speeches/UK/aste and Resources Action Programme 2010-09-09.json,Waste and Resources Action Programme,2.0
+242,2010-09-16,Data/speeches/UK/aste Plants (Electricity Generation) 2010-09-16.json,Waste Plants (Electricity Generation),2.0
+243,2010-09-15,Data/tmp_text_files/UK/Ways and Means 2010-09-15.txt,,
+244,2010-09-08,Data/speeches/UK/elsh Businesses 2010-09-08.json,Welsh Businesses,2.0
+245,2010-09-07,Data/speeches/UK/est Midlands 2010-09-07.json,West Midlands,2.0
+246,2010-09-07,Data/speeches/UK/estminster Hall 2010-09-07 (1).json,Westminster Hall,2.0
+247,2010-09-07,Data/tmp_text_files/UK/Westminster Hall 2010-09-07.txt,,
+248,2010-09-08,Data/speeches/UK/estminster Hall 2010-09-08 (1).json,Westminster Hall,2.0
+249,2010-09-08,Data/tmp_text_files/UK/Westminster Hall 2010-09-08.txt,,
+250,2010-09-09,Data/speeches/UK/estminster Hall 2010-09-09 (1).json,Westminster Hall,2.0
+251,2010-09-09,Data/tmp_text_files/UK/Westminster Hall 2010-09-09.txt,,
+252,2010-09-14,Data/speeches/UK/estminster Hall 2010-09-14 (1).json,Westminster Hall,2.0
+253,2010-09-14,Data/tmp_text_files/UK/Westminster Hall 2010-09-14.txt,,
+254,2010-09-15,Data/speeches/UK/estminster Hall 2010-09-15 (1).json,Westminster Hall,2.0
+255,2010-09-15,Data/tmp_text_files/UK/Westminster Hall 2010-09-15.txt,,
+256,2010-09-16,Data/speeches/UK/estminster Hall 2010-09-16 (1).json,Westminster Hall,2.0
+257,2010-09-16,Data/tmp_text_files/UK/Westminster Hall 2010-09-16.txt,,
+258,2010-09-06,Data/speeches/UK/heel-clamping 2010-09-06.json,Wheel-clamping,2.0
+259,2010-09-08,Data/speeches/UK/inter Fuel Payments 2010-09-08.json,Winter Fuel Payments,2.0
+260,2010-09-14,Data/speeches/UK/outh Employment (Wirral) 2010-09-14.json,Youth Employment (Wirral),2.0
+261,2010-09-16,Data/speeches/UK/outh Violence (London) 2010-09-16.json,Youth Violence (London),2.0
+262,2010-09-14,Data/speeches/UK/imbabwe 2010-09-14.json,Zimbabwe,2.0

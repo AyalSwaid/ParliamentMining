@@ -73,8 +73,7 @@ class IL_DataCollector(DataCollector):
         for entries in self.__get_members_bulks():
             for entry in entries:
                 MP_id = entry.find("PersonID").text
-                party_id = entry.find("CommitteeID").text
-                party_name = entry.find("CommitteeName").text
+                party_id = entry.find("FactionID").text
                 start_date = entry.find("StartDate").text
                 end_date = entry.find("FinishDate").text
 
@@ -86,7 +85,6 @@ class IL_DataCollector(DataCollector):
 
                 all_members.append({
                     "name": MP_name,
-                    "party": party_name,
                     "party_id": party_id,
                     "startDate": start_date,
                     "endDate": end_date
@@ -97,14 +95,11 @@ class IL_DataCollector(DataCollector):
         pd.DataFrame(all_members).to_csv(f"{Data.csv_files_dir}/members/IL_members.csv", index=False)
 
 
-
-
         # print(entries[0])
         # print(len(entries))
 
 
     def get_bills(self):
-        print()
         # define __get_bills_bullks() method
 
         all_bills = []
@@ -128,6 +123,30 @@ class IL_DataCollector(DataCollector):
 
         pd.DataFrame(all_bills).to_csv(f"{Data.csv_files_dir}/bills/IL_bills.csv", index=False)
 
+
+    def get_parties(self):
+        all_parties = []
+        id2name = {}
+
+        # for each bulk and for each bill in each bulk:
+        for entries in self.__get_parties_bulks():
+            for entry in entries:
+                # get (bill_id, title, date) and store them in dataframe then in csv
+                party_id = entry.find("FactionID").text
+                party_name = entry.find("Name").text
+                party_start_date = entry.find("StartDate").text
+                party_end_date = entry.find("FinishDate").text
+                party_KNS_num = entry.find("KnessetNum").text
+
+                all_parties.append({
+                    "party_id": party_id,
+                    "name": party_name,
+                    "start_date": party_start_date,
+                    "end_date": party_end_date,
+                    "KnessetNum": party_KNS_num
+                })
+
+        pd.DataFrame(all_parties).to_csv(f"{Data.csv_files_dir}/parties/IL_parties.csv", index=False)
 
     def __get_plenum_files(self, plenum_id):
         """
@@ -245,9 +264,24 @@ class IL_DataCollector(DataCollector):
             curr_bulk += 1
 
 
+    def __get_parties_bulks(self):
+        url = "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction?"
+
+        skip_size = 100
+        curr_bulk = 0
+
+        # get OData output
+        entries = ['tmp']
+        while entries:
+            print(f"BULK: {curr_bulk}/ 55")
+            resp = reqs.get(f"{url}$skip={skip_size * curr_bulk}")
+            soup = bs(resp.content, 'xml')
+            entries = soup.find_all('entry')
+            yield entries
+            curr_bulk += 1
 
 
 if __name__ == "__main__":
     a = IL_DataCollector(20)
     # a.get_debates()
-    a.get_bills()
+    a.get_members()

@@ -1,0 +1,359 @@
+Unnamed: 0,date,file_path,debate_title,country
+0,2010-01-27,Data/speeches/UK/011 Census 2010-01-27.json,2011 Census,2.0
+1,2010-01-26,Data/speeches/UK/012 Olympic Legacy 2010-01-26.json,2012 Olympic Legacy,2.0
+2,2010-01-28,Data/speeches/UK/47 2010-01-28.json,A47,2.0
+3,2010-01-27,Data/speeches/UK/dvice and Advocacy Services 2010-01-27.json,Advice and Advocacy Services,2.0
+4,2010-02-08,Data/speeches/UK/dvisory Council on the Misuse of Drugs 2010-02-08.json,Advisory Council on the Misuse of Drugs,2.0
+5,2010-01-26,Data/speeches/UK/ffordable Housing (London) 2010-01-26.json,Affordable Housing (London),2.0
+6,2010-02-01,Data/speeches/UK/fghanistan and Yemen 2010-02-01.json,Afghanistan and Yemen,2.0
+7,2010-02-01,Data/speeches/UK/fghanistan Conference and Yemen     Meeting 2010-02-01.json,Afghanistan Conference and Yemen     Meeting,2.0
+8,2010-02-04,Data/speeches/UK/griculture_ Chinese Lanterns 2010-02-04.json,Agriculture: Chinese Lanterns,2.0
+9,2010-01-26,Data/speeches/UK/ir Passenger Duty (Caribbean) 2010-01-26.json,Air Passenger Duty (Caribbean),2.0
+10,2010-02-08,Data/speeches/UK/irports_ Heathrow 2010-02-08.json,Airports: Heathrow,2.0
+11,2010-02-02,Data/speeches/UK/lcohol (Minimum Price) 2010-02-02.json,Alcohol (Minimum Price),2.0
+12,2010-02-08,Data/speeches/UK/lcohol-related Crime 2010-02-08.json,Alcohol-related Crime,2.0
+14,2010-02-02,Data/speeches/UK/luminium Industry 2010-02-02.json,Aluminium Industry,2.0
+15,2010-01-26,Data/speeches/UK/mbulance Response Times (Local Reporting) 2010-01-26.json,Ambulance Response Times (Local Reporting),2.0
+16,2010-02-04,Data/speeches/UK/naerobic Digestion 2010-02-04.json,Anaerobic Digestion,2.0
+17,2010-01-28,Data/speeches/UK/ntarctica_ Cruise Ships 2010-01-28.json,Antarctica: Cruise Ships,2.0
+18,2010-01-27,Data/speeches/UK/nti-Slavery Day 2010-01-27.json,Anti-Slavery Day,2.0
+19,2010-02-05,Data/speeches/UK/nti-Slavery Day Bill 2010-02-05.json,Anti-Slavery Day Bill,2.0
+21,2010-01-29,Data/speeches/UK/ntisocial Behaviour Orders 2010-01-29.json,Antisocial Behaviour Orders,2.0
+23,2010-02-02,Data/speeches/UK/rrangement of     Business 2010-02-02.json,Arrangement of     Business,2.0
+28,2010-02-03,Data/speeches/UK/ssisted Dying 2010-02-03.json,Assisted Dying,2.0
+30,2010-01-28,Data/speeches/UK/ttorney-General_ Private Prosecutions 2010-01-28.json,Attorney-General: Private Prosecutions,2.0
+32,2010-01-25,Data/speeches/UK/adman Report 2010-01-25.json,Badman Report,2.0
+34,2010-01-27,Data/speeches/UK/anking_     Bonuses 2010-01-27.json,Banking:     Bonuses,2.0
+35,2010-02-01,Data/speeches/UK/anking_ Services 2010-02-01.json,Banking: Services,2.0
+36,2010-01-26,Data/speeches/UK/anks 2010-01-26.json,Banks,2.0
+37,2010-02-02,Data/speeches/UK/anks_ Dormant Accounts 2010-02-02.json,Banks: Dormant Accounts,2.0
+38,2010-02-02,Data/speeches/UK/etter Healthcare Closer to Home 2010-02-02.json,Better Healthcare Closer to Home,2.0
+39,2010-02-03,Data/speeches/UK/lind and Partially Sighted People_ Street Design 2010-02-03.json,Blind and Partially Sighted People: Street Design,2.0
+41,2010-01-28,Data/speeches/UK/ournemouth Borough Council Bill [Lords] 2010-01-28.json,Bournemouth Borough Council Bill [Lords],2.0
+42,2010-02-04,Data/speeches/UK/ovine Tuberculosis 2010-02-04.json,Bovine Tuberculosis,2.0
+43,2010-02-02,Data/speeches/UK/ribery Bill [HL] 2010-02-02.json,Bribery Bill [HL],2.0
+44,2010-02-08,Data/speeches/UK/ribery Bill [HL] 2010-02-08.json,Bribery Bill [HL],2.0
+47,2010-01-28,Data/speeches/UK/usiness of the House 2010-01-28 (1).json,Business of the House,2.0
+48,2010-01-28,Data/speeches/UK/usiness of the House 2010-01-28.json,Business of the House,2.0
+51,2010-02-04,Data/speeches/UK/usiness of the House 2010-02-04.json,Business of the House,2.0
+55,2010-01-26,Data/speeches/UK/usiness Rate Revaluation 2010-01-26.json,Business Rate Revaluation,2.0
+57,2010-01-26,Data/speeches/UK/usiness without Debate 2010-01-26.json,Business without Debate,2.0
+59,2010-01-29,Data/speeches/UK/usiness without Debate 2010-01-29.json,Business without Debate,2.0
+65,2010-01-26,Data/speeches/UK/adbury 2010-01-26.json,Cadbury,2.0
+66,2010-02-02,Data/speeches/UK/apital Allowances (Plant and Machinery) 2010-02-02.json,Capital Allowances (Plant and Machinery),2.0
+67,2010-01-28,Data/speeches/UK/arbon Capture and Storage 2010-01-28.json,Carbon Capture and Storage,2.0
+68,2010-01-27,Data/speeches/UK/harities (Regulatory Burden) 2010-01-27 (1).json,Charities (Regulatory Burden),2.0
+69,2010-01-27,Data/speeches/UK/harities (Regulatory Burden) 2010-01-27.json,Charities (Regulatory Burden),2.0
+70,2010-01-26,Data/speeches/UK/harities Act 2006 (Changes in Exempt Charities) Order 2010 2010-01-26.json,Charities Act 2006 (Changes in Exempt Charities) Order 2010,2.0
+72,2010-01-26,Data/speeches/UK/harities Act 2006 2010-01-26.json,Charities Act 2006,2.0
+73,2010-02-01,Data/speeches/UK/hild Maintenance and Enforcement Commission 2010-02-01.json,Child Maintenance and Enforcement Commission,2.0
+74,2010-02-01,Data/speeches/UK/hild Poverty 2010-02-01.json,Child Poverty,2.0
+75,2010-01-25,Data/speeches/UK/hild Poverty Bill 2010-01-25.json,Child Poverty Bill,2.0
+76,2010-01-27,Data/speeches/UK/hild Poverty Bill 2010-01-27.json,Child Poverty Bill,2.0
+77,2010-02-08,Data/speeches/UK/hild Poverty Bill 2010-02-08.json,Child Poverty Bill,2.0
+78,2010-01-25,"Data/speeches/UK/hildren, Schools and Families 2010-01-25.json","Children, Schools and Families",2.0
+79,2010-01-25,Data/speeches/UK/hildren’s Centres 2010-01-25.json,Children’s Centres,2.0
+80,2010-01-25,Data/speeches/UK/hristian Worship 2010-01-25.json,Christian Worship,2.0
+81,2010-02-01,Data/speeches/UK/ivil Litigation 2010-02-01.json,Civil Litigation,2.0
+82,2010-02-08,Data/speeches/UK/luster Munitions (Prohibitions) Bill [HL] 2010-02-08.json,Cluster Munitions (Prohibitions) Bill [HL],2.0
+83,2010-01-27,Data/speeches/UK/olombia (Human Rights) 2010-01-27.json,Colombia (Human Rights),2.0
+84,2010-02-04,Data/speeches/UK/ommon Fisheries Policy 2010-02-04.json,Common Fisheries Policy,2.0
+85,2010-01-25,Data/speeches/UK/ommons Chamber 2010-01-25.json,Commons Chamber,2.0
+86,2010-01-26,Data/speeches/UK/ommons Chamber 2010-01-26.json,Commons Chamber,2.0
+87,2010-01-27,Data/speeches/UK/ommons Chamber 2010-01-27.json,Commons Chamber,2.0
+88,2010-01-28,Data/speeches/UK/ommons Chamber 2010-01-28.json,Commons Chamber,2.0
+89,2010-01-29,Data/speeches/UK/ommons Chamber 2010-01-29.json,Commons Chamber,2.0
+90,2010-02-01,Data/speeches/UK/ommons Chamber 2010-02-01.json,Commons Chamber,2.0
+91,2010-02-02,Data/speeches/UK/ommons Chamber 2010-02-02.json,Commons Chamber,2.0
+92,2010-02-03,Data/speeches/UK/ommons Chamber 2010-02-03.json,Commons Chamber,2.0
+93,2010-02-04,Data/speeches/UK/ommons Chamber 2010-02-04.json,Commons Chamber,2.0
+94,2010-02-05,Data/speeches/UK/ommons Chamber 2010-02-05.json,Commons Chamber,2.0
+95,2010-02-08,Data/speeches/UK/ommons Chamber 2010-02-08.json,Commons Chamber,2.0
+96,2010-02-01,Data/speeches/UK/ommunications Act 2003 (Disclosure of Information) Order 2010 2010-02-01.json,Communications Act 2003 (Disclosure of Information) Order 2010,2.0
+97,2010-01-26,Data/speeches/UK/ommunities and Local Government 2010-01-26.json,Communities and Local Government,2.0
+99,2010-02-03,Data/speeches/UK/ongo 2010-02-03.json,Congo,2.0
+100,2010-01-28,Data/speeches/UK/onstitutional Reform 2010-01-28.json,Constitutional Reform,2.0
+101,2010-01-26,Data/speeches/UK/onstitutional Reform and  Governance Bill 2010-01-26.json,Constitutional Reform and  Governance Bill,2.0
+102,2010-02-01,Data/speeches/UK/onstitutional Reform and Governance Bill (Money) (No. 2) 2010-02-01.json,Constitutional Reform and Governance Bill (Money) (No. 2),2.0
+103,2010-01-26,Data/speeches/UK/onstitutional Reform and Governance Bill (Programme) (No. 4) 2010-01-26.json,Constitutional Reform and Governance Bill (Programme) (No. 4),2.0
+104,2010-02-01,Data/speeches/UK/onstitutional Reform and Governance Bill (Ways and Means) (No. 2) 2010-02-01.json,Constitutional Reform and Governance Bill (Ways and Means) (No. 2),2.0
+105,2010-02-01,Data/speeches/UK/onstitutional Reform and Governance Bill 2010-02-01.json,Constitutional Reform and Governance Bill,2.0
+106,2010-02-05,Data/speeches/UK/onstitutional Reform Bill [HL] 2010-02-05.json,Constitutional Reform Bill [HL],2.0
+107,2010-02-03,Data/speeches/UK/ontrol Orders 2010-02-03.json,Control Orders,2.0
+109,2010-02-04,Data/speeches/UK/orporation Tax Bill 2010-02-04.json,Corporation Tax Bill,2.0
+110,2010-02-04,Data/speeches/UK/orruption_ Prosecutions 2010-02-04.json,Corruption: Prosecutions,2.0
+111,2010-02-04,Data/speeches/UK/rime and Security Bill (Ways and Means) 2010-02-04.json,Crime and Security Bill (Ways and Means),2.0
+112,2010-01-26,"Data/speeches/UK/riminal Justice Act 2003 (Mandatory Life Sentence, Determination of Minimum Term) Order 2010 2010-01-26.json","Criminal Justice Act 2003 (Mandatory Life Sentence, Determination of Minimum Term) Order 2010",2.0
+114,2010-02-03,Data/speeches/UK/riminal Justice and Policing (Devolution) 2010-02-03.json,Criminal Justice and Policing (Devolution),2.0
+115,2010-02-08,Data/speeches/UK/riminal Offences (Repeal) 2010-02-08.json,Criminal Offences (Repeal),2.0
+116,2010-01-27,Data/speeches/UK/rown Accession 2010-01-27.json,Crown Accession,2.0
+117,2010-01-27,Data/speeches/UK/airy Farming 2010-01-27.json,Dairy Farming,2.0
+118,2010-02-05,Data/speeches/UK/amages (Asbestos-Related Conditions) (No.2) Bill 2010-02-05.json,Damages (Asbestos-Related Conditions) (No.2) Bill,2.0
+119,2010-02-05,Data/speeches/UK/amages (Asbestos-related Conditions) Bill [HL] 2010-02-05.json,Damages (Asbestos-related Conditions) Bill [HL],2.0
+120,2010-02-04,Data/speeches/UK/angerous Dogs 2010-02-04.json,Dangerous Dogs,2.0
+122,2010-02-03,Data/speeches/UK/ecommissioning 2010-02-03.json,Decommissioning,2.0
+123,2010-01-25,Data/speeches/UK/elegated legislation 2010-01-25.json,delegated legislation,2.0
+128,2010-01-27,Data/speeches/UK/ementia Services 2010-01-27.json,Dementia Services,2.0
+131,2010-02-08,Data/speeches/UK/evolution (Northern Ireland) 2010-02-08.json,Devolution (Northern Ireland),2.0
+132,2010-01-26,Data/speeches/UK/igital Economy Bill [HL] 2010-01-26 (1).json,Digital Economy Bill [HL],2.0
+133,2010-01-26,Data/speeches/UK/igital Economy Bill [HL] 2010-01-26.json,Digital Economy Bill [HL],2.0
+134,2010-02-03,Data/speeches/UK/igital Economy Bill [HL] 2010-02-03.json,Digital Economy Bill [HL],2.0
+135,2010-02-08,Data/speeches/UK/igital Economy Bill [HL] 2010-02-08.json,Digital Economy Bill [HL],2.0
+136,2010-02-01,Data/speeches/UK/igital Inclusion 2010-02-01.json,Digital Inclusion,2.0
+137,2010-01-27,Data/speeches/UK/uchy of Lancaster 2010-01-27.json,Duchy of Lancaster,2.0
+138,2010-02-02,Data/speeches/UK/arly Intervention Policies 2010-02-02.json,Early Intervention Policies,2.0
+139,2010-02-04,Data/speeches/UK/ast Coast Main Line 2010-02-04.json,East Coast Main Line,2.0
+140,2010-02-01,Data/speeches/UK/ast of England Regional Grand Committee 2010-02-01.json,East of England Regional Grand Committee,2.0
+141,2010-02-04,Data/speeches/UK/conomy_ Enterprise and Innovation 2010-02-04.json,Economy: Enterprise and Innovation,2.0
+142,2010-01-25,Data/speeches/UK/ducation Maintenance Allowance 2010-01-25.json,Education Maintenance Allowance,2.0
+143,2010-02-02,Data/speeches/UK/ducation Maintenance Allowance 2010-02-02.json,Education Maintenance Allowance,2.0
+144,2010-01-25,Data/speeches/UK/ducational Psychologists 2010-01-25.json,Educational Psychologists,2.0
+145,2010-01-28,Data/speeches/UK/ducation_ Language Trends Survey 2010-01-28.json,Education: Language Trends Survey,2.0
+146,2010-01-28,Data/speeches/UK/mployees with Families 2010-01-28.json,Employees with Families,2.0
+147,2010-02-01,Data/speeches/UK/mployment and Support Allowance 2010-02-01.json,Employment and Support Allowance,2.0
+148,2010-02-04,Data/speeches/UK/ndangered Species 2010-02-04 (1).json,Endangered Species,2.0
+149,2010-02-04,Data/speeches/UK/ndangered Species 2010-02-04.json,Endangered Species,2.0
+150,2010-02-03,Data/speeches/UK/nergy_ National Policy Statements 2010-02-03.json,Energy: National Policy Statements,2.0
+151,2010-01-25,Data/speeches/UK/nergy_ Performance Certificates 2010-01-25.json,Energy: Performance Certificates,2.0
+152,2010-01-27,Data/speeches/UK/ngagements 2010-01-27 (1).json,Engagements,2.0
+153,2010-01-27,Data/speeches/UK/ngagements 2010-01-27.json,Engagements,2.0
+154,2010-02-03,Data/speeches/UK/ngagements 2010-02-03.json,Engagements,2.0
+155,2010-02-04,"Data/speeches/UK/nvironment, Food and Rural Affairs 2010-02-04.json","Environment, Food and Rural Affairs",2.0
+156,2010-01-27,Data/speeches/UK/quality     Bill 2010-01-27.json,Equality     Bill,2.0
+157,2010-01-28,Data/speeches/UK/quality Bill (Access to Information) 2010-01-28.json,Equality Bill (Access to Information),2.0
+158,2010-01-28,Data/speeches/UK/quality Bill (Age Discrimination) 2010-01-28.json,Equality Bill (Age Discrimination),2.0
+159,2010-01-28,Data/speeches/UK/quality Bill (Religious Groups) 2010-01-28.json,Equality Bill (Religious Groups),2.0
+160,2010-01-25,Data/speeches/UK/quality Bill 2010-01-25 (1).json,Equality Bill,2.0
+161,2010-01-25,Data/speeches/UK/quality Bill 2010-01-25.json,Equality Bill,2.0
+162,2010-01-27,Data/speeches/UK/quality Bill 2010-01-27.json,Equality Bill,2.0
+164,2010-01-27,Data/speeches/UK/U-Israel Trade Agreement 2010-01-27.json,EU-Israel Trade Agreement,2.0
+165,2010-01-26,Data/speeches/UK/uropean Union Committee 2010-01-26.json,European Union Committee,2.0
+167,2010-01-28,Data/speeches/UK/U_ Codecision (EUC Report) 2010-01-28.json,EU: Codecision (EUC Report),2.0
+168,2010-01-25,Data/speeches/UK/U_ External Action Service 2010-01-25.json,EU: External Action Service,2.0
+169,2010-02-04,Data/speeches/UK/U_ UK Convergence Programme 2010-02-04.json,EU: UK Convergence Programme,2.0
+170,2010-01-27,Data/speeches/UK/inance_ Alternative Investment Market 2010-01-27.json,Finance: Alternative Investment Market,2.0
+171,2010-02-02,Data/speeches/UK/inancial Sector 2010-02-02.json,Financial Sector,2.0
+173,2010-01-25,Data/speeches/UK/inancial Services Bill 2010-01-25.json,Financial Services Bill,2.0
+175,2010-02-08,Data/speeches/UK/irearm and Shotgun Licences 2010-02-08.json,Firearm and Shotgun Licences,2.0
+176,2010-01-28,Data/speeches/UK/irst Capital Connect (Thameslink) 2010-01-28.json,First Capital Connect (Thameslink),2.0
+177,2010-02-03,Data/speeches/UK/irst Capital Connect 2010-02-03.json,First Capital Connect,2.0
+178,2010-02-02,Data/speeches/UK/iscal and Monetary Policy 2010-02-02 (1).json,Fiscal and Monetary Policy,2.0
+179,2010-02-02,Data/speeches/UK/iscal and Monetary Policy 2010-02-02.json,Fiscal and Monetary Policy,2.0
+180,2010-02-02,Data/speeches/UK/iscal Support (Families) 2010-02-02.json,Fiscal Support (Families),2.0
+181,2010-02-02,Data/speeches/UK/lood and Water Management Bill 2010-02-02.json,Flood and Water Management Bill,2.0
+183,2010-01-25,Data/speeches/UK/lood Risk Regulations 2009 2010-01-25.json,Flood Risk Regulations 2009,2.0
+184,2010-02-04,Data/speeches/UK/ood Labelling 2010-02-04.json,Food Labelling,2.0
+185,2010-02-03,Data/speeches/UK/ood Production 2010-02-03.json,Food Production,2.0
+186,2010-01-26,Data/speeches/UK/oreign and Commonwealth Office 2010-01-26.json,Foreign and Commonwealth Office,2.0
+187,2010-02-03,Data/speeches/UK/uel Smuggling 2010-02-03.json,Fuel Smuggling,2.0
+188,2010-01-26,Data/speeches/UK/arden Development 2010-01-26.json,Garden Development,2.0
+189,2010-01-28,Data/speeches/UK/atwick Airport (Railway Station) 2010-01-28.json,Gatwick Airport (Railway Station),2.0
+191,2010-01-25,Data/speeches/UK/CSE Grades 2010-01-25.json,GCSE Grades,2.0
+192,2010-01-27,Data/speeches/UK/et Safe Online Initiative 2010-01-27.json,Get Safe Online Initiative,2.0
+193,2010-02-02,Data/speeches/UK/overnment Debt 2010-02-02.json,Government Debt,2.0
+194,2010-01-28,Data/speeches/UK/overnment Equalities Office 2010-01-28.json,Government Equalities Office,2.0
+195,2010-01-27,Data/speeches/UK/overnment Information Service 2010-01-27.json,Government Information Service,2.0
+196,2010-01-25,Data/speeches/UK/rand Committee 2010-01-25 (1).json,Grand Committee,2.0
+198,2010-01-26,Data/speeches/UK/rand Committee 2010-01-26 (1).json,Grand Committee,2.0
+200,2010-01-27,Data/speeches/UK/rand Committee 2010-01-27 (1).json,Grand Committee,2.0
+202,2010-02-01,Data/speeches/UK/rand Committee 2010-02-01 (1).json,Grand Committee,2.0
+204,2010-02-03,Data/speeches/UK/rand Committee 2010-02-03 (1).json,Grand Committee,2.0
+206,2010-02-08,Data/speeches/UK/rand Committee 2010-02-08 (1).json,Grand Committee,2.0
+208,2010-01-27,Data/speeches/UK/rassroots Grant Programme 2010-01-27.json,Grassroots Grant Programme,2.0
+209,2010-01-26,Data/speeches/UK/reen Belt 2010-01-26.json,Green Belt,2.0
+210,2010-02-01,Data/speeches/UK/ealth_ Herbal Medicine 2010-02-01.json,Health: Herbal Medicine,2.0
+211,2010-01-25,Data/speeches/UK/ealth_ Reciprocal Agreements 2010-01-25.json,Health: Reciprocal Agreements,2.0
+212,2010-01-28,Data/speeches/UK/igh-Speed Rail 2010-01-28.json,High-Speed Rail,2.0
+213,2010-02-03,Data/speeches/UK/IV_AIDS 2010-02-03.json,HIV/AIDS,2.0
+214,2010-01-28,Data/speeches/UK/olocaust Memorial Day 2010-01-28.json,Holocaust Memorial Day,2.0
+215,2010-02-08,Data/speeches/UK/ome Department 2010-02-08.json,Home Department,2.0
+216,2010-01-26,Data/speeches/UK/ome Information Packs 2010-01-26.json,Home Information Packs,2.0
+217,2010-02-02,Data/speeches/UK/omes and Communities Agency 2010-02-02.json,Homes and Communities Agency,2.0
+219,2010-01-26,Data/speeches/UK/orn of Africa 2010-01-26.json,Horn of Africa,2.0
+241,2010-01-26,Data/speeches/UK/ousing Stock 2010-01-26.json,Housing Stock,2.0
+242,2010-02-04,Data/speeches/UK/uman Rights 2010-02-04.json,Human Rights,2.0
+243,2010-02-08,Data/speeches/UK/dentity Fraud 2010-02-08.json,Identity Fraud,2.0
+244,2010-02-08,Data/speeches/UK/mmigration System (Tier 4) 2010-02-08.json,Immigration System (Tier 4),2.0
+245,2010-01-25,Data/speeches/UK/mmigration_ “Bogus” Colleges 2010-01-25.json,Immigration: “Bogus” Colleges,2.0
+246,2010-02-01,Data/speeches/UK/ncapacity Benefit 2010-02-01.json,Incapacity Benefit,2.0
+247,2010-02-01,Data/speeches/UK/ndependent Medical Assessments 2010-02-01.json,Independent Medical Assessments,2.0
+248,2010-02-01,Data/speeches/UK/nfrastructure Planning (Decisions) Regulations 2010 2010-02-01.json,Infrastructure Planning (Decisions) Regulations 2010,2.0
+250,2010-01-25,Data/speeches/UK/ntegrated Qualifications 2010-01-25.json,Integrated Qualifications,2.0
+251,2010-01-26,Data/speeches/UK/nterfaith Projects 2010-01-26.json,Interfaith Projects,2.0
+252,2010-02-04,Data/speeches/UK/nternational Whaling Commission 2010-02-04.json,International Whaling Commission,2.0
+253,2010-02-01,Data/speeches/UK/obcentre Plus 2010-02-01.json,Jobcentre Plus,2.0
+254,2010-02-01,Data/speeches/UK/obseeker’s Allowance 2010-02-01.json,Jobseeker’s Allowance,2.0
+255,2010-02-08,Data/speeches/UK/azakhstan_ OSCE 2010-02-08.json,Kazakhstan: OSCE,2.0
+257,2010-01-27,Data/speeches/UK/enya (Drought and Famine) 2010-01-27.json,Kenya (Drought and Famine),2.0
+258,2010-02-08,Data/speeches/UK/ingston Hospital 2010-02-08.json,Kingston Hospital,2.0
+259,2010-02-04,Data/speeches/UK/andfill 2010-02-04.json,Landfill,2.0
+261,2010-01-28,Data/speeches/UK/eeds City Council Bill 2010-01-28.json,Leeds City Council Bill,2.0
+262,2010-02-01,Data/speeches/UK/ive Music Bill [HL] 2010-02-01.json,Live Music Bill [HL],2.0
+263,2010-02-05,Data/speeches/UK/ocal Authorities (Overview and Scrutiny) Bill 2010-02-05.json,Local Authorities (Overview and Scrutiny) Bill,2.0
+264,2010-01-26,Data/speeches/UK/ocal Government (Wales) Measure 2009 (Consequential Modifications) Order 2010 2010-01-26.json,Local Government (Wales) Measure 2009 (Consequential Modifications) Order 2010,2.0
+266,2010-01-26,Data/speeches/UK/ocal Government Decision Making 2010-01-26.json,Local Government Decision Making,2.0
+267,2010-02-03,Data/speeches/UK/ocal Government Finance 2010-02-03.json,Local Government Finance,2.0
+268,2010-01-25,Data/speeches/UK/ords Chamber 2010-01-25.json,Lords Chamber,2.0
+269,2010-01-26,Data/speeches/UK/ords Chamber 2010-01-26.json,Lords Chamber,2.0
+270,2010-01-27,Data/speeches/UK/ords Chamber 2010-01-27.json,Lords Chamber,2.0
+271,2010-01-28,Data/speeches/UK/ords Chamber 2010-01-28.json,Lords Chamber,2.0
+272,2010-02-01,Data/speeches/UK/ords Chamber 2010-02-01.json,Lords Chamber,2.0
+273,2010-02-02,Data/speeches/UK/ords Chamber 2010-02-02.json,Lords Chamber,2.0
+274,2010-02-03,Data/speeches/UK/ords Chamber 2010-02-03.json,Lords Chamber,2.0
+275,2010-02-04,Data/speeches/UK/ords Chamber 2010-02-04.json,Lords Chamber,2.0
+276,2010-02-05,Data/speeches/UK/ords Chamber 2010-02-05.json,Lords Chamber,2.0
+277,2010-02-08,Data/speeches/UK/ords Chamber 2010-02-08.json,Lords Chamber,2.0
+278,2010-01-25,Data/speeches/UK/yndale School 2010-01-25.json,Lyndale School,2.0
+281,2010-01-28,Data/speeches/UK/anchester City Council Bill [Lords] 2010-01-28.json,Manchester City Council Bill [Lords],2.0
+282,2010-02-05,Data/speeches/UK/arine Navigation Aids Bill [HL] 2010-02-05.json,Marine Navigation Aids Bill [HL],2.0
+284,2010-02-03,Data/speeches/UK/ental Health_ Age Discrimination 2010-02-03.json,Mental Health: Age Discrimination,2.0
+285,2010-01-26,Data/speeches/UK/icrofinance 2010-01-26.json,Microfinance,2.0
+286,2010-01-29,Data/speeches/UK/ortgage Repossessions (Protection of Tenants Etc.) Bill 2010-01-29 (1).json,Mortgage Repossessions (Protection of Tenants Etc.) Bill,2.0
+287,2010-01-29,Data/speeches/UK/ortgage Repossessions (Protection of Tenants Etc.) Bill 2010-01-29.json,Mortgage Repossessions (Protection of Tenants Etc.) Bill,2.0
+288,2010-02-01,Data/speeches/UK/otor Vehicles (International Circulation) (Amendment) Order 2010 2010-02-01.json,Motor Vehicles (International Circulation) (Amendment) Order 2010,2.0
+289,2010-02-04,Data/speeches/UK/otorways_ Mobile Phone and GPS Signals 2010-02-04.json,Motorways: Mobile Phone and GPS Signals,2.0
+290,2010-02-02,Data/speeches/UK/ultiple Sclerosis 2010-02-02.json,Multiple Sclerosis,2.0
+291,2010-01-26,Data/speeches/UK/ational Assembly for Wales (Legislative Competence) (Environment) Order 2010 2010-01-26.json,National Assembly for Wales (Legislative Competence) (Environment) Order 2010,2.0
+292,2010-02-01,Data/speeches/UK/ational Assembly for Wales (Legislative Competence) (Health and Health Services and Social Welfare) Order 2010 2010-02-01.json,National Assembly for Wales (Legislative Competence) (Health and Health Services and Social Welfare) Order 2010,2.0
+293,2010-01-28,Data/speeches/UK/ational Concessionary Bus Passes 2010-01-28.json,National Concessionary Bus Passes,2.0
+295,2010-02-04,Data/speeches/UK/ational Security Strategy 2010-02-04.json,National Security Strategy,2.0
+296,2010-01-26,Data/speeches/UK/ew Build (Migrants) 2010-01-26.json,New Build (Migrants),2.0
+297,2010-01-27,Data/speeches/UK/HS Charities 2010-01-27.json,NHS Charities,2.0
+298,2010-02-03,Data/speeches/UK/HS_ Bad Weather Injuries 2010-02-03.json,NHS: Bad Weather Injuries,2.0
+299,2010-02-04,Data/speeches/UK/HS_ Dentistry 2010-02-04.json,NHS: Dentistry,2.0
+300,2010-02-02,Data/speeches/UK/orth Korea_ Human Rights 2010-02-02.json,North Korea: Human Rights,2.0
+301,2010-02-03,Data/speeches/UK/orthern Ireland 2010-02-03.json,Northern Ireland,2.0
+302,2010-02-08,Data/speeches/UK/orthern Ireland 2010-02-08.json,Northern Ireland,2.0
+303,2010-02-03,Data/speeches/UK/orthern Ireland Assembly Members Bill [HL] 2010-02-03.json,Northern Ireland Assembly Members Bill [HL],2.0
+304,2010-01-27,Data/speeches/UK/orthern Ireland_ Cross-border Police Co-operation 2010-01-27.json,Northern Ireland: Cross-border Police Co-operation,2.0
+305,2010-01-27,Data/speeches/UK/orthern Rock plc Transfer Order 2009 2010-01-27.json,Northern Rock plc Transfer Order 2009,2.0
+306,2010-01-25,Data/speeches/UK/fsted 2010-01-25.json,Ofsted,2.0
+308,2010-01-25,Data/speeches/UK/ral Answers to Questions 2010-01-25.json,Oral Answers to Questions,2.0
+309,2010-01-26,Data/speeches/UK/ral Answers to Questions 2010-01-26.json,Oral Answers to Questions,2.0
+310,2010-01-27,Data/speeches/UK/ral Answers to Questions 2010-01-27.json,Oral Answers to Questions,2.0
+311,2010-01-28,Data/speeches/UK/ral Answers to Questions 2010-01-28.json,Oral Answers to Questions,2.0
+312,2010-02-01,Data/speeches/UK/ral Answers to Questions 2010-02-01.json,Oral Answers to Questions,2.0
+313,2010-02-02,Data/speeches/UK/ral Answers to Questions 2010-02-02.json,Oral Answers to Questions,2.0
+314,2010-02-03,Data/speeches/UK/ral Answers to Questions 2010-02-03.json,Oral Answers to Questions,2.0
+315,2010-02-04,Data/speeches/UK/ral Answers to Questions 2010-02-04.json,Oral Answers to Questions,2.0
+316,2010-02-08,Data/speeches/UK/ral Answers to Questions 2010-02-08.json,Oral Answers to Questions,2.0
+317,2010-01-27,Data/speeches/UK/ut-of-Hours Care 2010-01-27.json,Out-of-Hours Care,2.0
+318,2010-02-01,Data/speeches/UK/verhead Lines (Exempt Installations) Order 2010 2010-02-01.json,Overhead Lines (Exempt Installations) Order 2010,2.0
+319,2010-02-03,Data/speeches/UK/verhead Lines (Exempt Installations) Order 2010 2010-02-03.json,Overhead Lines (Exempt Installations) Order 2010,2.0
+320,2010-02-03,Data/speeches/UK/aramilitary Groups 2010-02-03.json,Paramilitary Groups,2.0
+321,2010-02-04,Data/speeches/UK/arliamentary Scrutiny of EU Business 2010-02-04.json,Parliamentary Scrutiny of EU Business,2.0
+322,2010-01-28,Data/speeches/UK/assenger Security (Screening) 2010-01-28.json,Passenger Security (Screening),2.0
+324,2010-02-01,Data/speeches/UK/assengers’ Council (Non-Railway Functions) Order 2010 2010-02-01.json,Passengers’ Council (Non-Railway Functions) Order 2010,2.0
+326,2010-01-27,Data/speeches/UK/assports 2010-01-27.json,Passports,2.0
+327,2010-02-05,Data/speeches/UK/atient Transport Bill [HL] 2010-02-05.json,Patient Transport Bill [HL],2.0
+328,2010-02-01,Data/speeches/UK/ensioners (Financial Assistance) 2010-02-01.json,Pensioners (Financial Assistance),2.0
+329,2010-02-01,Data/speeches/UK/eople Trafficking (Employment) 2010-02-01.json,People Trafficking (Employment),2.0
+330,2010-01-25,Data/speeches/UK/ermanent Exclusion 2010-01-25.json,Permanent Exclusion,2.0
+331,2010-02-01,Data/speeches/UK/ersonal Care at Home Bill 2010-02-01 (1).json,Personal Care at Home Bill,2.0
+332,2010-02-01,Data/speeches/UK/ersonal Care at Home Bill 2010-02-01.json,Personal Care at Home Bill,2.0
+336,2010-01-26,Data/speeches/UK/etitions 2010-01-26.json,Petitions,2.0
+337,2010-02-03,Data/speeches/UK/etitions 2010-02-03.json,Petitions,2.0
+338,2010-02-01,Data/speeches/UK/harmacy Order 2010 2010-02-01.json,Pharmacy Order 2010,2.0
+340,2010-01-27,Data/speeches/UK/oint of Order 2010-01-27.json,Point of Order,2.0
+341,2010-01-28,Data/speeches/UK/oint of Order 2010-01-28.json,Point of Order,2.0
+342,2010-02-04,Data/speeches/UK/oint of Order 2010-02-04.json,Point of Order,2.0
+343,2010-02-08,Data/speeches/UK/oint of Order 2010-02-08.json,Point of Order,2.0
+344,2010-01-25,Data/speeches/UK/oints of Order 2010-01-25.json,Points of Order,2.0
+345,2010-01-26,Data/speeches/UK/oints of Order 2010-01-26.json,Points of Order,2.0
+346,2010-02-02,Data/speeches/UK/oints of Order 2010-02-02.json,Points of Order,2.0
+347,2010-02-03,Data/speeches/UK/olice Grant Report 2010-02-03.json,Police Grant Report,2.0
+348,2010-02-08,Data/speeches/UK/olice Officers (Criminal Records) 2010-02-08.json,Police Officers (Criminal Records),2.0
+349,2010-02-02,Data/speeches/UK/opulation and Immigration 2010-02-02.json,Population and Immigration,2.0
+350,2010-02-08,Data/speeches/UK/orts (Security) 2010-02-08.json,Ports (Security),2.0
+351,2010-01-28,Data/speeches/UK/otholes (Highways Agency) 2010-01-28.json,Potholes (Highways Agency),2.0
+356,2010-01-29,Data/speeches/UK/rayers 2010-01-29.json,Prayers,2.0
+363,2010-01-27,Data/speeches/UK/rimary and Secondary Education (Devon) 2010-01-27.json,Primary and Secondary Education (Devon),2.0
+364,2010-01-27,Data/speeches/UK/rime Minister 2010-01-27.json,Prime Minister,2.0
+365,2010-02-03,Data/speeches/UK/rime Minister 2010-02-03.json,Prime Minister,2.0
+366,2010-02-08,Data/speeches/UK/risons_ Education 2010-02-08.json,Prisons: Education,2.0
+367,2010-02-04,Data/speeches/UK/rivate Drains and Sewers 2010-02-04.json,Private Drains and Sewers,2.0
+368,2010-02-02,Data/speeches/UK/rivate Finance Initiative 2010-02-02.json,Private Finance Initiative,2.0
+370,2010-02-03,Data/speeches/UK/SNI (Recruitment) 2010-02-03.json,PSNI (Recruitment),2.0
+371,2010-02-02,Data/speeches/UK/ublic Sector Debt 2010-02-02.json,Public Sector Debt,2.0
+372,2010-02-01,Data/speeches/UK/ublic Sector Pension Deficit 2010-02-01.json,Public Sector Pension Deficit,2.0
+373,2010-02-03,Data/speeches/UK/unjabi Community in Britain 2010-02-03.json,Punjabi Community in Britain,2.0
+374,2010-02-05,Data/speeches/UK/ail Services (Sydenham Corridor) 2010-02-05.json,Rail Services (Sydenham Corridor),2.0
+375,2010-02-04,Data/speeches/UK/ailways_ High-speed Lines 2010-02-04.json,Railways: High-speed Lines,2.0
+378,2010-02-04,Data/speeches/UK/ecycling (Local Authorities) 2010-02-04.json,Recycling (Local Authorities),2.0
+379,2010-01-26,Data/speeches/UK/edundancy Payments Order 2010-01-26.json,Redundancy Payments Order,2.0
+381,2010-01-26,Data/speeches/UK/epresentation of the People (Northern Ireland) (Amendment) Regulations 2010 2010-01-26.json,Representation of the People (Northern Ireland) (Amendment) Regulations 2010,2.0
+383,2010-02-03,Data/speeches/UK/eturning Officers (Accountability) 2010-02-03.json,Returning Officers (Accountability),2.0
+384,2010-02-04,Data/speeches/UK/iver Pollution (House Building) 2010-02-04.json,River Pollution (House Building),2.0
+385,2010-01-28,Data/speeches/UK/oads_ Speed Cameras 2010-01-28.json,Roads: Speed Cameras,2.0
+386,2010-01-25,Data/speeches/UK/oyal Mail (Industrial Relations) 2010-01-25.json,Royal Mail (Industrial Relations),2.0
+387,2010-02-02,Data/speeches/UK/chools Funding (Cornwall) 2010-02-02.json,Schools Funding (Cornwall),2.0
+388,2010-02-04,Data/speeches/UK/ea Defences (East Anglia) 2010-02-04.json,Sea Defences (East Anglia),2.0
+389,2010-01-25,Data/speeches/UK/econdary Head Teachers 2010-01-25.json,Secondary Head Teachers,2.0
+390,2010-01-27,Data/speeches/UK/ection 5 of the European Communities (Amendment) Act 1993 2010-01-27.json,Section 5 of the European Communities (Amendment) Act 1993,2.0
+391,2010-02-03,Data/speeches/UK/ecurity Situation 2010-02-03.json,Security Situation,2.0
+392,2010-01-25,Data/speeches/UK/evere Weather 2010-01-25.json,Severe Weather,2.0
+393,2010-01-25,Data/speeches/UK/ex Education (Faith Schools) 2010-01-25.json,Sex Education (Faith Schools),2.0
+394,2010-01-26,Data/speeches/UK/ocial Housing (Security of Tenure) 2010-01-26.json,Social Housing (Security of Tenure),2.0
+395,2010-02-08,Data/speeches/UK/ocial Tourism 2010-02-08.json,Social Tourism,2.0
+396,2010-01-25,Data/speeches/UK/pecial Educational Needs 2010-01-25.json,Special Educational Needs,2.0
+397,2010-02-01,Data/speeches/UK/tandards and Privileges 2010-02-01.json,Standards and Privileges,2.0
+398,2010-01-26,Data/speeches/UK/tate Pension Credit (Disclosure of Information) (Electricity Suppliers) Regulations 2010 2010-01-26.json,State Pension Credit (Disclosure of Information) (Electricity Suppliers) Regulations 2010,2.0
+400,2010-01-28,Data/speeches/UK/tation Reopening (London) 2010-01-28.json,Station Reopening (London),2.0
+401,2010-02-08,Data/speeches/UK/top-and-Search Powers 2010-02-08.json,Stop-and-Search Powers,2.0
+402,2010-02-03,Data/speeches/UK/trategic Defence     Review 2010-02-03.json,Strategic Defence     Review,2.0
+403,2010-02-03,Data/speeches/UK/trategic Defence Review (Green Paper) 2010-02-03.json,Strategic Defence Review (Green Paper),2.0
+404,2010-02-08,Data/speeches/UK/tudent Visas (Fraud) 2010-02-08.json,Student Visas (Fraud),2.0
+405,2010-01-29,Data/speeches/UK/unbeds (Regulation) Bill 2010-01-29.json,Sunbeds (Regulation) Bill,2.0
+406,2010-01-26,Data/speeches/UK/ustainable Communities 2010-01-26.json,Sustainable Communities,2.0
+407,2010-02-04,Data/speeches/UK/ustainable Fisheries 2010-02-04.json,Sustainable Fisheries,2.0
+409,2010-01-28,Data/speeches/UK/windon to Kemble Railway Line 2010-01-28.json,Swindon to Kemble Railway Line,2.0
+410,2010-02-02,Data/speeches/UK/ax Avoidance 2010-02-02.json,Tax Avoidance,2.0
+412,2010-02-04,Data/speeches/UK/axation (International and Other Provisions) Bill 2010-02-04.json,Taxation (International and Other Provisions) Bill,2.0
+413,2010-01-28,Data/speeches/UK/axation 2010-01-28.json,Taxation,2.0
+414,2010-02-01,Data/speeches/UK/axation_ Income Tax 2010-02-01.json,Taxation: Income Tax,2.0
+415,2010-01-26,Data/speeches/UK/errorism_ Stop and Search 2010-01-26.json,Terrorism: Stop and Search,2.0
+416,2010-02-05,Data/speeches/UK/errorist Asset Freezing (Temporary Provisions) Bill 2010-02-05.json,Terrorist Asset Freezing (Temporary Provisions) Bill,2.0
+417,2010-02-08,Data/speeches/UK/errorist Asset-Freezing (Temporary Provisions) Bill (Allocation of Time) 2010-02-08.json,Terrorist Asset-Freezing (Temporary Provisions) Bill (Allocation of Time),2.0
+418,2010-02-08,Data/speeches/UK/errorist Asset-Freezing (Temporary Provisions) Bill 2010-02-08 (1).json,Terrorist Asset-Freezing (Temporary Provisions) Bill,2.0
+420,2010-02-08,Data/speeches/UK/errorist Asset-Freezing (Temporary Provisions) Bill 2010-02-08.json,Terrorist Asset-Freezing (Temporary Provisions) Bill,2.0
+421,2010-02-02,Data/speeches/UK/hameslink 2010-02-02.json,Thameslink,2.0
+422,2010-01-28,Data/speeches/UK/icket Offices 2010-01-28.json,Ticket Offices,2.0
+423,2010-01-25,Data/speeches/UK/opical Questions 2010-01-25.json,Topical Questions,2.0
+424,2010-01-26,Data/speeches/UK/opical Questions 2010-01-26.json,Topical Questions,2.0
+425,2010-01-28,Data/speeches/UK/opical Questions 2010-01-28.json,Topical Questions,2.0
+426,2010-02-01,Data/speeches/UK/opical Questions 2010-02-01.json,Topical Questions,2.0
+427,2010-02-02,Data/speeches/UK/opical Questions 2010-02-02.json,Topical Questions,2.0
+428,2010-02-04,Data/speeches/UK/opical Questions 2010-02-04.json,Topical Questions,2.0
+429,2010-02-08,Data/speeches/UK/opical Questions 2010-02-08.json,Topical Questions,2.0
+430,2010-01-29,Data/speeches/UK/own and Country Planning Act 1990 (Amendment) Bill 2010-01-29.json,Town and Country Planning Act 1990 (Amendment) Bill,2.0
+431,2010-01-28,Data/speeches/UK/ramlink (Crystal Palace) 2010-01-28.json,Tramlink (Crystal Palace),2.0
+432,2010-01-28,Data/speeches/UK/ransport 2010-01-28.json,Transport,2.0
+433,2010-01-28,Data/speeches/UK/ransport Network (Cold Weather) 2010-01-28.json,Transport Network (Cold Weather),2.0
+434,2010-02-04,Data/speeches/UK/ransport_ Motoring Lobby 2010-02-04.json,Transport: Motoring Lobby,2.0
+435,2010-02-02,Data/speeches/UK/reasury 2010-02-02.json,Treasury,2.0
+436,2010-01-28,Data/speeches/UK/K Arrest Warrants (Alleged War Crimes) 2010-01-28.json,UK Arrest Warrants (Alleged War Crimes),2.0
+437,2010-02-08,Data/speeches/UK/K Border Agency 2010-02-08.json,UK Border Agency,2.0
+438,2010-02-02,Data/speeches/UK/K Budget Deficit 2010-02-02.json,UK Budget Deficit,2.0
+439,2010-02-02,Data/speeches/UK/K Credit Rating 2010-02-02.json,UK Credit Rating,2.0
+440,2010-02-08,Data/speeches/UK/K Visas 2010-02-08.json,UK Visas,2.0
+441,2010-02-08,Data/speeches/UK/nder-age Drinking 2010-02-08.json,Under-age Drinking,2.0
+442,2010-01-26,Data/speeches/UK/nemployment 2010-01-26.json,Unemployment,2.0
+443,2010-02-03,Data/speeches/UK/niversity Places (England) 2010-02-03.json,University Places (England),2.0
+444,2010-02-02,Data/speeches/UK/nsecured Loans 2010-02-02.json,Unsecured Loans,2.0
+445,2010-01-27,Data/speeches/UK/oluntary Sector (Government Funding) 2010-01-27.json,Voluntary Sector (Government Funding),2.0
+446,2010-01-26,Data/speeches/UK/aste Treatment Plants 2010-01-26.json,Waste Treatment Plants,2.0
+447,2010-02-04,Data/speeches/UK/ater Abstraction Licensing 2010-02-04.json,Water Abstraction Licensing,2.0
+448,2010-01-27,Data/speeches/UK/ater and Sewerage (South-west) 2010-01-27.json,Water and Sewerage (South-west),2.0
+449,2010-02-04,Data/speeches/UK/est Bank and East Jerusalem 2010-02-04.json,West Bank and East Jerusalem,2.0
+450,2010-01-26,Data/speeches/UK/estminster Hall 2010-01-26 (1).json,Westminster Hall,2.0
+452,2010-01-27,Data/speeches/UK/estminster Hall 2010-01-27 (1).json,Westminster Hall,2.0
+454,2010-01-28,Data/speeches/UK/estminster Hall 2010-01-28 (1).json,Westminster Hall,2.0
+456,2010-02-02,Data/speeches/UK/estminster Hall 2010-02-02 (1).json,Westminster Hall,2.0
+458,2010-02-03,Data/speeches/UK/estminster Hall 2010-02-03 (1).json,Westminster Hall,2.0
+460,2010-02-04,Data/speeches/UK/estminster Hall 2010-02-04 (1).json,Westminster Hall,2.0
+462,2010-01-28,Data/speeches/UK/omen and Equality 2010-01-28.json,Women and Equality,2.0
+463,2010-02-01,Data/speeches/UK/ork and Pensions 2010-02-01.json,Work and Pensions,2.0
+464,2010-02-03,Data/speeches/UK/emen 2010-02-03.json,Yemen,2.0
+466,2010-02-01,Data/speeches/UK/oung Person’s Guarantee 2010-02-01.json,Young Person’s Guarantee,2.0
+467,2010-01-27,Data/speeches/UK/outh Citizenship Commission 2010-01-27.json,Youth Citizenship Commission,2.0
+468,2010-02-01,Data/speeches/UK/Children’s Homes (Planning Applications) 2010-02-01.json,Children’s Homes (Planning Applications),2.0

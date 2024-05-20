@@ -1,0 +1,24 @@
+,date,file_path,debate_title,country
+0,2010-05-18,Data/speeches/UK/ommons Chamber 2010-05-18.json,Commons Chamber,2.0
+1,2010-05-19,Data/speeches/UK/ommons Chamber 2010-05-19.json,Commons Chamber,2.0
+2,2010-05-20,Data/tmp_text_files/UK/Commons Chamber 2010-05-20.txt,,
+3,2010-05-24,Data/tmp_text_files/UK/Commons Chamber 2010-05-24.txt,,
+4,2010-05-18,Data/speeches/UK/lection of Speaker 2010-05-18.json,Election of Speaker,2.0
+5,2010-05-18,Data/tmp_text_files/UK/House of Commons 2010-05-18.txt,,
+6,2010-05-19,Data/tmp_text_files/UK/House of Commons 2010-05-19.txt,,
+7,2010-05-20,Data/tmp_text_files/UK/House of Commons 2010-05-20.txt,,
+8,2010-05-24,Data/tmp_text_files/UK/House of Commons 2010-05-24.txt,,
+9,2010-05-18,Data/tmp_text_files/UK/House of Lords 2010-05-18.txt,,
+10,2010-05-19,Data/tmp_text_files/UK/House of Lords 2010-05-19.txt,,
+11,2010-05-18,Data/tmp_text_files/UK/Lords Chamber 2010-05-18.txt,,
+12,2010-05-19,Data/speeches/UK/ords Chamber 2010-05-19.json,Lords Chamber,2.0
+13,2010-05-19,Data/speeches/UK/embers Sworn 2010-05-19.json,Members Sworn,2.0
+14,2010-05-20,Data/tmp_text_files/UK/Members Sworn 2010-05-20.txt,,
+15,2010-05-24,Data/tmp_text_files/UK/Members Sworn 2010-05-24.txt,,
+16,2010-05-19,Data/tmp_text_files/UK/Message to attend the Lords Commissioners 2010-05-19.txt,,
+17,2010-05-18,Data/tmp_text_files/UK/Peers and Oath of Allegiance 2010-05-18.txt,,
+18,2010-05-19,Data/tmp_text_files/UK/Peers and Oath of Allegiance 2010-05-19.txt,,
+19,2010-05-20,Data/tmp_text_files/UK/Prayers 2010-05-20.txt,,
+20,2010-05-24,Data/tmp_text_files/UK/Prayers 2010-05-24.txt,,
+21,2010-05-18,Data/tmp_text_files/UK/Royal Commission 2010-05-18.txt,,
+22,2010-05-19,Data/speeches/UK/peaker of the House of Commons 2010-05-19.json,Speaker of the House of Commons,2.0

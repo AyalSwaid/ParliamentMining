@@ -1,0 +1,361 @@
+Unnamed: 0,date,file_path,debate_title,country
+0,2010-07-07,Data/speeches/UK/GOAL Summit 2010-07-07.json,1GOAL Summit,2.0
+1,2010-06-30,Data/speeches/UK/5 to M1 Link 2010-06-30.json,A5 to M1 Link,2.0
+2,2010-06-23,Data/speeches/UK/cademies Bill [HL] 2010-06-23 (1).json,Academies Bill [HL],2.0
+3,2010-06-23,Data/speeches/UK/cademies Bill [HL] 2010-06-23.json,Academies Bill [HL],2.0
+4,2010-06-28,Data/speeches/UK/cademies Bill [HL] 2010-06-28 (1).json,Academies Bill [HL],2.0
+5,2010-06-28,Data/speeches/UK/cademies Bill [HL] 2010-06-28.json,Academies Bill [HL],2.0
+7,2010-07-06,Data/speeches/UK/cademies Bill [HL] 2010-07-06.json,Academies Bill [HL],2.0
+8,2010-07-07,Data/speeches/UK/cademies Bill [HL] 2010-07-07 (1).json,Academies Bill [HL],2.0
+9,2010-07-07,Data/speeches/UK/cademies Bill [HL] 2010-07-07.json,Academies Bill [HL],2.0
+10,2010-06-23,Data/speeches/UK/ccident and Emergency (Westmorland General Hospital) 2010-06-23.json,Accident and Emergency (Westmorland General Hospital),2.0
+11,2010-07-01,Data/speeches/UK/ct of Settlement 2010-07-01.json,Act of Settlement,2.0
+12,2010-06-28,Data/speeches/UK/dministration (Police Time) 2010-06-28 (1).json,Administration (Police Time),2.0
+13,2010-06-28,Data/speeches/UK/dministration (Police Time) 2010-06-28.json,Administration (Police Time),2.0
+14,2010-06-23,Data/speeches/UK/fghanistan (Military Patrols) 2010-06-23.json,Afghanistan (Military Patrols),2.0
+15,2010-07-05,Data/speeches/UK/fghanistan 2010-07-05 (1).json,Afghanistan,2.0
+16,2010-07-05,Data/speeches/UK/fghanistan 2010-07-05.json,Afghanistan,2.0
+17,2010-07-07,Data/speeches/UK/fghanistan 2010-07-07 (1).json,Afghanistan,2.0
+18,2010-07-07,Data/speeches/UK/fghanistan 2010-07-07.json,Afghanistan,2.0
+19,2010-07-08,Data/speeches/UK/frica_ Post-conflict Stabilisation 2010-07-08.json,Africa: Post-conflict Stabilisation,2.0
+20,2010-07-06,Data/speeches/UK/griculture_ Farm Animal Disease 2010-07-06.json,Agriculture: Farm Animal Disease,2.0
+21,2010-07-07,Data/speeches/UK/id Expenditure (Legislation) 2010-07-07.json,Aid Expenditure (Legislation),2.0
+22,2010-07-07,Data/speeches/UK/id Expenditure (Transparency) 2010-07-07.json,Aid Expenditure (Transparency),2.0
+23,2010-07-05,Data/speeches/UK/ircraft Carriers 2010-07-05.json,Aircraft Carriers,2.0
+24,2010-06-29,Data/speeches/UK/lcohol Health Warnings 2010-06-29.json,Alcohol Health Warnings,2.0
+25,2010-07-05,Data/speeches/UK/lignment (Clear Line of Sight) Project 2010-07-05.json,Alignment (Clear Line of Sight) Project,2.0
+27,2010-06-24,Data/speeches/UK/nimal Health Agency 2010-06-24.json,Animal Health Agency,2.0
+28,2010-07-05,Data/speeches/UK/rmed Forces Accommodation 2010-07-05.json,Armed Forces Accommodation,2.0
+29,2010-06-23,Data/speeches/UK/rmed Forces Day 2010-06-23.json,Armed Forces Day,2.0
+30,2010-07-05,Data/speeches/UK/rmed Forces Pensions 2010-07-05.json,Armed Forces Pensions,2.0
+31,2010-06-29,Data/speeches/UK/rrangement of Business 2010-06-29.json,Arrangement of Business,2.0
+35,2010-06-28,Data/speeches/UK/sylum Applications 2010-06-28.json,Asylum Applications,2.0
+36,2010-06-28,Data/speeches/UK/sylum Cases (Backlog) 2010-06-28.json,Asylum Cases (Backlog),2.0
+37,2010-06-29,Data/speeches/UK/utism 2010-06-29.json,Autism,2.0
+38,2010-06-30,Data/speeches/UK/ill of Rights for Northern Ireland 2010-06-30.json,Bill of Rights for Northern Ireland,2.0
+39,2010-06-24,Data/speeches/UK/iodiversity 2010-06-24.json,Biodiversity,2.0
+41,2010-06-24,Data/speeches/UK/ritish Waterways 2010-06-24.json,British Waterways,2.0
+42,2010-07-07,Data/speeches/UK/ritish Waterways 2010-07-07.json,British Waterways,2.0
+43,2010-06-24,Data/speeches/UK/roadband (Rural Areas) 2010-06-24.json,Broadband (Rural Areas),2.0
+44,2010-06-30,Data/speeches/UK/roadcasting_ Digital Radio 2010-06-30.json,Broadcasting: Digital Radio,2.0
+46,2010-06-24,Data/speeches/UK/udget Resolutions and Economic Situation 2010-06-24.json,Budget Resolutions and Economic Situation,2.0
+48,2010-06-30,Data/speeches/UK/uilding Schools for the Future (Liverpool) 2010-06-30.json,Building Schools for the Future (Liverpool),2.0
+49,2010-06-29,Data/speeches/UK/us Services (Milton Keynes) 2010-06-29.json,Bus Services (Milton Keynes),2.0
+51,2010-06-24,Data/speeches/UK/usiness of the House 2010-06-24.json,Business of the House,2.0
+55,2010-07-01,Data/speeches/UK/usiness of the House 2010-07-01 (2).json,Business of the House,2.0
+56,2010-07-01,Data/speeches/UK/usiness of the House 2010-07-01.json,Business of the House,2.0
+57,2010-07-08,Data/speeches/UK/usiness of the House 2010-07-08.json,Business of the House,2.0
+58,2010-06-23,Data/speeches/UK/usiness Relocation 2010-06-23.json,Business Relocation,2.0
+59,2010-07-08,Data/speeches/UK/usiness Support (Wales) 2010-07-08.json,Business Support (Wales),2.0
+61,2010-07-07,Data/speeches/UK/usiness without Debate 2010-07-07.json,Business without Debate,2.0
+63,2010-07-08,"Data/speeches/UK/usiness, Innovation and Skills 2010-07-08.json","Business, Innovation and Skills",2.0
+64,2010-07-08,Data/speeches/UK/usinesses (Health and Safety) 2010-07-08.json,Businesses (Health and Safety),2.0
+65,2010-06-23,Data/speeches/UK/abinet Committees 2010-06-23.json,Cabinet Committees,2.0
+66,2010-07-06,Data/speeches/UK/abinet Office_ Constitution Committee Report 2010-07-06.json,Cabinet Office: Constitution Committee Report,2.0
+67,2010-07-05,Data/speeches/UK/adet Forces 2010-07-05.json,Cadet Forces,2.0
+68,2010-06-24,Data/speeches/UK/ampaign for the Farmed Environment 2010-06-24.json,Campaign for the Farmed Environment,2.0
+69,2010-06-29,Data/speeches/UK/ancer 2010-06-29.json,Cancer,2.0
+70,2010-06-29,Data/speeches/UK/ancer Surgeons 2010-06-29.json,Cancer Surgeons,2.0
+71,2010-07-05,Data/speeches/UK/anterbury City Council Bill 2010-07-05.json,Canterbury City Council Bill,2.0
+73,2010-06-23,Data/speeches/UK/apital Gains Tax (Rates) 2010-06-23.json,Capital Gains Tax (Rates),2.0
+74,2010-06-28,Data/speeches/UK/apital Gains Tax (Rates) 2010-06-28.json,Capital Gains Tax (Rates),2.0
+75,2010-07-01,Data/speeches/UK/arbon Capture and Storage 2010-07-01.json,Carbon Capture and Storage,2.0
+76,2010-07-01,Data/speeches/UK/arbon Dioxide Emissions 2010-07-01.json,Carbon Dioxide Emissions,2.0
+77,2010-07-01,Data/speeches/UK/arbon Emissions (EU Target) 2010-07-01.json,Carbon Emissions (EU Target),2.0
+78,2010-07-01,Data/speeches/UK/arbon Pricing 2010-07-01.json,Carbon Pricing,2.0
+79,2010-07-07,Data/speeches/UK/aribbean Countries 2010-07-07.json,Caribbean Countries,2.0
+80,2010-06-28,Data/speeches/UK/CTV 2010-06-28.json,CCTV,2.0
+81,2010-06-29,Data/speeches/UK/hagos Archipelago 2010-06-29.json,Chagos Archipelago,2.0
+82,2010-07-05,Data/speeches/UK/hief of the Defence Staff 2010-07-05.json,Chief of the Defence Staff,2.0
+83,2010-07-07,Data/speeches/UK/hild and Adolescent Mental Health Services 2010-07-07.json,Child and Adolescent Mental Health Services,2.0
+84,2010-07-06,Data/speeches/UK/hild Health (Nottingham) 2010-07-06.json,Child Health (Nottingham),2.0
+85,2010-06-29,Data/speeches/UK/igarette Packaging 2010-06-29.json,Cigarette Packaging,2.0
+88,2010-07-05,Data/speeches/UK/ity of Westminster Bill [Lords] 2010-07-05.json,City of Westminster Bill [Lords],2.0
+89,2010-07-06,Data/speeches/UK/limate Change 2010-07-06.json,Climate Change,2.0
+90,2010-06-28,Data/speeches/UK/limate Change_ UN Framework Convention 2010-06-28.json,Climate Change: UN Framework Convention,2.0
+91,2010-07-07,Data/speeches/UK/olombia 2010-07-07.json,Colombia,2.0
+92,2010-06-24,Data/speeches/UK/ommon Agricultural Policy 2010-06-24.json,Common Agricultural Policy,2.0
+93,2010-06-24,Data/speeches/UK/ommon Fisheries Policy 2010-06-24.json,Common Fisheries Policy,2.0
+94,2010-06-23,Data/speeches/UK/ommons Chamber 2010-06-23.json,Commons Chamber,2.0
+95,2010-06-24,Data/speeches/UK/ommons Chamber 2010-06-24.json,Commons Chamber,2.0
+96,2010-06-28,Data/speeches/UK/ommons Chamber 2010-06-28.json,Commons Chamber,2.0
+97,2010-06-29,Data/speeches/UK/ommons Chamber 2010-06-29.json,Commons Chamber,2.0
+98,2010-06-30,Data/speeches/UK/ommons Chamber 2010-06-30.json,Commons Chamber,2.0
+99,2010-07-01,Data/speeches/UK/ommons Chamber 2010-07-01.json,Commons Chamber,2.0
+100,2010-07-05,Data/speeches/UK/ommons Chamber 2010-07-05.json,Commons Chamber,2.0
+101,2010-07-06,Data/speeches/UK/ommons Chamber 2010-07-06.json,Commons Chamber,2.0
+102,2010-07-07,Data/speeches/UK/ommons Chamber 2010-07-07.json,Commons Chamber,2.0
+103,2010-07-08,Data/speeches/UK/ommons Chamber 2010-07-08.json,Commons Chamber,2.0
+104,2010-06-28,Data/speeches/UK/ommonwealth Games_ Delhi 2010-06-28.json,Commonwealth Games: Delhi,2.0
+105,2010-06-29,Data/speeches/UK/ommunity Hospital (Eltham) 2010-06-29.json,Community Hospital (Eltham),2.0
+106,2010-07-06,Data/speeches/UK/ommunity Policing 2010-07-06.json,Community Policing,2.0
+107,2010-06-28,Data/speeches/UK/ommunity Protection Officers (Nottingham) 2010-06-28.json,Community Protection Officers (Nottingham),2.0
+108,2010-06-23,Data/speeches/UK/ompetition Act 1998 (Land Agreements Exclusion Revocation) Order 2010 2010-06-23.json,Competition Act 1998 (Land Agreements Exclusion Revocation) Order 2010,2.0
+109,2010-06-23,Data/speeches/UK/onduct of Employment Agencies and Employment Businesses (Amendment) Regulations 2010 2010-06-23.json,Conduct of Employment Agencies and Employment Businesses (Amendment) Regulations 2010,2.0
+111,2010-06-30,Data/speeches/UK/onsultative Group on the Past 2010-06-30.json,Consultative Group on the Past,2.0
+112,2010-07-07,Data/speeches/UK/ourt Closures (Yorkshire) 2010-07-07.json,Court Closures (Yorkshire),2.0
+113,2010-06-28,Data/speeches/UK/rime Statistics (North Yorkshire) 2010-06-28.json,Crime Statistics (North Yorkshire),2.0
+114,2010-06-23,Data/speeches/UK/umbrian Shootings 2010-06-23.json,Cumbrian Shootings,2.0
+115,2010-06-24,Data/speeches/UK/aylight Saving Time 2010-06-24.json,Daylight Saving Time,2.0
+118,2010-07-07,Data/speeches/UK/ebt Relief (Developing Countries) Act 2010-07-07.json,Debt Relief (Developing Countries) Act,2.0
+119,2010-07-07,Data/speeches/UK/ecent Homes Programme 2010-07-07.json,Decent Homes Programme,2.0
+120,2010-07-05,Data/speeches/UK/edicated Military Wards 2010-07-05.json,Dedicated Military Wards,2.0
+121,2010-07-05,Data/speeches/UK/efence 2010-07-05.json,Defence,2.0
+122,2010-07-05,Data/speeches/UK/efence Procurement 2010-07-05.json,Defence Procurement,2.0
+123,2010-06-23,Data/speeches/UK/efence Technical College 2010-06-23.json,Defence Technical College,2.0
+124,2010-07-05,Data/speeches/UK/efence Training Review 2010-07-05.json,Defence Training Review,2.0
+125,2010-06-28,Data/speeches/UK/efendant Anonymity (Rape Trials) 2010-06-28.json,Defendant Anonymity (Rape Trials),2.0
+126,2010-07-08,Data/speeches/UK/efendant Anonymity 2010-07-08.json,Defendant Anonymity,2.0
+128,2010-06-28,Data/speeches/UK/etention (Terrorist Suspects) 2010-06-28.json,Detention (Terrorist Suspects),2.0
+129,2010-07-05,Data/speeches/UK/isabled People_ UN Convention 2010-07-05.json,Disabled People: UN Convention,2.0
+130,2010-06-30,Data/speeches/UK/issident Paramilitary Activity 2010-06-30.json,Dissident Paramilitary Activity,2.0
+131,2010-07-06,Data/speeches/UK/NA and CCTV (Crime Prevention) 2010-07-06.json,DNA and CCTV (Crime Prevention),2.0
+132,2010-06-28,Data/speeches/UK/omestic Violence 2010-06-28.json,Domestic Violence,2.0
+133,2010-06-28,Data/speeches/UK/rugs 2010-06-28.json,Drugs,2.0
+134,2010-06-30,Data/speeches/UK/ual Mandates 2010-06-30.json,Dual Mandates,2.0
+136,2010-07-07,Data/speeches/UK/ducation 2010-07-07.json,Education,2.0
+137,2010-07-05,Data/speeches/UK/ducation Funding 2010-07-05.json,Education Funding,2.0
+138,2010-07-05,Data/speeches/UK/ducation_ Funding 2010-07-05.json,Education: Funding,2.0
+139,2010-07-08,Data/speeches/UK/ducation_ History 2010-07-08.json,Education: History,2.0
+140,2010-07-01,Data/speeches/UK/ducation_ Languages 2010-07-01.json,Education: Languages,2.0
+141,2010-07-01,Data/speeches/UK/lectricity Transmission Lines 2010-07-01.json,Electricity Transmission Lines,2.0
+142,2010-07-01,Data/speeches/UK/nergy and Climate Change 2010-07-01.json,Energy and Climate Change,2.0
+143,2010-06-30,Data/speeches/UK/nergy Efficiency 2010-06-30.json,Energy Efficiency,2.0
+144,2010-07-08,Data/speeches/UK/nergy Security 2010-07-08.json,Energy Security,2.0
+145,2010-07-01,Data/speeches/UK/nergy Supply (Security) 2010-07-01.json,Energy Supply (Security),2.0
+146,2010-07-01,Data/speeches/UK/nergy Supply Security 2010-07-01.json,Energy Supply Security,2.0
+147,2010-07-01,Data/speeches/UK/nergy-from-Waste Incinerators 2010-07-01.json,Energy-from-Waste Incinerators,2.0
+148,2010-06-29,Data/speeches/UK/nergy_ Belarus-Russia Gas Dispute 2010-06-29.json,Energy: Belarus-Russia Gas Dispute,2.0
+149,2010-07-05,Data/speeches/UK/nergy_ Renewables 2010-07-05.json,Energy: Renewables,2.0
+150,2010-06-23,Data/speeches/UK/ngagements 2010-06-23 (1).json,Engagements,2.0
+151,2010-06-23,Data/speeches/UK/ngagements 2010-06-23.json,Engagements,2.0
+152,2010-06-30,Data/speeches/UK/ngagements 2010-06-30.json,Engagements,2.0
+153,2010-07-07,Data/speeches/UK/ngagements 2010-07-07 (1).json,Engagements,2.0
+154,2010-07-07,Data/speeches/UK/ngagements 2010-07-07.json,Engagements,2.0
+155,2010-06-24,Data/speeches/UK/nglish Language Schools 2010-06-24.json,English Language Schools,2.0
+156,2010-06-24,Data/speeches/UK/nvironment Agency 2010-06-24.json,Environment Agency,2.0
+157,2010-06-24,"Data/speeches/UK/nvironment, Food and Rural Affairs 2010-06-24.json","Environment, Food and Rural Affairs",2.0
+158,2010-07-06,Data/speeches/UK/U Committee_ Alternative Investment Fund Managers 2010-07-06.json,EU Committee: Alternative Investment Fund Managers,2.0
+159,2010-07-06,Data/speeches/UK/U Enlargement 2010-07-06.json,EU Enlargement,2.0
+160,2010-07-08,Data/speeches/UK/U Free Trade Agreement (Peru_Colombia) 2010-07-08.json,EU Free Trade Agreement (Peru/Colombia),2.0
+161,2010-06-30,Data/speeches/UK/U_ European Defence Agency 2010-06-30.json,EU: European Defence Agency,2.0
+162,2010-06-24,Data/speeches/UK/arming Regulation 2010-06-24 (1).json,Farming Regulation,2.0
+163,2010-06-24,Data/speeches/UK/arming Regulation 2010-06-24.json,Farming Regulation,2.0
+164,2010-07-08,Data/speeches/UK/E Colleges (Capital Funding) 2010-07-08.json,FE Colleges (Capital Funding),2.0
+165,2010-07-06,Data/speeches/UK/inance Bill 2010-07-06.json,Finance Bill,2.0
+166,2010-06-28,Data/speeches/UK/inancial Provision for Members 2010-06-28.json,Financial Provision for Members,2.0
+167,2010-06-23,Data/speeches/UK/insbury Health Centre 2010-06-23.json,Finsbury Health Centre,2.0
+168,2010-06-30,Data/speeches/UK/ire Stations (Warwickshire) 2010-06-30.json,Fire Stations (Warwickshire),2.0
+169,2010-07-08,Data/speeches/UK/irst World War Commemoration 2010-07-08.json,First World War Commemoration,2.0
+170,2010-06-24,Data/speeches/UK/ishing Restrictions (Suffolk Coastal) 2010-06-24.json,Fishing Restrictions (Suffolk Coastal),2.0
+171,2010-06-24,Data/speeches/UK/lood Defence (Chesterfield) 2010-06-24.json,Flood Defence (Chesterfield),2.0
+172,2010-06-24,Data/speeches/UK/lood Defences 2010-06-24.json,Flood Defences,2.0
+173,2010-07-06,Data/speeches/UK/orced Labour (Brazil) 2010-07-06.json,Forced Labour (Brazil),2.0
+174,2010-07-06,Data/speeches/UK/oreign and Commonwealth Office 2010-07-06.json,Foreign and Commonwealth Office,2.0
+175,2010-07-01,Data/speeches/UK/oreign Policy 2010-07-01.json,Foreign Policy,2.0
+176,2010-06-30,Data/speeches/UK/ree School Meals 2010-06-30.json,Free School Meals,2.0
+177,2010-07-08,Data/speeches/UK/reedoms and Civil Liberties 2010-07-08.json,Freedoms and Civil Liberties,2.0
+178,2010-07-07,Data/speeches/UK/uel Poverty (Rural Britain) 2010-07-07.json,Fuel Poverty (Rural Britain),2.0
+179,2010-07-07,Data/speeches/UK/unding Decisions 2010-07-07.json,Funding Decisions,2.0
+180,2010-07-08,Data/speeches/UK/urther Education Funding 2010-07-08.json,Further Education Funding,2.0
+181,2010-06-28,Data/speeches/UK/8 and G20 Summits 2010-06-28 (1).json,G8 and G20 Summits,2.0
+182,2010-06-28,Data/speeches/UK/8 and G20 Summits 2010-06-28.json,G8 and G20 Summits,2.0
+183,2010-07-07,Data/speeches/UK/eneral Election_ Voting Deadline 2010-07-07.json,General Election: Voting Deadline,2.0
+184,2010-07-01,Data/speeches/UK/lobal Poverty 2010-07-01.json,Global Poverty,2.0
+185,2010-06-24,Data/speeches/UK/overnment_ Savings 2010-06-24.json,Government: Savings,2.0
+186,2010-07-08,Data/speeches/UK/raduates (Employability) 2010-07-08.json,Graduates (Employability),2.0
+187,2010-07-01,Data/speeches/UK/reen Deal 2010-07-01.json,Green Deal,2.0
+188,2010-07-01,Data/speeches/UK/reen Jobs 2010-07-01.json,Green Jobs,2.0
+189,2010-06-28,Data/speeches/UK/ulf War Illnesses 2010-06-28.json,Gulf War Illnesses,2.0
+190,2010-06-29,Data/speeches/UK/ealth 2010-06-29.json,Health,2.0
+191,2010-06-29,Data/speeches/UK/ealthy Eating 2010-06-29.json,Healthy Eating,2.0
+192,2010-06-24,Data/speeches/UK/ealth_ Primary and Community Care 2010-06-24.json,Health: Primary and Community Care,2.0
+193,2010-06-30,Data/speeches/UK/ealth_ Private Insurance 2010-06-30.json,Health: Private Insurance,2.0
+194,2010-06-30,Data/speeches/UK/ealth_ Spending Cuts 2010-06-30.json,Health: Spending Cuts,2.0
+195,2010-06-30,Data/speeches/UK/ealth_ Stroke Treatment 2010-06-30.json,Health: Stroke Treatment,2.0
+197,2010-07-06,Data/speeches/UK/igh Representative (Bosnia and Herzegovina) 2010-07-06.json,High Representative (Bosnia and Herzegovina),2.0
+198,2010-06-28,Data/speeches/UK/ome Department 2010-06-28.json,Home Department,2.0
+220,2010-06-29,Data/speeches/UK/ouse of Lords Reform 2010-06-29 (1).json,House of Lords Reform,2.0
+221,2010-06-29,Data/speeches/UK/ouse of Lords Reform 2010-06-29.json,House of Lords Reform,2.0
+222,2010-06-24,Data/speeches/UK/ouse of Lords_ Financial Assistance to Opposition Parties 2010-06-24.json,House of Lords: Financial Assistance to Opposition Parties,2.0
+223,2010-07-05,Data/speeches/UK/ouse of Lords_ Reform 2010-07-05.json,House of Lords: Reform,2.0
+224,2010-07-08,Data/speeches/UK/ousing 2010-07-08 (1).json,Housing,2.0
+225,2010-07-08,Data/speeches/UK/ousing 2010-07-08.json,Housing,2.0
+226,2010-06-29,Data/speeches/UK/ousing Need (London) 2010-06-29.json,Housing Need (London),2.0
+227,2010-07-06,Data/speeches/UK/uman Rights and Democracy Programme Fund 2010-07-06.json,Human Rights and Democracy Programme Fund,2.0
+228,2010-07-01,Data/speeches/UK/uman Rights_ Journalists 2010-07-01.json,Human Rights: Journalists,2.0
+229,2010-06-23,Data/speeches/UK/uman Tissue (Availability) 2010-06-23.json,Human Tissue (Availability),2.0
+230,2010-06-28,Data/speeches/UK/mmigration_ Refugee and Migrant Justice 2010-06-28.json,Immigration: Refugee and Migrant Justice,2.0
+231,2010-06-23,Data/speeches/UK/ndependent Commission on Funding and Finance for Wales 2010-06-23.json,Independent Commission on Funding and Finance for Wales,2.0
+232,2010-07-06,Data/speeches/UK/ntelligence and Security Services_ Treatment of Detainees 2010-07-06.json,Intelligence and Security Services: Treatment of Detainees,2.0
+233,2010-07-07,Data/speeches/UK/nternational Development 2010-07-07.json,International Development,2.0
+257,2010-07-08,Data/speeches/UK/nward Investment (North-west) 2010-07-08.json,Inward Investment (North-west),2.0
+258,2010-06-24,Data/speeches/UK/apanese Knotweed 2010-06-24.json,Japanese Knotweed,2.0
+259,2010-07-07,Data/speeches/UK/obs and the Unemployed 2010-07-07.json,Jobs and the Unemployed,2.0
+261,2010-07-06,Data/speeches/UK/yrgyz Republic 2010-07-06.json,Kyrgyz Republic,2.0
+262,2010-06-24,Data/speeches/UK/atin America 2010-06-24.json,Latin America,2.0
+264,2010-06-28,Data/speeches/UK/imits on Non-EU Economic Migration 2010-06-28.json,Limits on Non-EU Economic Migration,2.0
+265,2010-07-08,Data/speeches/UK/inda Carty 2010-07-08.json,Linda Carty,2.0
+267,2010-07-06,Data/speeches/UK/lanishen Reservoir 2010-07-06.json,Llanishen Reservoir,2.0
+268,2010-07-01,Data/speeches/UK/ocal Communities 2010-07-01.json,Local Communities,2.0
+269,2010-06-30,Data/speeches/UK/ocal Government Bill [HL] 2010-06-30.json,Local Government Bill [HL],2.0
+270,2010-06-29,Data/speeches/UK/ocal Government Financing 2010-06-29.json,Local Government Financing,2.0
+271,2010-06-24,Data/speeches/UK/ocal Media 2010-06-24.json,Local Media,2.0
+276,2010-06-29,Data/speeches/UK/ong-term Care 2010-06-29.json,Long-term Care,2.0
+277,2010-06-23,Data/speeches/UK/ords Chamber 2010-06-23.json,Lords Chamber,2.0
+278,2010-06-24,Data/speeches/UK/ords Chamber 2010-06-24.json,Lords Chamber,2.0
+279,2010-06-28,Data/speeches/UK/ords Chamber 2010-06-28.json,Lords Chamber,2.0
+280,2010-06-29,Data/speeches/UK/ords Chamber 2010-06-29.json,Lords Chamber,2.0
+281,2010-06-30,Data/speeches/UK/ords Chamber 2010-06-30.json,Lords Chamber,2.0
+282,2010-07-01,Data/speeches/UK/ords Chamber 2010-07-01.json,Lords Chamber,2.0
+283,2010-07-05,Data/speeches/UK/ords Chamber 2010-07-05.json,Lords Chamber,2.0
+284,2010-07-06,Data/speeches/UK/ords Chamber 2010-07-06.json,Lords Chamber,2.0
+285,2010-07-07,Data/speeches/UK/ords Chamber 2010-07-07.json,Lords Chamber,2.0
+286,2010-07-08,Data/speeches/UK/ords Chamber 2010-07-08.json,Lords Chamber,2.0
+287,2010-06-29,Data/speeches/UK/ow Educational Attainment 2010-06-29.json,Low Educational Attainment,2.0
+288,2010-06-29,Data/speeches/UK/ow Vision 2010-06-29.json,Low Vision,2.0
+289,2010-07-06,Data/speeches/UK/uke Walker 2010-07-06.json,Luke Walker,2.0
+290,2010-06-23,Data/speeches/UK/anufacturing Industry 2010-06-23.json,Manufacturing Industry,2.0
+291,2010-07-08,Data/speeches/UK/anufacturing Industry Investment 2010-07-08.json,Manufacturing Industry Investment,2.0
+292,2010-07-07,Data/speeches/UK/edia High Council (Rwanda) 2010-07-07.json,Media High Council (Rwanda),2.0
+293,2010-07-06,Data/speeches/UK/iddle East 2010-07-06.json,Middle East,2.0
+294,2010-07-05,Data/speeches/UK/ilitary Equipment Expenditure 2010-07-05.json,Military Equipment Expenditure,2.0
+295,2010-07-07,Data/speeches/UK/illennium Development Goals Summit 2010-07-07.json,Millennium Development Goals Summit,2.0
+296,2010-06-28,Data/speeches/UK/ilngavie Waterworks 2010-06-28.json,Milngavie Waterworks,2.0
+297,2010-06-23,Data/speeches/UK/ational Assembly for Wales 2010-06-23.json,National Assembly for Wales,2.0
+298,2010-06-28,Data/speeches/UK/ational DNA Database 2010-06-28.json,National DNA Database,2.0
+299,2010-07-06,Data/speeches/UK/ational Election Commission (Rwanda) 2010-07-06.json,National Election Commission (Rwanda),2.0
+300,2010-07-05,Data/speeches/UK/ATO 2010-07-05.json,NATO,2.0
+301,2010-07-01,Data/speeches/UK/ew Nuclear Power Stations 2010-07-01.json,New Nuclear Power Stations,2.0
+302,2010-06-23,Data/speeches/UK/ew Roads (Hertfordshire) 2010-06-23.json,New Roads (Hertfordshire),2.0
+303,2010-07-06,Data/speeches/UK/ewark Hospital 2010-07-06.json,Newark Hospital,2.0
+304,2010-06-29,Data/speeches/UK/HS Decision Making 2010-06-29.json,NHS Decision Making,2.0
+305,2010-06-29,Data/speeches/UK/HS Dentists (Chesterfield) 2010-06-29.json,NHS Dentists (Chesterfield),2.0
+306,2010-06-29,Data/speeches/UK/HS Targets 2010-06-29 (1).json,NHS Targets,2.0
+307,2010-06-29,Data/speeches/UK/HS Targets 2010-06-29.json,NHS Targets,2.0
+308,2010-06-23,Data/speeches/UK/HS_ Budget 2010-06-23.json,NHS: Budget,2.0
+309,2010-07-07,Data/speeches/UK/HS_ Pain Management Services 2010-07-07.json,NHS: Pain Management Services,2.0
+310,2010-06-23,Data/speeches/UK/HS_ Patient Targets 2010-06-23.json,NHS: Patient Targets,2.0
+311,2010-06-29,Data/speeches/UK/ICE 2010-06-29.json,NICE,2.0
+312,2010-07-05,Data/speeches/UK/orth Tees and Hartlepool NHS Foundation Trust 2010-07-05.json,North Tees and Hartlepool NHS Foundation Trust,2.0
+313,2010-06-29,Data/speeches/UK/orth Wales Economy 2010-06-29.json,North Wales Economy,2.0
+314,2010-06-30,Data/speeches/UK/orthern Ireland 2010-06-30.json,Northern Ireland,2.0
+316,2010-06-28,Data/speeches/UK/uclear Posture Review 2010-06-28.json,Nuclear Posture Review,2.0
+317,2010-07-01,Data/speeches/UK/uclear Power 2010-07-01 (1).json,Nuclear Power,2.0
+318,2010-07-01,Data/speeches/UK/uclear Power 2010-07-01.json,Nuclear Power,2.0
+319,2010-07-06,Data/speeches/UK/uclear Programme (Iran) 2010-07-06.json,Nuclear Programme (Iran),2.0
+321,2010-07-06,Data/speeches/UK/ffice for Budget Responsibility 2010-07-06.json,Office for Budget Responsibility,2.0
+322,2010-07-01,Data/speeches/UK/il Fabrication Construction Sites 2010-07-01.json,Oil Fabrication Construction Sites,2.0
+325,2010-06-23,Data/speeches/UK/ral Answers to Questions 2010-06-23.json,Oral Answers to Questions,2.0
+326,2010-06-24,Data/speeches/UK/ral Answers to Questions 2010-06-24.json,Oral Answers to Questions,2.0
+327,2010-06-28,Data/speeches/UK/ral Answers to Questions 2010-06-28.json,Oral Answers to Questions,2.0
+328,2010-06-29,Data/speeches/UK/ral Answers to Questions 2010-06-29.json,Oral Answers to Questions,2.0
+329,2010-06-30,Data/speeches/UK/ral Answers to Questions 2010-06-30.json,Oral Answers to Questions,2.0
+330,2010-07-01,Data/speeches/UK/ral Answers to Questions 2010-07-01.json,Oral Answers to Questions,2.0
+331,2010-07-05,Data/speeches/UK/ral Answers to Questions 2010-07-05.json,Oral Answers to Questions,2.0
+332,2010-07-06,Data/speeches/UK/ral Answers to Questions 2010-07-06.json,Oral Answers to Questions,2.0
+333,2010-07-07,Data/speeches/UK/ral Answers to Questions 2010-07-07.json,Oral Answers to Questions,2.0
+334,2010-07-08,Data/speeches/UK/ral Answers to Questions 2010-07-08.json,Oral Answers to Questions,2.0
+335,2010-06-28,Data/speeches/UK/rganised Crime 2010-06-28.json,Organised Crime,2.0
+336,2010-07-07,Data/speeches/UK/aediatric Cardiac Surgery 2010-07-07.json,Paediatric Cardiac Surgery,2.0
+337,2010-07-07,Data/speeches/UK/akistan 2010-07-07.json,Pakistan,2.0
+338,2010-06-30,Data/speeches/UK/arliamentary Allowances and Short Money 2010-06-30.json,Parliamentary Allowances and Short Money,2.0
+339,2010-06-24,Data/speeches/UK/arliament_ MP Numbers and Constituency Review 2010-06-24.json,Parliament: MP Numbers and Constituency Review,2.0
+340,2010-06-30,Data/speeches/UK/at Finucane 2010-06-30.json,Pat Finucane,2.0
+342,2010-07-06,Data/speeches/UK/etition 2010-07-06.json,Petition,2.0
+344,2010-06-23,Data/speeches/UK/etitions 2010-06-23.json,petitions,2.0
+345,2010-06-23,Data/speeches/UK/oints of Order 2010-06-23.json,Points of Order,2.0
+346,2010-06-24,Data/speeches/UK/oints of Order 2010-06-24.json,Points of Order,2.0
+347,2010-06-28,Data/speeches/UK/oints of Order 2010-06-28.json,Points of Order,2.0
+348,2010-06-29,Data/speeches/UK/oints of Order 2010-06-29.json,Points of Order,2.0
+349,2010-07-01,Data/speeches/UK/oints of Order 2010-07-01.json,Points of Order,2.0
+350,2010-07-05,Data/speeches/UK/oints of Order 2010-07-05.json,Points of Order,2.0
+351,2010-07-06,Data/speeches/UK/oints of Order 2010-07-06.json,Points of Order,2.0
+352,2010-07-07,Data/speeches/UK/oints of Order 2010-07-07.json,Points of Order,2.0
+353,2010-07-08,Data/speeches/UK/oints of Order 2010-07-08.json,Points of Order,2.0
+354,2010-06-28,Data/speeches/UK/olice (Terms and Conditions) 2010-06-28.json,Police (Terms and Conditions),2.0
+355,2010-07-05,Data/speeches/UK/olitical and Constitutional Reform 2010-07-05 (1).json,Political and Constitutional Reform,2.0
+356,2010-07-05,Data/speeches/UK/olitical and Constitutional Reform 2010-07-05.json,Political and Constitutional Reform,2.0
+357,2010-07-01,Data/speeches/UK/olitical Parties_ Funding 2010-07-01.json,Political Parties: Funding,2.0
+358,2010-07-01,Data/speeches/UK/orts_ Business Rates 2010-07-01.json,Ports: Business Rates,2.0
+359,2010-07-08,Data/speeches/UK/ost Office Network 2010-07-08.json,Post Office Network,2.0
+360,2010-07-07,Data/speeches/UK/overty and Hunger Eradication 2010-07-07.json,Poverty and Hunger Eradication,2.0
+362,2010-06-24,Data/speeches/UK/rayers 2010-06-24.json,Prayers,2.0
+371,2010-06-30,Data/speeches/UK/resbyterian Mutual Society 2010-06-30 (1).json,Presbyterian Mutual Society,2.0
+372,2010-06-30,Data/speeches/UK/resbyterian Mutual Society 2010-06-30.json,Presbyterian Mutual Society,2.0
+373,2010-06-23,Data/speeches/UK/rime Minister 2010-06-23.json,Prime Minister,2.0
+374,2010-06-30,Data/speeches/UK/rime Minister 2010-06-30.json,Prime Minister,2.0
+375,2010-07-07,Data/speeches/UK/rime Minister 2010-07-07.json,Prime Minister,2.0
+376,2010-06-24,Data/speeches/UK/rocedure Committee 2010-06-24.json,Procedure Committee,2.0
+377,2010-07-01,Data/speeches/UK/rojected Electricity Generation 2010-07-01.json,Projected Electricity Generation,2.0
+378,2010-07-06,"Data/speeches/UK/roposed development north of Holt Avenue (Adel, Leeds) 2010-07-06.json","Proposed development north of Holt Avenue (Adel, Leeds)",2.0
+379,2010-06-23,Data/speeches/UK/ublic Expenditure 2010-06-23.json,Public Expenditure,2.0
+380,2010-06-30,Data/speeches/UK/ublic Inquiries 2010-06-30.json,Public Inquiries,2.0
+381,2010-06-24,Data/speeches/UK/ulmonary Disease 2010-06-24.json,Pulmonary Disease,2.0
+382,2010-06-29,Data/speeches/UK/uangos 2010-06-29.json,Quangos,2.0
+383,2010-06-23,Data/speeches/UK/ailways_ Crossrail 2010-06-23.json,Railways: Crossrail,2.0
+385,2010-06-30,Data/speeches/UK/egional Spatial Strategies 2010-06-30.json,Regional Spatial Strategies,2.0
+387,2010-07-07,Data/speeches/UK/oad Networks (Harlow) 2010-07-07.json,Road Networks (Harlow),2.0
+388,2010-06-24,Data/speeches/UK/ural Payments Agency 2010-06-24.json,Rural Payments Agency,2.0
+389,2010-07-07,Data/speeches/UK/ural Payments Agency 2010-07-07.json,Rural Payments Agency,2.0
+390,2010-07-07,Data/speeches/UK/amantha Stobbart 2010-07-07.json,Samantha Stobbart,2.0
+391,2010-07-07,Data/speeches/UK/chools Funding 2010-07-07.json,Schools Funding,2.0
+392,2010-07-08,Data/speeches/UK/cience and Innovation Industry 2010-07-08.json,Science and Innovation Industry,2.0
+393,2010-06-30,Data/speeches/UK/ecurity Threat 2010-06-30.json,Security Threat,2.0
+394,2010-06-30,Data/speeches/UK/elect Committees (Membership) 2010-06-30.json,Select Committees (Membership),2.0
+395,2010-07-06,Data/speeches/UK/ettlement Expansion 2010-07-06.json,Settlement Expansion,2.0
+396,2010-07-08,Data/speeches/UK/heffield Forgemasters 2010-07-08.json,Sheffield Forgemasters,2.0
+397,2010-07-08,Data/speeches/UK/mall Businesses (Finance) 2010-07-08 (1).json,Small Businesses (Finance),2.0
+398,2010-07-08,Data/speeches/UK/mall Businesses (Finance) 2010-07-08.json,Small Businesses (Finance),2.0
+399,2010-07-08,Data/speeches/UK/MEs 2010-07-08.json,SMEs,2.0
+400,2010-06-23,Data/speeches/UK/peaker’s Committee for the Independent Parliamentary Standards Authority 2010-06-23.json,Speaker’s Committee for the Independent Parliamentary Standards Authority,2.0
+403,2010-06-30,Data/speeches/UK/peaker’s Statement 2010-06-30.json,Speaker’s Statement,2.0
+404,2010-06-23,Data/speeches/UK/t George’s Day (Public Holiday) 2010-06-23.json,St George’s Day (Public Holiday),2.0
+405,2010-07-05,Data/speeches/UK/tate Pension Credit Pilot Scheme Regulations 2010 2010-07-05.json,State Pension Credit Pilot Scheme Regulations 2010,2.0
+406,2010-06-29,Data/speeches/UK/tudent Loans Company 2010-06-29.json,Student Loans Company,2.0
+407,2010-07-06,Data/speeches/UK/unday Trading 2010-07-06.json,Sunday Trading,2.0
+408,2010-07-01,Data/speeches/UK/upporting Carers 2010-07-01.json,Supporting Carers,2.0
+409,2010-07-07,Data/speeches/UK/ackling Climate Change 2010-07-07.json,Tackling Climate Change,2.0
+410,2010-07-06,Data/speeches/UK/errorism (Northern Ireland) 2010-07-06.json,Terrorism (Northern Ireland),2.0
+411,2010-07-08,Data/speeches/UK/errorism Act 2000 (Section 44) 2010-07-08.json,Terrorism Act 2000 (Section 44),2.0
+412,2010-07-08,Data/speeches/UK/errorism Act 2000 2010-07-08.json,Terrorism Act 2000,2.0
+413,2010-06-23,Data/speeches/UK/olls (Severn Bridges) 2010-06-23.json,Tolls (Severn Bridges),2.0
+414,2010-06-24,Data/speeches/UK/opical Questions 2010-06-24.json,Topical Questions,2.0
+415,2010-06-28,Data/speeches/UK/opical Questions 2010-06-28.json,Topical Questions,2.0
+416,2010-06-29,Data/speeches/UK/opical Questions 2010-06-29.json,Topical Questions,2.0
+417,2010-07-01,Data/speeches/UK/opical Questions 2010-07-01.json,Topical Questions,2.0
+418,2010-07-05,Data/speeches/UK/opical Questions 2010-07-05.json,Topical Questions,2.0
+419,2010-07-06,Data/speeches/UK/opical Questions 2010-07-06.json,Topical Questions,2.0
+420,2010-07-08,Data/speeches/UK/opical Questions 2010-07-08.json,Topical Questions,2.0
+423,2010-07-05,Data/speeches/UK/ransport 2010-07-05 (2).json,Transport,2.0
+424,2010-07-05,Data/speeches/UK/ransport 2010-07-05.json,Transport,2.0
+426,2010-07-06,Data/speeches/UK/reatment of Detainees 2010-07-06.json,Treatment of Detainees,2.0
+427,2010-07-05,Data/speeches/UK/ri-service Military Covenant 2010-07-05.json,Tri-service Military Covenant,2.0
+428,2010-07-05,Data/speeches/UK/rident 2010-07-05 (1).json,Trident,2.0
+429,2010-07-05,Data/speeches/UK/rident 2010-07-05.json,Trident,2.0
+430,2010-07-06,Data/speeches/UK/urks and Caicos Islands 2010-07-06.json,Turks and Caicos Islands,2.0
+431,2010-07-06,Data/speeches/UK/K-Zimbabwe Relations 2010-07-06.json,UK-Zimbabwe Relations,2.0
+432,2010-06-23,Data/speeches/UK/K_ International Competitiveness 2010-06-23.json,UK: International Competitiveness,2.0
+433,2010-07-07,Data/speeches/UK/NESCO_ Equatorial Guinea 2010-07-07.json,UNESCO: Equatorial Guinea,2.0
+434,2010-07-08,Data/speeches/UK/niversities UK 2010-07-08.json,Universities UK,2.0
+435,2010-07-08,Data/speeches/UK/niversity-based Research Funding 2010-07-08.json,University-based Research Funding,2.0
+436,2010-07-05,Data/speeches/UK/nmanned Aerial Vehicles 2010-07-05.json,Unmanned Aerial Vehicles,2.0
+437,2010-06-29,Data/speeches/UK/aiting Times 2010-06-29.json,Waiting Times,2.0
+438,2010-06-23,Data/speeches/UK/ales 2010-06-23.json,Wales,2.0
+439,2010-06-29,Data/speeches/UK/arrington Hospital 2010-06-29.json,Warrington Hospital,2.0
+440,2010-07-01,Data/speeches/UK/ave_Tidal Energy 2010-07-01.json,Wave/Tidal Energy,2.0
+444,2010-07-05,Data/speeches/UK/ealth 2010-07-05.json,Wealth,2.0
+445,2010-06-29,Data/speeches/UK/estern Balkans 2010-06-29.json,Western Balkans,2.0
+446,2010-06-23,Data/speeches/UK/estminster Hall 2010-06-23 (1).json,Westminster Hall,2.0
+448,2010-06-24,Data/speeches/UK/estminster Hall 2010-06-24 (1).json,Westminster Hall,2.0
+450,2010-06-29,Data/speeches/UK/estminster Hall 2010-06-29 (1).json,Westminster Hall,2.0
+452,2010-06-30,Data/speeches/UK/estminster Hall 2010-06-30 (1).json,Westminster Hall,2.0
+454,2010-07-01,Data/speeches/UK/estminster Hall 2010-07-01 (1).json,Westminster Hall,2.0
+456,2010-07-06,Data/speeches/UK/estminster Hall 2010-07-06 (1).json,Westminster Hall,2.0
+458,2010-07-07,Data/speeches/UK/estminster Hall 2010-07-07 (1).json,Westminster Hall,2.0
+460,2010-07-08,Data/speeches/UK/estminster Hall 2010-07-08 (1).json,Westminster Hall,2.0
+462,2010-06-28,Data/speeches/UK/heelchair Services 2010-06-28.json,Wheelchair Services,2.0
+463,2010-07-01,Data/speeches/UK/ind Farms 2010-07-01.json,Wind Farms,2.0
+464,2010-07-06,Data/speeches/UK/ork Programme (European Commission) 2010-07-06.json,Work Programme (European Commission),2.0
+465,2010-06-24,Data/speeches/UK/orkplace Activity (Natural Environment) 2010-06-24.json,Workplace Activity (Natural Environment),2.0
+466,2010-07-05,Data/speeches/UK/orks of Art 2010-07-05.json,Works of Art,2.0

@@ -149,9 +149,9 @@ class Debates_DataProcessor(DataProcessor):
                     curr_debate = {"date": date, "debate_title": debate['debate_title'], "country": 3}
 
                     # save speeches in json
-                    filename = f"{i}{datetime.now().strftime('%Y-%m-%d %H-%M-%S')}.json"
-                    # Data.save_json(f"{Data.speeches_files_dir}/IL/{filename}", debate['speeches'])# TODO: uncomment this
-                    # Data.save_json(f"testingSpeeches/{filename}", debate['speeches']) # TODO: delete
+                    filename = f"{i}m{datetime.now().strftime('%Y-%m-%d %H-%M-%S')}.json"
+                    Data.save_json(f"{Data.speeches_files_dir}/IL/{filename}", debate['speeches'])# TODO: uncomment this
+
 
                     #
                     curr_debate['file_path'] = f"{Data.speeches_files_dir}/IL/{filename}"
@@ -162,8 +162,8 @@ class Debates_DataProcessor(DataProcessor):
             new_debates = pd.DataFrame(all_debates)
 
             # og_debates_table = pd.concat([og_debates_table, new_debates], axis=0)
-            # new_debates.to_csv(f'{Data.csv_files_dir}/debates/{file_path.split("/")[-1]}.csv') # TODO: uncomment
-            new_debates.to_csv(f'testingSpeeches/{file_path.split("/")[-1]}.csv') # TODO: delete
+            new_debates.to_csv(f'{Data.csv_files_dir}/debates/{file_path.split("/")[-1]}.csv') # TODO: uncomment
+            # new_debates.to_csv(f'testingSpeeches/{file_path.split("/")[-1]}.csv') # TODO: delete
 
             # TODO: remove file from collector
 
@@ -172,7 +172,44 @@ class Debates_DataProcessor(DataProcessor):
 
 
     def process_TN(self):
-        pass
+        print("processor (TN debates) started")
+        all_debates = []# this is saved as csv at the end
+        file_path = os.listdir(self.data_path + '/TN')
+
+        # TODO: put blacklist of files that cause errors
+        # if dir is empty then exit
+        if len(file_path) > 0:
+            file_path = file_path[0]
+        else:
+            print('processor (IL debates) did not find files to process')
+            return
+
+        debates_files = Data.load_json(self.data_path + '/TN/' + file_path)
+
+        for debate_file in debates_files:
+            # check if the debate is of format after/before 2019
+            if debate_file["periodID"] == 1: # before 2019
+                speeches = self.__TN_get_speeches2014(debate_file['data'])
+            elif debate_file['periodID'] == 2: # after 2019
+                speeches = self.__TN_get_speeches2019(debate_file['data'])
+            else:
+                print("invalid periodID: ", debate_file["periodID"])
+                continue
+
+            speech_file_path = f"{Data.speeches_files_dir}/TN/{datetime.now().strftime('%Y-%m-%d-%H-%M-%S-%f')}.json"
+            Data.save_json(speech_file_path, speeches)
+
+            all_debates.append(
+                {
+                    "date": debate_file['date'],
+                    "file_path": speech_file_path,
+                    "debate_title": debate_file['title'],
+                    "country": Data.country2code['TN']
+                }
+            )
+
+        csv_file_path = f"{Data.csv_files_dir}/debates/{file_path}.csv"
+        pd.DataFrame(all_debates).to_csv(csv_file_path)
 
 
     def process_CA(self):
@@ -333,6 +370,12 @@ class Debates_DataProcessor(DataProcessor):
         return paragraph.Range.Font.Underline != 0
 
 
+    def __is_bold(self, paragraph):
+        return paragraph.Range.Font.Bold != 0
+
+    def __is_title(self, paragraph):
+        return paragraph.Style.NameLocal.startswith("Heading")
+
     def __word2text(self, file_path):
         """
         convert word (doc / docx) file into python string
@@ -351,15 +394,33 @@ class Debates_DataProcessor(DataProcessor):
         full_text = []
         for p in doc.Paragraphs:
             tmp_txt = p.Range.Text.strip()
+            # if self.__is_title(p):
+            #     tmp_txt = f"TT{tmp_txt}TT"
             if self.__is_paragraph_centered(p):
+                if self.__is_bold(p):
+                    tmp_txt = f"BB{tmp_txt}BB"
+                if self.__is_underlined(p):
+                    tmp_txt = f"UU{tmp_txt}UU"
+
                 tmp_txt = f'**{tmp_txt}**'
             elif self.__is_underlined(p): # we check this only for MP speach
                 tmp_txt = f"UU{tmp_txt}UU"
 
-            full_text.append(tmp_txt)
+            if self.__filter_word_texts(tmp_txt):
+                full_text.append(tmp_txt)
         lines = [t for t in full_text if len(t.strip()) > 0]
         # print(lines)
         return lines
+
+
+
+    def __filter_word_texts(self, t):
+        if (nlph.rep_title.search(t) is not None) and (nlph.rep_new_debate.search(t) is None): # any centered text that is not adebate title(not center underline bold)
+            return False
+        if (nlph.rep_new_debate.search(t) is not None) and (nlph.rep_bill_call.search(t.strip()) is not None):
+            return False
+
+        return True
 
 
     def __parse_IL_plenum(self, lines):
@@ -369,15 +430,16 @@ class Debates_DataProcessor(DataProcessor):
         :return: dict of all debates from this files, format: [{debate_title: title, speeches: {speaker:speech, ...}, ...]
         """
         lines = '\n'.join(lines)
-        # with open("curr_test.txt", "a+") as f:
+        # with open("curr_test666.txt", "a+") as f:
         #     f.write(lines)
-        matches = [match for match in nlph.rep_title.finditer(lines)]
+        #     return
+        matches = [match for match in nlph.rep_new_debate.finditer(lines)]
         plenum_started = False
 
         all_debates = []
         # curr_debate = defaultdict(dict)
 
-        for i in range(len(matches) - 1):
+        for i in range(len(matches)):
             start, end = matches[i].start(), matches[i].end()
             match = lines[start:end].strip()
 
@@ -387,16 +449,19 @@ class Debates_DataProcessor(DataProcessor):
                         match):  # i know that this is always True but if the code works dont touch it XD
 
                     # check if match is new debate or table of contents or seder yom
-                    if match.strip().strip("**") in nlph.re_bullshit_titles:
+                    if match.strip().strip("**").strip("UU").strip("BB") in nlph.re_bullshit_titles:
                         continue
                     else:  # if it is new debate
                         # get current debate title
-                        curr_title = match
-                        if nlph.rep_first_two_bills.search(curr_title):
-                            curr_title = lines[matches[i-1].start():matches[i-1].end()].strip()
-                        # all_speeches = defaultdict(str)
+                        curr_title = match.strip("**").strip("UU").strip("BB")
+                        # if nlph.rep_first_two_bills.search(curr_title):
+                        #     curr_title = lines[matches[i-1].start():matches[i-1].end()].strip()
 
-                        curr_debate_speeches = self.__get_IL_debate_speeches(lines, matches[i], matches[i + 1])
+                        if i != len(matches) - 1:
+                            curr_debate_speeches = self.__get_IL_debate_speeches(lines, matches[i], matches[i + 1])
+                        else: # last debate title in the docx file
+                            curr_debate_speeches = self.__get_IL_debate_speeches(lines, matches[i], 0, last=True)
+
                         if len(curr_debate_speeches) < 2:
                             continue
 
@@ -404,21 +469,22 @@ class Debates_DataProcessor(DataProcessor):
                             "debate_title": curr_title.strip("**"),
                             "speeches": curr_debate_speeches
                         }
-                        # curr_debate[curr_title] = curr_debate_speeches
+
                         all_debates.append(curr_debate)
                 else:
-                    pass  # TODO delete "UU" from MP names
+                    pass
 
                     # split it by '\n' and get speech of each member
             else:
 
                 if nlph.rep_plenum_start.search(match):  # arrived to plenum intro title
-                    # print("plenum matched:", match)
+                    print("plenum matched:", match)
                     plenum_started = True
+
         return all_debates
 
 
-    def __get_IL_debate_speeches(self, all_text, idxs0, idxs1):
+    def __get_IL_debate_speeches(self, all_text, idxs0, idxs1, last=False):
         """
         given indices of current and next debate, extract speeches of the current debate
         using regex
@@ -427,9 +493,11 @@ class Debates_DataProcessor(DataProcessor):
         :param idxs1: regex match index of next debate
         :return: dict of speeches, format {speaker: speech}
         """
-        print("getting speeches")
-        lines = all_text[idxs0.end():idxs1.start()].strip()
-
+        # print("getting speeches")
+        if not last:
+            lines = all_text[idxs0.end():idxs1.start()].strip()
+        else:
+            lines = all_text[idxs0.end()::].strip()
         all_speeches = defaultdict(str)
         all_speeches = []
 
@@ -480,11 +548,51 @@ class Debates_DataProcessor(DataProcessor):
         return full_name if full_name != "" else speaker
 
 
+    def __TN_get_speeches2014(self, lines):
+        """
+        take text that conttains the full debate and return the speeches as list of dicts
+        using regex.
+        :param lines: text that includes the full debate with additional symbols like: BB, **.
+        :return: list of dicts of format [{"name":name(str), "speech":speech(str)}]
+        """
+        person = re.compile("BB.+BB")
+        centered = re.compile(r"\*\*.+\*\*")
+
+        matches = [match for match in person.finditer(lines)] # include indices of MPs names
+        all_speeches = [] # return later, format: [{"name":name(str), "speech":speech(str)}]
 
 
+        for i in range(len(matches)):
+            start, end = matches[i].start(), matches[i].end()
+            match = lines[start:end].strip()
 
+            match = match.strip("BB")
+            if centered.search(match):
+                continue
 
+            if i != len(matches):
+                speech = lines[end:matches[i + 1].start()].strip()
+            else:
+                speech = lines[end:len(lines)].strip()
 
+            all_speeches.append(
+                {
+                    "name": match,
+                    "speech": speech
+                }
+            )
+
+        return all_speeches
+
+    def __TN_get_speeches2019(self, data):
+        """
+        Function for 2019+ debates, get list of tuples that ordered according to
+        the actual debate, and return it as the speeches format
+        :param data: list of tuples of format [(name, party, speech)]
+        :return: list of dicts of format [{"name":name(str), "speech":speech(str)}]
+        """
+
+        return [{"name":name, "speech":speech} for name, party, speech in data]
 
 
 if __name__ == "__main__":
@@ -492,4 +600,4 @@ if __name__ == "__main__":
     fp1 = r"C:\Users\ayals\Downloads\Prime Minister 2024-03-13.txt"
     fp2 = r"C:\Users\ayals\Downloads\Point of Order 2024-03-13.txt"
     x = Debates_DataProcessor(10)
-    x.process_IL()
+    x.process_TN()
