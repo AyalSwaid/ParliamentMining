@@ -118,9 +118,10 @@ class UK_DataCollector(DataCollector):
         all_MPs = pd.read_csv(f"{Data.csv_files_dir}/members/uk_members.csv")
         parties = list(set(all_MPs['party'].values))
         parties_df = pd.DataFrame(parties)
-        parties_df.columns = ['party']
+        parties_df.columns = ['party_name']
+        parties_df["country"] = Data.country2code['uk']
 
-        csv_file_name = "uk_parties.csv"
+        csv_file_name = "UK_parties.csv"
         parties_df.to_csv(f"{Data.csv_files_dir}/parties/{csv_file_name}")
         # res = reqs.get("https://members-api.parliament.uk/api/Members/History/172", headers={"accept": "text/plain"})
         #

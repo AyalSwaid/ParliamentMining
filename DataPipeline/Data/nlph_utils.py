@@ -22,14 +22,24 @@ re_one_minute_talk = 'נאומים בני דקה'
 re_bullshit_titles = [re_one_seder_yom2, re_table_contents, re_one_seder_yom, re_kns_table_docs, re_kns_voting, re_one_minute_talk]
 
 re_plenum_start = ("הישיבה ה", "של הכנסת ה")
-rep_plenum_start = re.compile(fr"\*\*הישיבה ה.*של הכנסת ה.*\*\*")
+# rep_plenum_start = re.compile(fr"\*\*הישיבה ה.*של הכנסת ה.*\*\*")
+rep_plenum_start = re.compile(fr"\*\*UUBBהישיבה ה.*של הכנסת ה.*BBUU\*\*")
 
 rep_title = re.compile(fr'\*\*.+\*\*')
+
+rep_new_debate = re.compile(fr"\*\*UUBB.+BBUU\*\*")
 
 rep_debate_title = re.compile("")
 
 # is_MP_speaker = ""
 rep_is_speaker = re.compile(fr'UU(.+)\s?\(?{re_letters}*\)?:UU')
 
+rep_bill_call = re.compile(fr"^\*\*UUBB\(.+\)BBUU\*\*$")
 rep_first_two_bills = re.compile("\*\*\(קריאה שנייה וקריאה שלישית\)\*\*")
+
+# noise centered text
+
+rep_filter_CCBB = re.compile(r"\*\*BB.+BB\*\*") # center bold
+rep_filter_CC = re.compile(r"\*\*BB.+BB\*\*") # center bold
+
 

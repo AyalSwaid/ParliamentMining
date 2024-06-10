@@ -1,5 +1,5 @@
 import pandas as pd
-
+import re
 from Collectors.DataCollectors.DataCollector import DataCollector
 import requests as reqs
 from bs4 import BeautifulSoup as bs
@@ -39,8 +39,11 @@ class TN_DataCollector(DataCollector):
         links = self.__get_links(url_endpoint, search_url)
         if len(links) == 0:
             print("Collector(TN debates) no debates found")
+            json_prog['TN_debates_start_date'] = end_date.strftime("%Y-%m-%d")
+            Data.update_progress(json_prog)
+            print("Collector(TN debates) finished")
             return
-        print(links)
+        # print(links)
         print(f"Collector(TN debates) found {len(links)} links")
         before_2019 = periodId == 1
         # print(links)
@@ -58,7 +61,7 @@ class TN_DataCollector(DataCollector):
                 title, debate_data = self.debate_after_2019(
                     link)  # here debate data is a list of tuples [(name, party, speech)]
 
-            print(title)
+            # print(title)
 
             curr_debate = {
                 "periodID": periodId,
@@ -75,6 +78,8 @@ class TN_DataCollector(DataCollector):
         json_file_name = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.json"
         Data.save_json(f"{Data.processor_debates_dir}/TN/{json_file_name}", all_debates)
 
+        json_prog['TN_debates_start_date'] = end_date.strftime("%Y-%m-%d")
+        Data.update_progress(json_prog)
         print("total debates:", len(all_debates))
         print("elepsed: ", time() - since)
         print("Collector(TN debates) finished")
@@ -360,7 +365,10 @@ class TN_DataCollector(DataCollector):
                 party_name = party_tag.find("h5").text
                 all_parties |= {party_name.strip()}
 
-        pd.DataFrame(list(all_parties), columns=["party"]).to_csv(f"{Data.csv_files_dir}/parties/TN_parties.csv")
+        country = Data.country2code["TN"]
+        df = pd.DataFrame(list(all_parties), columns=["party_name"])
+        df["country"] = country
+        df.to_csv(f"{Data.csv_files_dir}/parties/TN_parties.csv")
         return all_parties
 
     def get_members(self):
@@ -401,22 +409,96 @@ class TN_DataCollector(DataCollector):
                 for party in party_history.find_all("li"):
                     party_name = party.find_all(recursive=False)[0].text.strip()
                     party_period = party.find_all(recursive=False)[1].text.strip()
-                    all_members[member_name].append((party_name, party_period))0
+                    all_members[member_name].append((party_name, party_period))
         return all_members
 
 
 
 
     def get_bills(self):
-        pass
+        periods = [1, 2]
+
+        page = 2
+        all_bills = []  # list of dicts save later as csv
+        for period in periods:
+            pageID = 1
+            url = f"https://majles.marsad.tn/ar/legislation/?periodId={period}"
+            while url is not None:
+
+                print(period, "/ 2")
 
 
+                resp = reqs.get(url)
+                soup = bs(resp.content, 'html.parser')
 
+                bill_cards = soup.find_all(class_="list-card red-marker")
+
+                for bill_card in bill_cards:
+                    bill_date = bill_card.find(class_="date col-sm", recursive=True).text.strip()
+                    bill_date = self.__AR2date(bill_date)
+                    bill_title = self.__get_bill_title(bill_card)
+
+
+                    curr_bill = {
+                        "title": bill_title,
+                        "date": bill_date
+                    }
+                    all_bills.append(curr_bill)
+
+                # get url of next page, None if there is no next page
+                url = self.get_next_page_bills(soup)
+
+
+        csv_file_path = f"{Data.csv_files_dir}/bills/TN_bills.csv"
+        print(len(all_bills))
+        pd.DataFrame(all_bills).to_csv(csv_file_path)
+
+
+    def __get_bill_title(self, bill_card):
+        for link in bill_card.find_all("a"):
+            if link.get("href").startswith("/ar/legislation/") and "vote" not in link.get("href"):
+                bill_title = link.text.strip().split("\n")[0]
+                return bill_title
+
+
+    def __AR2date(self, bill_date):
+            rep_day = re.compile(r"\d{2}")
+            rep_month = re.compile(r"[^\d]+")
+            rep_year = re.compile("\d{4}")
+            month_ar2num = {
+                "جانفي": 1,
+                "فيفري": 2,
+                "مارس": 3,
+                "أفريل": 4,
+                "ماي": 5,
+                "جوان": 6,
+                "جويلية": 7,
+                "أوت": 8,
+                "سبتمبر": 9,
+                "أكتوبر": 10,
+                "نوفمبر": 11,
+                "ديسمبر": 12
+            }
+
+            year = rep_year.findall(bill_date)[0]
+            month = month_ar2num[rep_month.findall(bill_date)[0].strip()]
+            day = rep_day.findall(bill_date)[0]
+
+            return f"{year}-{month}-{day}"
+
+    def get_next_page_bills(self, soup):
+        url_endpoint = "https://majles.marsad.tn"
+        button = soup.find(class_="expand-section more")
+
+        if button is not None:
+            url = url_endpoint + button.find("a").get("data-load-more")
+            print(url)
+            return url
 
 
 if __name__ == "__main__":
     a = TN_DataCollector(50)
-    x = a.get_members()
+    x = a.get_bills()
     print(x)
     # [print(i) for i in x]
     # print(x)

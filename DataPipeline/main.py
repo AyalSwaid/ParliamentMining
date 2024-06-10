@@ -5,7 +5,7 @@ from Collectors.CollectorManager import CollectorManager
 from Processors.ProcessorManager import  ProcessorManager
 import json
 from time import time
-
+import time as t
 
 # import undetected_chromedriver as uc
 #
@@ -13,18 +13,21 @@ from time import time
 # uc.Chrome(version_main=120, driver_executable_path=d_path)
 
 if __name__ == "__main__":
-    # collector_m = CollectorManager(15)
-    # processor_m = ProcessorManager(15)
-    # #
-    # since = time()
-    # for i in range(5):# 1
-    #     collector_m.run_collectors()
-    #     processor_m.run_processors()
+    collector_m = CollectorManager(15)
+    processor_m = ProcessorManager(15)
     #
-    #     for p in os.listdir(Data.text_files_dir+'/UK'):
-    #         os.remove(f'{Data.text_files_dir}/UK/{p}')
-    #
-    # print(f"elapsed: {time()-since}")
+    since = time()
+    for i in range(2):# 1
+        print(f"batch {i}")
+        collector_m.run_collectors()
+        processor_m.run_processors()
+
+        print("sleeping, copy tmp text files")
+        t.sleep(10)
+        for p in os.listdir(Data.text_files_dir+'/UK'):
+            os.remove(f'{Data.text_files_dir}/UK/{p}')
+
+    print(f"elapsed: {time()-since}")
 
 
 

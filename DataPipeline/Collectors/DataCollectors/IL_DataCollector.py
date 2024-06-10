@@ -13,13 +13,15 @@ class IL_DataCollector(DataCollector):
     
     
     def get_debates(self):
+        print("collecting IL debates")
         plenum_list = []
 
         # get dates range
         json_prog = Data.get_progress()
-        start_date = json_prog['UK_debates_start_date']
+        start_date = json_prog['IL_debates_start_date']
         start_date = datetime.strptime(start_date, "%Y-%m-%d")
         end_date = start_date + timedelta(days=self.batch_size)
+
 
 
         for entries in self.get_plenum_bulks(start_date, end_date):
@@ -58,11 +60,11 @@ class IL_DataCollector(DataCollector):
         Data.save_json(batch_file_path, plenum_list)
 
         # TODO: update start date for the next batch
-
-
+        json_prog['IL_debates_start_date'] = end_date.strftime("%Y-%m-%d")
+        Data.update_progress(json_prog)
             # print(first_element.find('properties'))
             # print(first_element.find_all('SessionUrl'))
-
+        print("DONE IL debates")
 
     def get_members(self):
 
@@ -140,7 +142,7 @@ class IL_DataCollector(DataCollector):
 
                 all_parties.append({
                     "party_id": party_id,
-                    "name": party_name,
+                    "party_name": party_name,
                     "start_date": party_start_date,
                     "end_date": party_end_date,
                     "KnessetNum": party_KNS_num
@@ -173,7 +175,13 @@ class IL_DataCollector(DataCollector):
             if file_type in file_types_blacklist:
                 continue
 
+            group_type_desc = file_entry.find("GroupTypeDesc").text # this contains wither it is a debate or just table of contents
             file_path_url = file_entry.find("FilePath").text
+
+            # filter non relevant files (keep only debates)
+            if (group_type_desc != "דברי הכנסת") or ( "_toc_" in file_path_url) or ("_tor_" in file_path_url): # TODO: maybe ask shai about these
+                continue
+
             print("file url:", file_path_url, file_type)
             response = reqs.get(file_path_url)
 

@@ -77,7 +77,7 @@ class Debates_DataProcessor(DataProcessor):
         for debate in debates:
             # debate_title, members = self.extract_debate_data(debate['file_path'])
             # debate_title, speeches = self.UK_split_members(debate['file_path'])
-            debate_title, speeches = self.test_UK_split_members(debate['file_path'])
+            debate_title, speeches = self.test_UK_split_members(debate['content_file_path'])
 
             if len(speeches) < 2:
                 # print(f"small debate: {debate['file_path']}")
@@ -89,11 +89,20 @@ class Debates_DataProcessor(DataProcessor):
 
             # save speeches in json
             # slice file_path[24:] to remove the ".pkl" at the end
-            speeches_file_path = f"{Data.speeches_files_dir}/UK/{debate['file_path'][24:-4]}.json"
-            with open(speeches_file_path, 'a+') as json_file:
-                json.dump(speeches, json_file)
+            speeches_file_path = f"{Data.speeches_files_dir}/UK/{debate['content_file_path'][24:34]}W{str(datetime.now()).replace(':', '-')}.json"
 
-            debate['file_path'] = speeches_file_path
+            Data.save_json(speeches_file_path, speeches)
+
+            # with open(speeches_file_path, 'a+') as json_file:
+            #     json.dump(speeches, json_file)
+
+            # debate['file_path'] = speeches_file_path
+            debate = {
+                "date": debate["debate_date"],
+                "debate_title": debate_title,
+                "country": 2,
+                "file_path": speeches_file_path
+            }
             all_debates.append(debate)
         print(f"DONE, skipped {i} empty debates")
         # save debates in a csv table save
@@ -121,6 +130,8 @@ class Debates_DataProcessor(DataProcessor):
             print('processor (IL debates) did not find files to process')
             return
 
+        # file_path = "tor_test.json" # TODO: delete this
+
         plenums = Data.load_json(f"{Data.processor_debates_dir}/IL/{file_path}")
 
         if self.word is None:
@@ -138,6 +149,7 @@ class Debates_DataProcessor(DataProcessor):
             # debates = self.__process_IL_files(files)
             # iterate over generator returned from __process_IL_files(files)
             for debates in self.__process_IL_files(files):
+
                 d_num = 1
                 # print("<PROCESS_IL FUNCTION -> debates:\n", debates)
 
@@ -166,6 +178,12 @@ class Debates_DataProcessor(DataProcessor):
             # new_debates.to_csv(f'testingSpeeches/{file_path.split("/")[-1]}.csv') # TODO: delete
 
             # TODO: remove file from collector
+
+        # TODO: remove file fro to process dir
+        os.remove(Data.processor_debates_dir + '/IL/' + file_path)
+        if self.word is not None:
+            self.word.Quit()
+            self.word = None
 
     def process_USA(self):
         pass
@@ -210,6 +228,7 @@ class Debates_DataProcessor(DataProcessor):
 
         csv_file_path = f"{Data.csv_files_dir}/debates/{file_path}.csv"
         pd.DataFrame(all_debates).to_csv(csv_file_path)
+        os.remove(Data.processor_debates_dir + '/TN/' + file_path)
 
 
     def process_CA(self):
@@ -331,7 +350,7 @@ class Debates_DataProcessor(DataProcessor):
 
 
 
-    def __process_IL_files(self, files):# Todo: this function is so slow, check how can we improve
+    def __process_IL_files(self, files):
         """
         given files list related to a single plenum, extract all the debates data
         usually it is only one doc / docx file for each plenum
@@ -341,12 +360,17 @@ class Debates_DataProcessor(DataProcessor):
         for file_type, file_path in files:
             if file_type.lower() not in ["doc", "docx"]:
                 print(f"debates processor (IL) cannot process file of type {file_type}, path: {file_path}")
+                continue
 
 
             # convert word to text
             texts_lines = self.__word2text(file_path)
 
             # extract title and speeches from texts
+            # tor files contains parts of debates so we deal with them differently
+            # if "_tor_" in file_path:
+            #     debates = self.__parse_IL_TOR_plenum(texts_lines)
+            # else:
             debates = self.__parse_IL_plenum(texts_lines)
 
             yield debates
@@ -354,7 +378,8 @@ class Debates_DataProcessor(DataProcessor):
 
     def __init_wordApp(self):
         if self.word is None:
-            self.word = win32com.client.gencache.EnsureDispatch('Word.Application')
+            # self.word = win32com.client.gencache.EnsureDispatch('Word.Application')
+            self.word = win32com.client.dynamic.Dispatch('Word.Application')
 
     def __is_paragraph_centered(self, paragraph):
         """
@@ -409,6 +434,7 @@ class Debates_DataProcessor(DataProcessor):
             if self.__filter_word_texts(tmp_txt):
                 full_text.append(tmp_txt)
         lines = [t for t in full_text if len(t.strip()) > 0]
+        doc.Close()
         # print(lines)
         return lines
 
@@ -594,10 +620,53 @@ class Debates_DataProcessor(DataProcessor):
 
         return [{"name":name, "speech":speech} for name, party, speech in data]
 
+    def __parse_IL_TOR_plenum(self, lines):
+        lines = '\n'.join(lines)
+
+        matches = [match for match in nlph.rep_new_debate.finditer(lines)]
+        all_debates = []
+
+        for i in range(len(matches)):
+            start, end = matches[i].start(), matches[i].end()
+            match = lines[start:end].strip()
+
+            if nlph.rep_title.search(
+                    match):  # i know that this is always True but if the code works dont touch it XD
+
+                # check if match is new debate or table of contents or seder yom
+                strippe_matchd = match.strip().strip("**").strip("UU").strip("BB")
+                if strippe_matchd in nlph.re_bullshit_titles or strippe_matchd.startswith("הישיבה ה"):
+                    continue
+                else:  # if it is new debate
+                    # get current debate title
+                    curr_title = match.strip("**").strip("UU").strip("BB")
+                    # if nlph.rep_first_two_bills.search(curr_title):
+                    #     curr_title = lines[matches[i-1].start():matches[i-1].end()].strip()
+
+                    if i != len(matches) - 1:
+                        curr_debate_speeches = self.__get_IL_debate_speeches(lines, matches[i], matches[i + 1])
+                    else: # last debate title in the docx file
+                        curr_debate_speeches = self.__get_IL_debate_speeches(lines, matches[i], 0, last=True)
+
+                    if len(curr_debate_speeches) < 2:
+                        continue
+
+                    curr_debate = {
+                        "debate_title": curr_title.strip("**"),
+                        "speeches": curr_debate_speeches
+                    }
+
+                    all_debates.append(curr_debate)
+            else:
+                continue
+
+        return all_debates
+
+
 
 if __name__ == "__main__":
 
     fp1 = r"C:\Users\ayals\Downloads\Prime Minister 2024-03-13.txt"
     fp2 = r"C:\Users\ayals\Downloads\Point of Order 2024-03-13.txt"
     x = Debates_DataProcessor(10)
-    x.process_TN()
+    x.process_IL()
