@@ -1,5 +1,9 @@
 # ParliamentMining
-Collect, Process, Analyze and Visualize the parliamentary data and news from 5 different countries: USA, UK IL, TN, CA. we collected data from the year 2000. 
+Collect, Process, Analyze and Visualize the parliamentary data and news from 5 different countries: USA, UK IL, TN, CA. we collected data from the year 2000.
+* Developers: Ayal Swaid, Daniel Hasson, George Kanazi, Jiana Bdarneh
+
+* Menthors: Mr. Shai Berkovitz, Dr. Michael Fire
+
 The following diagram demonstrates the whole system flow:
 ![image](https://github.com/user-attachments/assets/37091150-5141-49a5-afbc-f9ee5480730c)
 
