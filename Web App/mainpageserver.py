@@ -1,0 +1,295 @@
+from flask import Flask, render_template_string
+
+from Graph1server import create_dash_app1
+# from Graph2server import create_dash_app2
+from Graph3server import create_dash_app3
+from Graph4server import create_dash_app4
+from Graph5server import create_dash_app5
+
+server = Flask(__name__)  #, static_url_path='', static_folder='static'
+#004466
+@server.route('/')
+def home():
+    return render_template_string("""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parliament Data Insights</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('static/gem.JFIF');
+            background-color: #FAFAFA;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #004466;
+            padding: 10px 20px;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        .navbar a:hover {
+            background-color: #0077AA;
+            border-radius: 5px;
+        }
+        .navbar .website-name {
+            font-size: 28px;
+        }
+        .intro {
+            background-color: #012A41;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .intro h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+        .intro p {
+            font-size: 20px;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .content h1 {
+            font-size: 30px;
+            color: #004466;
+            background: rgb(255, 255, 255, 0.67);
+            border-radius: 10px;
+        }
+        .images a img {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border: 5px solid #012A41;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .images a img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #666;
+        }
+        /* Add the new CSS here */
+        .images div {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .images p {
+            color: #004466;
+            font-size: 16px;
+            margin-top: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ensures font consistency */
+            background: rgb(255, 148, 0, 1);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="navbar">
+            <div class="website-name">Trendy Parl</div>
+            <div>
+                <a href="/">Home</a>
+                <a href="/CountryInterest/">Country Interest</a>
+                <a href="/GlobalIssues/">Global Issues</a>
+                <a href="/trendanalysis/">Trend Analysis</a>
+                <a href="/SentimentAnalysisWordCloud/">Sentiment Analysis WordCloud</a>
+                <a href="/about">About</a>
+            </div>
+        </div>
+        <div class="intro">
+            <h1>Welcome to Trendy Parl</h1>
+            <p>Explore comprehensive data analysis on parliamentary activities from five different countries, featuring trend analysis, word clouds, global issues, sentiment analysis, and country-specific interests.</p>
+        </div>
+        <div class="content">
+            <h1>Select a Graph to View</h1>
+            <div class="images">
+                <div>
+                    <a href="/CountryInterest/"><img src="static/CI.png" alt="Country Interest"></a>
+                    <p>Country Interest</p>
+                </div>
+                <div>
+                    <a href="/GlobalIssues/"><img src="static/GI.png" alt="Global Issues"></a>
+                    <p>Global Issues</p>
+                </div>
+                <div>
+                    <a href="/trendanalysis/"><img src="static/TA.png" alt="Trend Analysis"></a>
+                    <p>Trend Analysis</p>
+                </div>
+                <div>
+                    <a href="/SentimentAnalysisWordCloud/"><img src="static/SAWC.png" alt="Sentiment Analysis WordCloud"></a>
+                    <p>Sentiment Analysis & WordCloud</p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    </html>
+    """)
+
+# About page
+@server.route('/about')
+def about():
+    return render_template_string("""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About - Trendy Parl</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #FAFAFA;
+            }
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #004466;
+                padding: 10px 20px;
+                color: white;
+            }
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 10px 15px;
+            }
+            .navbar a:hover {
+                background-color: #0077AA;
+                border-radius: 5px;
+            }
+            .navbar .website-name {
+                font-size: 28px;
+            }
+            .intro {
+                background-color: #012A41;
+                color: white;
+                padding: 40px;
+                text-align: center;
+            }
+            .intro h1 {
+                font-size: 40px;
+                margin: 0;
+            }
+            .intro p {
+                font-size: 20px;
+            }
+            .content {
+                text-align: center;
+                padding: 20px;
+            }
+            .content h1 {
+                font-size: 30px;
+                color: #004466;
+            }
+            .data-table {
+                margin: 20px auto;
+                border-collapse: collapse;
+                width: 80%;
+            }
+            .data-table th, .data-table td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+            .data-table th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #012A41;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="website-name">Trendy Parl</div>
+            <div>
+                <a href="/">Home</a>
+                <a href="/CountryInterest/">Country Interest</a>
+                <a href="/GlobalIssues/">Global Issues</a>
+                <a href="/trendanalysis/">Trend Analysis</a>
+                <a href="/SentimentAnalysisWordCloud/">Sentiment Analysis WordCloud</a>
+                <a href="/about">About</a>
+            </div>
+        </div>
+        <div class="intro">
+            <h1>About Trendy Parl</h1>
+            <p>Explore comprehensive data analysis on parliamentary activities from five different countries, featuring trend analysis, word clouds, global issues, sentiment analysis, and country-specific interests.</p>
+        </div>
+        <div class="content">
+            <h1>About the Project</h1>
+            <p>This project aims to provide insights into parliamentary activities across five countries. By analyzing various datasets, we aim to uncover trends, sentiments, and key issues discussed in parliament.</p>
+            <h2>Data Overview</h2>
+            <table class="data-table">
+                <tr>
+                    <th>Country</th>
+                    <th>Number of Discussions</th>
+                    <th>Number of News Articles</th>
+                    <th>Discussions Date Range</th>
+                    <th>News Articles Date Range</th>
+                </tr>
+                <tr>
+                    <td>United States</td>
+                    <td>65,931</td>
+                    <td>91,609</td>
+                    <td>2003-2024</td>
+                    <td>2003-2024</td>
+                </tr>
+                <tr>
+                    <td>United Kingdom</td>
+                    <td>112,088</td>
+                    <td>87,045</td>
+                    <td>2002-2023</td>
+                    <td>2005-2024</td>
+                </tr>
+                <tr>
+                    <td>Canada</td>
+                    <td>7,943</td>
+                    <td>44,270</td>
+                    <td>2000-2023</td>
+                    <td>2010-2023</td>
+                </tr>
+                <tr>
+                    <td>Israel</td>
+                    <td>43,554</td>
+                    <td>51,998</td>
+                    <td>2000-2024</td>
+                    <td>2006-2023</td>
+                </tr>
+                <tr>
+                    <td>Tunisia</td>
+                    <td>1,996</td>
+                    <td>5,623</td>
+                    <td>2015-2021</td>
+                    <td>2014-2024</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    </html>
+    """)
+
+
+create_dash_app1(server)
+# create_dash_app2(server)
+create_dash_app3(server)
+create_dash_app4(server)
+create_dash_app5(server)
+
+if __name__ == '__main__':
+    server.run(host='0.0.0.0', debug=False, port=443)
