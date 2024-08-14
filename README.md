@@ -28,7 +28,8 @@ Here is the code for our web app, it is a simple and small Flask App and Dash ap
 
 
 # Database schema
-![final_project schema drawio](https://github.com/AyalSwaid/ParliamentMining/assets/57876635/71ada833-2f73-4a4c-b0bc-00e4f8324413)
+![image](https://github.com/user-attachments/assets/aa4d5c02-5ede-4ee0-b9ef-9a07b113597c)
+
 
 # Data Pipeline UML
 ![UML drawio (1)](https://github.com/AyalSwaid/ParliamentMining/assets/57876635/a6b818af-938e-4204-9101-e4d01fca36a9)
