@@ -19,6 +19,9 @@ There is a jupyter notebook that includes the GPT prompts used for debate / news
 ## 3. Web App - Flask
 Here is the code for our web app, it is a simple and small Flask App and Dash app for visualization. We simply visualized the data after the analysis steps, for detailed information about the dashboard and results please checkout our paper. 
 
+# Data
+We could'nt  upload all the data files here because of their large size, you can find the data [here](https://drive.google.com/drive/folders/1SgAy_nbG-V7ePXu6pwtkLgUKSi8nCNmf?usp=sharing)
+
 # Requirements
 1. You need a windows machine to run Israel collector and processor (because it uses microsoft word application from the system to process DOC files).
 2. Download Python libraries found in DataPipeline/Data/requirements.txt
