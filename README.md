@@ -1,5 +1,6 @@
 # ParliamentMining
 Collect, Process, Analyze and Visualize the parliamentary data and news from 5 different countries: USA, UK IL, TN, CA. we collected data from the year 2000.
+You can see our website on: http://trendyparl.cs.bgu.ac.il:443/
 * Developers: Ayal Swaid, Daniel Hasson, George Kanazi, Jiana Bdarneh
 
 * Menthors: Mr. Shai Berkovitz, Dr. Michael Fire
