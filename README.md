@@ -4,7 +4,7 @@ Collect, Process, Analyze and Visualize the parliamentary data and news from 5 d
 
 * Menthors: Mr. Shai Berkovitz, Dr. Michael Fire
 
-The following diagram demonstrates the whole system flow:
+The following diagram demonstrates the system flow:
 ![image](https://github.com/user-attachments/assets/37091150-5141-49a5-afbc-f9ee5480730c)
 
 # About the repository
